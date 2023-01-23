@@ -3,17 +3,18 @@
   "version": "1.1.2",
   "private": false,
   "description": "Sonarwatch token lists",
-  "main": "build/sonarwatch.tokenlist.json",
+  "main": "build/sonarwatch.tokenlists.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && npm run build:all",
-    "build:all": "npm run build:avalanche && npm run build:polygon && npm run build:aptos",
+    "build": "rimraf build && npm run build:all && npm run build:avalanche && npm run build:polygon && npm run build:aptos",
+    "build:all": "mkdir -p build && node scripts/build.js all > build/sonarwatch.tokenlists.json",
     "build:avalanche": "mkdir -p build && node scripts/build.js avalanche > build/sonarwatch.avalanche.tokenlist.json",
     "build:polygon": "mkdir -p build && node scripts/build.js polygon > build/sonarwatch.polygon.tokenlist.json",
     "build:aptos": "mkdir -p build && node scripts/build.js aptos > build/sonarwatch.aptos.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
+    "build/sonarwatch.tokenlists.json",
     "build/*.tokenlist.json"
   ],
   "repository": {
