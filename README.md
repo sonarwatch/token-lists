@@ -12,6 +12,12 @@ This NPM module and GitHub repo contains SonarWatch's token lists.
 To request that we add a token to the list,
 [file an issue](https://github.com/sonarwatch/token-lists/issues/new?assignees=&labels=token+request&template=token-request.md&title=Add+%7BTOKEN_SYMBOL%7D%3A+%7BTOKEN_NAME%7D).
 
+## Release version
+
+```bash
+npm run release -- --ci
+```
+
 ### Disclaimer
 
 Note filing an issue does not guarantee addition to this default token list.
