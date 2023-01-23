@@ -3,5 +3,8 @@
     "release": true,
     "web": true,
     "assets": ["build/*.json"]
+  },
+  "npm": {
+    "publish": false
   }
 }
