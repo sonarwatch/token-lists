@@ -1,6 +1,6 @@
 {
   "name": "@sonarwatch/token-lists",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "private": false,
   "description": "Sonarwatch token lists",
   "main": "build/sonarwatch.tokenlists.json",
@@ -33,11 +33,13 @@
   "homepage": "https://github.com/sonarwatch/token-lists#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.7.0",
-    "@uniswap/token-lists": "^1.0.0-beta.31",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
     "mocha": "^10.2.0",
     "release-it": "^15.6.0",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@uniswap/token-lists": "^1.0.0-beta.31"
   }
 }
