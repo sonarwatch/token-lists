@@ -7,10 +7,10 @@
   "scripts": {
     "test": "mocha",
     "build": "rimraf build && npm run build:all && npm run build:avalanche && npm run build:polygon && npm run build:aptos",
-    "build:all": "mkdir -p build && node scripts/build.js all > build/sonarwatch.tokenlists.json",
-    "build:avalanche": "mkdir -p build && node scripts/build.js avalanche > build/sonarwatch.avalanche.tokenlist.json",
-    "build:polygon": "mkdir -p build && node scripts/build.js polygon > build/sonarwatch.polygon.tokenlist.json",
-    "build:aptos": "mkdir -p build && node scripts/build.js aptos > build/sonarwatch.aptos.tokenlist.json",
+    "build:all": "mkdirp build && node scripts/build.js all > build/sonarwatch.tokenlists.json",
+    "build:avalanche": "mkdirp build && node scripts/build.js avalanche > build/sonarwatch.avalanche.tokenlist.json",
+    "build:polygon": "mkdirp build && node scripts/build.js polygon > build/sonarwatch.polygon.tokenlist.json",
+    "build:aptos": "mkdirp build && node scripts/build.js aptos > build/sonarwatch.aptos.tokenlist.json",
     "prepublishOnly": "npm test && npm run build",
     "release": "release-it"
   },
@@ -35,6 +35,7 @@
     "@ethersproject/address": "^5.7.0",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
+    "mkdirp": "^2.1.3",
     "mocha": "^10.2.0",
     "release-it": "^15.6.0",
     "rimraf": "^3.0.2"
