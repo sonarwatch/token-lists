@@ -11,7 +11,8 @@
     "build:avalanche": "mkdir -p build && node scripts/build.js avalanche > build/sonarwatch.avalanche.tokenlist.json",
     "build:polygon": "mkdir -p build && node scripts/build.js polygon > build/sonarwatch.polygon.tokenlist.json",
     "build:aptos": "mkdir -p build && node scripts/build.js aptos > build/sonarwatch.aptos.tokenlist.json",
-    "prepublishOnly": "npm test && npm run build"
+    "prepublishOnly": "npm test && npm run build",
+    "release": "release-it"
   },
   "files": [
     "build/sonarwatch.tokenlists.json",
@@ -36,6 +37,7 @@
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
+    "release-it": "^15.6.0",
     "rimraf": "^3.0.2"
   }
 }

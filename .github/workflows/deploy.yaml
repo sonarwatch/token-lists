@@ -13,9 +13,9 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: yarn install --frozen-lockfile
-      - run: yarn test
-      - run: yarn build
+      - run: npm ci
+      - run: npm test
+      - run: npm build
 
       - name: NPM Publish
         uses: JS-DevTools/npm-publish@v1
