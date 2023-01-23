@@ -1,6 +1,7 @@
 {
   "github": {
     "release": true,
+    "web": true,
     "assets": ["build/*.json"]
   }
 }
