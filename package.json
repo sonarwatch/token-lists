@@ -1,0 +1,41 @@
+{
+  "name": "@sonarwatch/token-lists",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Sonarwatch token lists",
+  "main": "build/sonarwatch.tokenlist.json",
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf build && npm run build:all",
+    "build:all": "npm run build:avalanche && npm run build:ethereum && npm run build:polygon && npm run build:aptos",
+    "build:avalanche": "mkdir -p build && node scripts/build.js avalanche > build/sonarwatch.avalanche.tokenlist.json",
+    "build:ethereum": "mkdir -p build && node scripts/build.js ethereum > build/sonarwatch.ethereum.tokenlist.json",
+    "build:polygon": "mkdir -p build && node scripts/build.js polygon > build/sonarwatch.polygon.tokenlist.json",
+    "build:aptos": "mkdir -p build && node scripts/build.js aptos > build/sonarwatch.aptos.tokenlist.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "files": [
+    "build/sonarwatch.tokenlist.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonarwatch/token-lists.git"
+  },
+  "keywords": [
+    "default",
+    "token",
+    "list"
+  ],
+  "bugs": {
+    "url": "https://github.com/sonarwatch/token-lists/issues"
+  },
+  "homepage": "https://github.com/sonarwatch/token-lists#readme",
+  "devDependencies": {
+    "@ethersproject/address": "^5.7.0",
+    "@uniswap/token-lists": "^1.0.0-beta.31",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
