@@ -7,9 +7,8 @@
   "scripts": {
     "test": "mocha",
     "build": "rimraf build && npm run build:all",
-    "build:all": "npm run build:avalanche && npm run build:ethereum && npm run build:polygon && npm run build:aptos",
+    "build:all": "npm run build:avalanche && npm run build:polygon && npm run build:aptos",
     "build:avalanche": "mkdir -p build && node scripts/build.js avalanche > build/sonarwatch.avalanche.tokenlist.json",
-    "build:ethereum": "mkdir -p build && node scripts/build.js ethereum > build/sonarwatch.ethereum.tokenlist.json",
     "build:polygon": "mkdir -p build && node scripts/build.js polygon > build/sonarwatch.polygon.tokenlist.json",
     "build:aptos": "mkdir -p build && node scripts/build.js aptos > build/sonarwatch.aptos.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"

@@ -1,21 +1,10 @@
 const evmSchema = require("@uniswap/token-lists/src/tokenlist.schema.json");
 const aptosSchema = require("./schemas/aptosSchema");
-const ethereumTokens = require("./tokens/ethereum.json");
 const polygonTokens = require("./tokens/polygon.json");
 const avalancheTokens = require("./tokens/avalanche.json");
 const aptosTokens = require("./tokens/aptos.json");
 
 const listConfigs = [
-  {
-    id: "ethereum",
-    name: "Ethereum",
-    tokens: ethereumTokens,
-    addressType: "evm",
-    schema: evmSchema,
-    chainId: 1,
-    logoURI:
-      "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png",
-  },
   {
     id: "polygon",
     name: "Polygon",
