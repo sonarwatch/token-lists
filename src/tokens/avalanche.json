@@ -1,6 +1,23 @@
 [
   {
     "chainId": 43114,
+    "address": "0x0000000000000000000000000000000000000000",
+    "decimals": 18,
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "logoURI": "https://snowtrace.io/token/images/avax_32.png",
+    "tags": ["native"]
+  },
+  {
+    "chainId": 43114,
+    "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+    "decimals": 18,
+    "name": "Wrapped AVAX",
+    "symbol": "WAVAX",
+    "logoURI": "https://snowtrace.io/token/images/avax_32.png"
+  },
+  {
+    "chainId": 43114,
     "name": "Ethereum",
     "symbol": "WETH",
     "decimals": 18,

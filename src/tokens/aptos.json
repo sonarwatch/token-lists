@@ -5,7 +5,8 @@
     "decimals": 8,
     "name": "Aptos Coin",
     "symbol": "APT",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/APT.png"
+    "logoURI": "https://aptos.sonar.watch/img/tokens/APT.png",
+    "tags": ["native"]
   },
   {
     "chainId": 1,
