@@ -22,13 +22,12 @@ module.exports = async function getSolanaTokens(connection, mints) {
       const axiosRes = await axios.get(url);
       const mintAccount = await getMint(connection, metadata.mint);
       const token = {
+        chainId: 101,
         address: metadata.mint.toString(),
+        decimals: mintAccount.decimals,
         name: metadata.data.name.replace(/\x00+/g, ""),
         symbol: metadata.data.symbol.replace(/\x00+/g, ""),
-        uri: url,
-        description: axiosRes.data.description || undefined,
-        image: axiosRes.data.image || undefined,
-        decimals: mintAccount.decimals,
+        logoURI: axiosRes.data.image || undefined,
       };
       tokens.push(token);
     } catch (error) {
