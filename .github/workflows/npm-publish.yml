@@ -6,6 +6,7 @@ name: Node.js Package
 on:
   release:
     types: [created]
+
 env:
   SOLANA_RPC_ENDPOINT: ${{secrets.SOLANA_RPC_ENDPOINT}}
 
