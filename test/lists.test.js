@@ -33,7 +33,7 @@ describe("lists", () => {
           token.address,
           config.addressType
         );
-        expect(isValid).to.eq(true);
+        expect(isValid).to.eq(true, token.address);
       }
     });
 
