@@ -7,6 +7,14 @@ _Based on [Uniswap default token list](https://github.com/Uniswap/default-token-
 
 This NPM module and GitHub repo contains SonarWatch's token lists.
 
+## Lists
+
+- [Aptos](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.aptos.tokenlist.json)
+- [Avalanche](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.avalanche.tokenlist.json)
+- [Ethereum](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.ethereum.tokenlist.json)
+- [Polygon](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.polygon.tokenlist.json)
+- [Solana](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.solana.tokenlist.json)
+
 ## Adding a token
 
 To request that we add a token to the list,
