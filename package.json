@@ -15,7 +15,7 @@
     "release": "release-it",
     "postpublish": "npm run purge:cdn",
     "purge:cdn": "npm-run-all purge:cdn:*",
-    "purge:cdn:all": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.tokenlists.json",
+    "purge:cdn:lists": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.tokenlists.json",
     "purge:cdn:avalanche": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.avalanche.tokenlist.json",
     "purge:cdn:polygon": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.polygon.tokenlist.json",
     "purge:cdn:aptos": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.aptos.tokenlist.json"
