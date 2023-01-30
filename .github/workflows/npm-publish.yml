@@ -6,6 +6,8 @@ name: Node.js Package
 on:
   release:
     types: [created]
+env:
+  SOLANA_RPC_ENDPOINT: ${{secrets.SOLANA_RPC_ENDPOINT}}
 
 jobs:
   publish-npm:
@@ -21,5 +23,4 @@ jobs:
       - run: npm test
       - run: npm publish
         env:
-          - NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-          - SOLANA_RPC_ENDPOINT: ${{secrets.SOLANA_RPC_ENDPOINT}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
