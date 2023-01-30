@@ -12,7 +12,7 @@
     "build:list:avalanche": "mkdirp build && node scripts/buildList.js avalanche > build/sonarwatch.avalanche.tokenlist.json",
     "build:list:polygon": "mkdirp build && node scripts/buildList.js polygon > build/sonarwatch.polygon.tokenlist.json",
     "build:list:aptos": "mkdirp build && node scripts/buildList.js aptos > build/sonarwatch.aptos.tokenlist.json",
-    "prepublishOnly": "npm test",
+    "prepublishOnly": "npm run build && npm test",
     "release": "release-it",
     "purge:cdn": "npm-run-all purge:cdn:*",
     "purge:cdn:all": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.tokenlists.json",
