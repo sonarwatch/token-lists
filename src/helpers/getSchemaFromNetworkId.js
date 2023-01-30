@@ -3,11 +3,11 @@ const aptosSchema = require("../schemas/aptosSchema");
 const solanaSchema = require("../schemas/solanaSchema");
 
 const schemaByNetworkId = {
-  solana: solanaSchema,
   aptos: aptosSchema,
-  ethereum: evmSchema,
   avalanche: evmSchema,
+  ethereum: evmSchema,
   polygon: evmSchema,
+  solana: solanaSchema,
 };
 
 module.exports = function getSchemaFromNetworkId(networkId) {

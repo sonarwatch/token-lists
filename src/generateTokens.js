@@ -1,15 +1,15 @@
-const polygonTokens = require("./tokens/polygon.json");
-const avalancheTokens = require("./tokens/avalanche.json");
 const aptosTokens = require("./tokens/aptos.json");
-const getSolanaTokens = require("./helpers/getSolanaTokens");
+const avalancheTokens = require("./tokens/avalanche.json");
+const polygonTokens = require("./tokens/polygon.json");
 const getEthereumTokens = require("./helpers/getEthereumTokens");
+const getSolanaTokens = require("./helpers/getSolanaTokens");
 
 const tokenGenerators = {
-  ethereum: getEthereumTokens,
-  solana: getSolanaTokens,
   aptos: () => aptosTokens,
-  polygon: () => polygonTokens,
   avalanche: () => avalancheTokens,
+  ethereum: getEthereumTokens,
+  polygon: () => polygonTokens,
+  solana: getSolanaTokens,
 };
 
 module.exports = async function generateTokens(networkId, args) {

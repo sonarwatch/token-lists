@@ -1,23 +1,9 @@
 {
-  "ethereum": {
-    "id": "ethereum",
-    "name": "Ethereum",
-    "addressType": "evm",
+  "aptos": {
+    "id": "aptos",
+    "name": "Aptos",
+    "addressType": "aptos",
     "chainId": 1,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
-  },
-  "solana": {
-    "id": "solana",
-    "name": "Solana",
-    "addressType": "solana",
-    "chainId": 101,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
-  },
-  "polygon": {
-    "id": "polygon",
-    "name": "Polygon",
-    "addressType": "evm",
-    "chainId": 137,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
   },
   "avalanche": {
@@ -27,11 +13,25 @@
     "chainId": 43114,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
   },
-  "aptos": {
-    "id": "aptos",
-    "name": "Aptos",
-    "addressType": "aptos",
+  "ethereum": {
+    "id": "ethereum",
+    "name": "Ethereum",
+    "addressType": "evm",
     "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+  },
+  "polygon": {
+    "id": "polygon",
+    "name": "Polygon",
+    "addressType": "evm",
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+  },
+  "solana": {
+    "id": "solana",
+    "name": "Solana",
+    "addressType": "solana",
+    "chainId": 101,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
   }
 }
