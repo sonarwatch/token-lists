@@ -1,18 +1,22 @@
 const axios = require("axios");
-const { PublicKey } = require("@solana/web3.js");
+const { PublicKey, Connection } = require("@solana/web3.js");
 const { Metadata } = require("@metaplex-foundation/mpl-token-metadata");
 const { getMint } = require("@solana/spl-token");
+const solanaLabsTokens = require("../assets/solana-labs-tokens.json");
+const mints = require("../assets/solana-addresses.json");
 const findMetadataPda = require("./findMetadataPda");
 const getMultipleAccountsInfoSafe = require("./getMultipleAccountsInfoSafe");
 
-module.exports = async function getSolanaTokens(connection, mints) {
+module.exports = async function getSolanaTokens(rpcEndpoint) {
+  if (!rpcEndpoint) throw new Error("RPC Endpoint is missing");
+  const connection = new Connection(rpcEndpoint);
   const promises = mints.map((mint) => findMetadataPda(new PublicKey(mint)));
   const metadataPdas = await Promise.all(promises);
   const metadataAccountsRes = await getMultipleAccountsInfoSafe(
     connection,
     metadataPdas
   );
-  const tokens = [];
+  const tokens = [...solanaLabsTokens];
   for (let i = 0; i < metadataAccountsRes.length; i++) {
     const metadataAccountRes = metadataAccountsRes[i];
     if (!metadataAccountRes) return null;

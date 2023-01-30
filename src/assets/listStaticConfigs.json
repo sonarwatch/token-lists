@@ -1,0 +1,30 @@
+{
+  "solana": {
+    "id": "solana",
+    "name": "Solana",
+    "addressType": "solana",
+    "chainId": 101,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+  },
+  "polygon": {
+    "id": "polygon",
+    "name": "Polygon",
+    "addressType": "evm",
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+  },
+  "avalanche": {
+    "id": "avalanche",
+    "name": "Avalanche",
+    "addressType": "evm",
+    "chainId": 43114,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+  },
+  "aptos": {
+    "id": "aptos",
+    "name": "Aptos",
+    "addressType": "aptos",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+  }
+}

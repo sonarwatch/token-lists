@@ -1,11 +1,8 @@
 const packageJson = require("../package.json");
 const { expect } = require("chai");
-const { getAddress } = require("@ethersproject/address");
-const Ajv = require("ajv");
-const lists = require("../src/lists");
-const listConfigs = require("../src/listConfigs");
-
-const ajv = new Ajv({ allErrors: true, format: "full" });
+const lists = require("../build/sonarwatch.tokenlists.json");
+const listConfigs = require("../src/assets/listStaticConfigs.json");
+const isAddressValidAndFormated = require("../src/helpers/isAddressValidAndFormated");
 
 describe("lists", () => {
   Object.entries(lists).forEach(([networkId, list]) => {
@@ -31,26 +28,20 @@ describe("lists", () => {
     });
 
     it(`[${networkId}] contains correct chainId`, () => {
-      const config = listConfigs.find((lConfig) => lConfig.id === networkId);
+      const config = listConfigs[networkId];
       for (let token of list.tokens) {
         expect(token.chainId).to.equal(config.chainId);
       }
     });
 
-    it(`[${networkId}] all addresses are valid and checksummed`, () => {
-      const config = listConfigs.find((lConfig) => lConfig.id === networkId);
+    it(`[${networkId}] all addresses are valid and correctly formated`, () => {
+      const config = listConfigs[networkId];
       for (let token of list.tokens) {
-        switch (config.addressType) {
-          case "evm":
-            expect(getAddress(token.address)).to.eq(token.address);
-            break;
-          case "aptos":
-            expect(token.address).to.eq(token.address);
-            break;
-          default:
-            expect(getAddress(token.address)).to.eq(token.address);
-            break;
-        }
+        const isValid = isAddressValidAndFormated(
+          token.address,
+          config.addressType
+        );
+        expect(isValid).to.eq(true);
       }
     });
 
@@ -59,12 +50,6 @@ describe("lists", () => {
       expect(packageJson.version).to.equal(
         `${list.version.major}.${list.version.minor}.${list.version.patch}`
       );
-    });
-
-    it(`[${networkId}] validates schema`, () => {
-      const config = listConfigs.find((lConfig) => lConfig.id === networkId);
-      const validator = ajv.compile(config.schema);
-      expect(validator(list)).to.equal(true);
     });
   });
 });

@@ -1,4 +1,6 @@
+const Ajv = require("ajv");
 const { version } = require("../package.json");
+const ajv = new Ajv({ allErrors: true, format: "full" });
 
 module.exports = function generateList(listConfig) {
   const parsed = version.split(".");
@@ -20,5 +22,12 @@ module.exports = function generateList(listConfig) {
       return t1.chainId < t2.chainId ? -1 : 1;
     }),
   };
+
+  const validate = ajv.compile(listConfig.schema);
+  const valid = validate(list);
+  if (!valid) {
+    console.error(validate.errors);
+    throw new Error("List does not follow the scheme");
+  }
   return list;
 };
