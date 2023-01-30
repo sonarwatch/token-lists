@@ -5,6 +5,7 @@ const solanaSchema = require("../schemas/solanaSchema");
 const schemaByNetworkId = {
   solana: solanaSchema,
   aptos: aptosSchema,
+  ethereum: evmSchema,
   avalanche: evmSchema,
   polygon: evmSchema,
 };

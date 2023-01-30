@@ -1,4 +1,11 @@
 {
+  "ethereum": {
+    "id": "ethereum",
+    "name": "Ethereum",
+    "addressType": "evm",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+  },
   "solana": {
     "id": "solana",
     "name": "Solana",
