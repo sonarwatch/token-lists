@@ -1,5 +1,5 @@
 const { getAddress } = require("@ethersproject/address");
-const { isSolanaAddress } = require("./isSolanaAddress");
+const isSolanaAddress = require("./isSolanaAddress");
 
 module.exports = function isAddressValidAndFormated(address, addressType) {
   let isValid = false;

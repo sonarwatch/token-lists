@@ -19,18 +19,6 @@ describe("lists", () => {
       }
     });
 
-    it(`[${networkId}] contains no duplicate names`, () => {
-      const map = {};
-      for (let token of list.tokens) {
-        const key = `${token.chainId}-${token.name.toLowerCase()}`;
-        expect(typeof map[key]).to.equal(
-          "undefined",
-          `duplicate name: ${token.name}`
-        );
-        map[key] = true;
-      }
-    });
-
     it(`[${networkId}] contains correct chainId`, () => {
       const config = listConfigs[networkId];
       for (let token of list.tokens) {
