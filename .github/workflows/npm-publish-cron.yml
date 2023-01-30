@@ -19,8 +19,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: git config
         run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
       - run: npm ci
       - run: npm run build
       - run: npm test
