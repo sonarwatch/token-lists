@@ -2,8 +2,8 @@ name: Cron action
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "*/10 * * * *"
+  schedule:
+    - cron: "*/15 * * * *"
 
 env:
   SOLANA_RPC_ENDPOINT: ${{secrets.SOLANA_RPC_ENDPOINT}}
