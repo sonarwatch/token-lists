@@ -19,7 +19,7 @@ module.exports = async function getSolanaTokens(rpcEndpoint) {
   const tokens = [...solanaLabsTokens];
   for (let i = 0; i < metadataAccountsRes.length; i++) {
     const metadataAccountRes = metadataAccountsRes[i];
-    if (!metadataAccountRes) return null;
+    if (!metadataAccountRes) continue;
     try {
       const [metadata] = await Metadata.deserialize(metadataAccountRes.data);
       const url = metadata.data.uri.replace(/\x00+/g, "");
@@ -34,9 +34,7 @@ module.exports = async function getSolanaTokens(rpcEndpoint) {
         logoURI: axiosRes.data.image || undefined,
       };
       tokens.push(token);
-    } catch (error) {
-      console.log("error", error);
-    }
+    } catch (e) {}
   }
   return tokens.filter((t) => t !== null);
 };
