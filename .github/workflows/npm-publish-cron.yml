@@ -4,6 +4,7 @@
 name: Node.js Package Cron
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/10 * * * *"
 
