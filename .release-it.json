@@ -1,7 +1,6 @@
 {
   "github": {
-    "release": true,
-    "assets": ["build/*.json"]
+    "release": false
   },
   "npm": {
     "publish": false
