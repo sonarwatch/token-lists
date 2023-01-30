@@ -5,6 +5,10 @@ const listConfigs = require("../src/assets/listStaticConfigs.json");
 const isAddressValidAndFormated = require("../src/helpers/isAddressValidAndFormated");
 
 describe("lists", () => {
+  it(`contains lists`, () => {
+    expect(Object.keys(lists).length).to.be.greaterThan(0);
+  });
+
   Object.entries(lists).forEach(([networkId, list]) => {
     it(`[${networkId}] contains no duplicate addresses`, () => {
       const map = {};
