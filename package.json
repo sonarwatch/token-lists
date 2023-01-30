@@ -19,7 +19,8 @@
     "purge:cdn:lists": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.tokenlists.json",
     "purge:cdn:avalanche": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.avalanche.tokenlist.json",
     "purge:cdn:polygon": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.polygon.tokenlist.json",
-    "purge:cdn:aptos": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.aptos.tokenlist.json"
+    "purge:cdn:aptos": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.aptos.tokenlist.json",
+    "purge:cdn:solana": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.solana.tokenlist.json"
   },
   "files": [
     "build/sonarwatch.tokenlists.json",
