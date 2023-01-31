@@ -6,6 +6,7 @@ const schemaByNetworkId = {
   aptos: aptosSchema,
   avalanche: evmSchema,
   ethereum: evmSchema,
+  optimism: evmSchema,
   polygon: evmSchema,
   solana: solanaSchema,
 };

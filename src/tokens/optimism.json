@@ -1,0 +1,27 @@
+[
+  {
+    "chainId": 10,
+    "address": "0x0000000000000000000000000000000000000000",
+    "decimals": 18,
+    "name": "Ether",
+    "symbol": "ETH",
+    "logoURI": "https://aptos.sonar.watch/img/tokens/ETH.png",
+    "tags": ["native"]
+  },
+  {
+    "chainId": 10,
+    "address": "0x4200000000000000000000000000000000000042",
+    "decimals": 18,
+    "name": "Optimism",
+    "symbol": "OP",
+    "logoURI": "https://aptos.sonar.watch/img/tokens/OP.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0x4200000000000000000000000000000000000006",
+    "decimals": 18,
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "logoURI": "https://aptos.sonar.watch/img/tokens/WETH.png"
+  }
+]

@@ -1,5 +1,6 @@
 const aptosTokens = require("./tokens/aptos.json");
 const avalancheTokens = require("./tokens/avalanche.json");
+const optimismTokens = require("./tokens/optimism.json");
 const polygonTokens = require("./tokens/polygon.json");
 const getEthereumTokens = require("./helpers/getEthereumTokens");
 const getSolanaTokens = require("./helpers/getSolanaTokens");
@@ -8,6 +9,7 @@ const tokenGenerators = {
   aptos: () => aptosTokens,
   avalanche: () => avalancheTokens,
   ethereum: getEthereumTokens,
+  optimism: () => optimismTokens,
   polygon: () => polygonTokens,
   solana: getSolanaTokens,
 };

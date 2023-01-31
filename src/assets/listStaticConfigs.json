@@ -20,6 +20,13 @@
     "chainId": 1,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
   },
+  "optimism": {
+    "id": "optimism",
+    "name": "Optimism",
+    "addressType": "evm",
+    "chainId": 10,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+  },
   "polygon": {
     "id": "polygon",
     "name": "Polygon",
