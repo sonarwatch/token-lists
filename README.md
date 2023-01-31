@@ -26,6 +26,8 @@ To request that we add a token to the list,
 npm run release -- --ci -i patch
 npm run release -- --ci -i minor
 npm run release -- --ci -i major
+
+npm publish
 ```
 
 ### Disclaimer
