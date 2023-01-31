@@ -3,7 +3,7 @@ name: Cron action
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "0 * * * *"
 
 jobs:
   release-and-publish:
