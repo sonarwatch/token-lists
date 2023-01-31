@@ -1,9 +1,9 @@
-name: Cron action
+name: NPM Publish Cron
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */12 * * *"
 
 jobs:
   release-and-publish:
