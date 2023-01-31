@@ -7,6 +7,9 @@ const mints = require("../assets/solana-addresses.json");
 const findMetadataPda = require("./findMetadataPda");
 const getMultipleAccountsInfoSafe = require("./getMultipleAccountsInfoSafe");
 
+const nameMaxLength = 40;
+const symbolMaxLength = 20;
+
 module.exports = async function getSolanaTokens(rpcEndpoint) {
   if (!rpcEndpoint) throw new Error("RPC Endpoint is missing");
   const connection = new Connection(rpcEndpoint);
@@ -29,8 +32,12 @@ module.exports = async function getSolanaTokens(rpcEndpoint) {
         chainId: 101,
         address: metadata.mint.toString(),
         decimals: mintAccount.decimals,
-        name: metadata.data.name.replace(/\x00+/g, ""),
-        symbol: metadata.data.symbol.replace(/\x00+/g, ""),
+        name: metadata.data.name
+          .replace(/\x00+/g, "")
+          .substring(0, nameMaxLength),
+        symbol: metadata.data.symbol
+          .replace(/\x00+/g, "")
+          .substring(0, symbolMaxLength),
         logoURI: axiosRes.data.image || undefined,
       };
       tokens.push(token);
