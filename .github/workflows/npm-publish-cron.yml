@@ -3,10 +3,7 @@ name: Cron action
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
-
-env:
-  SOLANA_RPC_ENDPOINT: ${{secrets.SOLANA_RPC_ENDPOINT}}
+    - cron: "*/10 * * * *"
 
 jobs:
   release-and-publish:
@@ -23,6 +20,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
       - run: npm ci
       - run: npm run build
+        env:
+          SOLANA_RPC_ENDPOINT: ${{secrets.SOLANA_RPC_ENDPOINT}}
       - run: npm test
       - run: npm run release -- --ci -i patch
         env:
