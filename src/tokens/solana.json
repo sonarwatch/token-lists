@@ -5649,6 +5649,14 @@
   },
   {
     "chainId": 101,
+    "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "decimals": 5,
+    "name": "Bonk",
+    "symbol": "Bonk",
+    "logoURI": "https://arweave.net/hQiPZOsRZXGXBJd_82PhVdlM_hACsT_q6wqwf5cSY7I"
+  },
+  {
+    "chainId": 101,
     "address": "8p758d6ZMkLUYQ949XZa6s1Mo31mhPpLcaaAPUBMeAmx",
     "symbol": "BOO",
     "name": "Gene Crucean",
@@ -15024,11 +15032,43 @@
   },
   {
     "chainId": 101,
+    "address": "2rBe6BQkc8QcUoHL9jCBDXxGkcKcsLVKqeEdNeX78BmD",
+    "decimals": 9,
+    "name": "Everlend mSOL",
+    "symbol": "evmSOL",
+    "logoURI": "https://everlend.github.io/icons/msol.png"
+  },
+  {
+    "chainId": 101,
     "address": "CtEYJ44W7PctR1Bc7tHJxfEX4vvzc8aAxZYzGwGWscT9",
     "symbol": "EVO",
     "name": "Ernest Voyagers Orb",
     "decimals": 9,
     "logoURI": "https://i.ibb.co/swnrvpg/Orb-02-main-transparent.png"
+  },
+  {
+    "chainId": 101,
+    "address": "D8pzcjm65PkQZQLB7E96Xcy2nQ9kM47W9YMRJyNbTg6D",
+    "decimals": 9,
+    "name": "Everlend SOL",
+    "symbol": "evSOL",
+    "logoURI": "https://everlend.github.io/icons/sol.png"
+  },
+  {
+    "chainId": 101,
+    "address": "59GoK1MNhkm7BkjheiwionvGb7s7Zrj3C55CmPPohggv",
+    "decimals": 6,
+    "name": "Everlend USDC",
+    "symbol": "evUSDC",
+    "logoURI": "https://everlend.github.io/icons/usdc.png"
+  },
+  {
+    "chainId": 101,
+    "address": "ERwFnz8xbtqDqyEkoHTAWNT6j4q3hVLduh5VtQkgPnbQ",
+    "decimals": 6,
+    "name": "Everlend USDT",
+    "symbol": "evUSDT",
+    "logoURI": "https://everlend.github.io/icons/usdt.png"
   },
   {
     "chainId": 101,
@@ -17093,6 +17133,14 @@
     "name": "Fronk",
     "decimals": 9,
     "logoURI": "https://arweave.net/g_pwKEk6RAc2ZQ_-DYIrvwchekBRHLvoxGKEDE4S6hc"
+  },
+  {
+    "chainId": 101,
+    "address": "5yxNbU8DgYJZNi3mPD9rs4XLh9ckXrhPjJ5VCujUWg5H",
+    "decimals": 5,
+    "name": "Fronk",
+    "symbol": "Fronk",
+    "logoURI": "https://shdw-drive.genesysgo.net/8tfWzweVe7MAfi8qwiKFnzLq6wuLT7WAPMoQC7DH47Fq/fronk.png"
   },
   {
     "chainId": 101,
@@ -20128,6 +20176,14 @@
   },
   {
     "chainId": 101,
+    "address": "BWXrrYFhT7bMHmNBFoQFWdsSgA3yXoAnMhDK6Fn1eSEn",
+    "decimals": 9,
+    "name": "Hades",
+    "symbol": "HADES",
+    "logoURI": "https://arweave.net/dvKu5BgpSo6j-iGzQOyVXYZ8OU7iyfhHNpkkJ_8qkkQ"
+  },
+  {
+    "chainId": 101,
     "address": "T4iPCH1Fo6fGdebxrTnwM79t82DhS4uJJ4xesykUThw",
     "symbol": "HAF",
     "name": "Hot Air Finance",
@@ -23070,6 +23126,14 @@
   },
   {
     "chainId": 101,
+    "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+    "decimals": 9,
+    "name": "Jito Staked SOL",
+    "symbol": "JitoSOL",
+    "logoURI": "https://storage.googleapis.com/token-metadata/JitoSOL-256.png"
+  },
+  {
+    "chainId": 101,
     "address": "32DSeHgkX64GcFNMjJXyRpG5eqoBVXJvdQpWyL1UgSrN",
     "symbol": "JJ",
     "name": "JuuJuuCoin",
@@ -24051,6 +24115,14 @@
     "name": "Genopets Ki",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/kiTkNc7nYAu8dLKjQFYPx3BqdzwagZGBUrcb7d4nbN5/logo.png"
+  },
+  {
+    "chainId": 101,
+    "address": "kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc",
+    "decimals": 9,
+    "name": "Genopets Ki",
+    "symbol": "KI",
+    "logoURI": "https://arweave.net/WfPR8w5dEoerG_bI3S2o2_nuSfWY3p8M4YbQ6ijd1cQ?ext=png"
   },
   {
     "chainId": 101,
@@ -25139,6 +25211,14 @@
     "name": "Lag Token",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EGxpZPAtWk13t6mkzfJeUCC3oR1staKLpG4NwTepf6Ez/logo.png"
+  },
+  {
+    "chainId": 101,
+    "address": "LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X",
+    "decimals": 9,
+    "name": "Laine Stake Token",
+    "symbol": "laineSOL",
+    "logoURI": "https://shdw-drive.genesysgo.net/4DUkKJB966oMk8zq57KkAUxqg9HpuWtZ3BKobhmYph39/laineSOL.webp"
   },
   {
     "chainId": 101,
@@ -26241,6 +26321,832 @@
     "name": "Lion Pride Coin",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Lionf78kvavZVYrxrTvhkVaAsUPukxxaRa1PSUzVr4Q/logo.png"
+  },
+  {
+    "chainId": 101,
+    "address": "GDKnTsTqT7EnERH2fiW22xk5JnhSaDHUVjcq64EKx97f",
+    "decimals": 6,
+    "name": "Cega Vault (#7 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "7GNd2aZ5Wp5fCViocb1CGPWj8FfS5A2xd2qbSJBeXmik",
+    "decimals": 6,
+    "name": "Cega Vault (#4 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "5WMSKrMT9rywDrxp1S4MpqgvVmXw2Bkt8ZKW2A4sF4SA",
+    "decimals": 6,
+    "name": "Cega Vault (#19 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "25sYvTwHsyj978TtiVMPT9A1KkyY9Zna9YKDKr2KptSW",
+    "decimals": 6,
+    "name": "Cega Vault (#4 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "5LsR55fEKQgBtbhgTz8wQx4RwdxXDRHwXUBcXESotYNe",
+    "decimals": 6,
+    "name": "Cega Vault (#7 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "tdQqHxuBEP8qN4ZF4XdQ15wdAqUAjpAEpvjT4ABNS3u",
+    "decimals": 6,
+    "name": "Cega Vault (#3 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "7h2jqNrjp1e5z4aYFP3kCvtY6idpqrgU9bTSSJSmvkbv",
+    "decimals": 6,
+    "name": "Cega Vault (#6 Supercharger)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/7-token.png?v=1665559862633"
+  },
+  {
+    "chainId": 101,
+    "address": "9JKq1HTrz1wtD6WmLxm1BUe6i1ujowxQMnq9Rwj5Kem1",
+    "decimals": 6,
+    "name": "Cega Vault (#2 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "DSSfGSAPWhAyXVh55zn8Sg2tHUs8RyT6sa6cs4vnWg7V",
+    "decimals": 6,
+    "name": "Cega Vault (#8 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "BSECqrMZFLRzooRekjctvrNjrTUkTQv29XYdPNe23X67",
+    "decimals": 6,
+    "name": "Cega Vault (#10 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "DrEwrPuNkvHeivgxGr2R4Sr4rSe5H4SLgfBu5tpAyriq",
+    "decimals": 6,
+    "name": "Cega Vault (#10 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "AYJyhfkf72kxFxUYWET1MihFThFEs3KVGzUydx3KrmuB",
+    "decimals": 6,
+    "name": "Cega Vault (#11 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "EZgBXVhgVp1WRSHyWDVuzkavYgwPismRnJ3cJAtA8VYi",
+    "decimals": 6,
+    "name": "Cega Vault (#0 Supercharger)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/7-token.png?v=1665559862633"
+  },
+  {
+    "chainId": 101,
+    "address": "BTXBqHSKa8RfTvd58oymF17NqbZDDTBfNDos5juecEvF",
+    "decimals": 6,
+    "name": "Cega Vault (#18 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "5tg2B1JngB8wkxQs2y7Y7vjyWRCQrzoFaYdkSrN9PNoM",
+    "decimals": 6,
+    "name": "Cega Vault (#14 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "EsviSuqp3oKqDh2Hmfuadi5UoJEVxBDtfAKDxTXTawa",
+    "decimals": 6,
+    "name": "Cega Vault (#20 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "4mL921iwwPPZPxj5jfcX3hnLWpqZFC38fR8WLEzckHMF",
+    "decimals": 6,
+    "name": "Cega Vault (#12 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "CzWKYpr8nf26J4WUGCoffo1PAyNgJ7XjqUSHSh36Q7iX",
+    "decimals": 6,
+    "name": "Cega Vault (#20 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "GzDrXvEzcG7UoCf9qz2jdTtPZ4ryzcP7Zbr6NPoA7Jeg",
+    "decimals": 6,
+    "name": "Cega Vault (#2 Supercharger)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/7-token.png?v=1665559862633"
+  },
+  {
+    "chainId": 101,
+    "address": "HZJ6yFu6joCTGfmEMSVuyo5ZvYQtrRkznAjqkmnFscFy",
+    "decimals": 6,
+    "name": "Cega Vault (#19 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "7k4zesgSQzRKKquDtGbbtjvfTj7Dw77W5xeWRKkdpCfY",
+    "decimals": 6,
+    "name": "Cega Vault (#20 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "814ztTw7A3q9phsikdWDd9gAYKKv5kSKMm7foUaCNWb6",
+    "decimals": 6,
+    "name": "Cega Vault (#4 Supercharger)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/7-token.png?v=1665559862633"
+  },
+  {
+    "chainId": 101,
+    "address": "9xKL4KiwMtVvhBa6gvAHuShuter85LAPizoyquyW9jXu",
+    "decimals": 6,
+    "name": "Cega Vault (#10 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "3dQWVAUi1K7BEySXovXRFXTb2EbPrUSsF3sTEZpySMSu",
+    "decimals": 6,
+    "name": "Cega Vault (#7 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "5NxTuZS66oq1FZ9oGJxL9VG5X6wpjX5EM78ATmJmSBNS",
+    "decimals": 6,
+    "name": "Cega Vault (#8 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "B6RSQkkaX98gfUHLVzGHCSQcp29LKkTZSjC5ERDbJkxW",
+    "decimals": 6,
+    "name": "Cega Vault (#9 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "E9KebjepxiW6mZ1KEyLa9YN8r8P8vD9Fxus3hYugPCw3",
+    "decimals": 6,
+    "name": "Cega Vault (#3 Autopilot)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_6_Auto__v02.png?v=1664232055303"
+  },
+  {
+    "chainId": 101,
+    "address": "847u8JHetZi4ysa7rv18AYqWecmEU3MEkz3Zwz7yizpt",
+    "decimals": 6,
+    "name": "Cega Vault (#2 Autopilot)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_6_Auto__v02.png?v=1664232055303"
+  },
+  {
+    "chainId": 101,
+    "address": "3XsjuCzeUTfB5yUu3n39FQUXCYzmnLLAvQZkjL4eQbtT",
+    "decimals": 6,
+    "name": "Cega Vault (#1 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "91VNPghjtkxjqkpr9wYjrBiG74pEwPevSLPaJi864MQL",
+    "decimals": 6,
+    "name": "Cega Vault (#6 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "8yPzKpzmDbAPGLUvYv2rMooPUfpG3jttbjU75uNDs9o5",
+    "decimals": 6,
+    "name": "Cega Vault (#14 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "G1XGFmK87TFvh8mBzsHNrTSJdc3gZd3H1D6U2RhJhZyZ",
+    "decimals": 6,
+    "name": "Cega Vault (#9 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "AGUQxbwnbfWQumSfie9F3jmXhZn6GGp1pWcHNi1BbVsE",
+    "decimals": 6,
+    "name": "Cega Vault (#1 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "5N1jazjc51Ha9nCDXTNqmJj1ZNDbi6vh6Fow5LfBqQqb",
+    "decimals": 6,
+    "name": "Cega Vault (#13 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "FjyrRmP4Nxr272ncnwZ7x7gwHDTEzHaztEjSZC1HWAB7",
+    "decimals": 6,
+    "name": "Cega Vault (#16 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "DfCUcchJLs3aCaW6FGv1XR4HPMCMPmY5uqToZiHdE19K",
+    "decimals": 6,
+    "name": "Cega Vault (#16 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "Gw6mXH4EWSYwgkeGwD5sxsQaFzNnFv6EesZpshMpN9dM",
+    "decimals": 6,
+    "name": "Cega Vault (#2 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "BbAwfRtSC7xASwrnKeQaf2ewZaBNPyytp5JkJi23zEvV",
+    "decimals": 6,
+    "name": "Cega Vault (#0 Starboard)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/8-token.png?v=1669342022772"
+  },
+  {
+    "chainId": 101,
+    "address": "DVSos9u3JkErNdMeXt7vzXQGTL27TUDwTSWSNAuz5qLw",
+    "decimals": 6,
+    "name": "Cega Vault (#8 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "Khy7reu8fCrRKcm6xN7efXhzS36QJBqaMCp5xX11mQa",
+    "decimals": 6,
+    "name": "Cega Vault (#17 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "DscRnJRmUNVsQuLJ2ksVgScRPCvxjoqxEsS8uxjbUGSH",
+    "decimals": 6,
+    "name": "Cega Vault (#12 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "Fu1zgvvbWoaRTR1TEbmFXWKz3hJ8NkrURJqGU98T1f5m",
+    "decimals": 6,
+    "name": "Cega Vault (#3 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "5dGJH4VBY4Uqv4QduHRDVtFE31MAZrPZqdDU8P3KKJgR",
+    "decimals": 6,
+    "name": "Cega Vault (#21 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "Dg7vqZRghFL4injpuJS8Ha81JusDqJu2HsR6Sjh83ubr",
+    "decimals": 6,
+    "name": "Cega Vault (#13 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "5QWwyNRaWmRWnNfkVxex8aovJjXcLb1E9yud9nU7hShL",
+    "decimals": 6,
+    "name": "Cega Vault (#1 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "FS4uQn7ZwwhLDvmQZCDmvibSqVszn94BsFKJx6BDoX6f",
+    "decimals": 6,
+    "name": "Cega Vault (#3 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "D3sbivtp3eRnwtX7E4reUeC6usQ2tGsTyY6srBqo8WyL",
+    "decimals": 6,
+    "name": "Cega Vault (#5 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "CWBtN1xq9ViFdD6v8N8Mz8tDBCkRyvBMjmzPShn4NPW6",
+    "decimals": 6,
+    "name": "Cega Vault (#2 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "3X48Wh4EaRbSyP4GL9GUuy5vznVHtciivMu6edStE3aF",
+    "decimals": 6,
+    "name": "Cega Vault (#16 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "3MnG67mBFGg9JasnQrfdrYVtjXe964mVoUpRFxcZU7PZ",
+    "decimals": 6,
+    "name": "Cega Vault (#17 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "CGb41oPnDeLkkbR6VAAKLkNHnVbUFe2SEfsy9F95c7D3",
+    "decimals": 6,
+    "name": "Cega Vault (#3 Starboard)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/8-token.png?v=1669342022772"
+  },
+  {
+    "chainId": 101,
+    "address": "Foh6mNMmgkya8cm5vmdkULQCKMEUxHDFsBDv1nULhaZA",
+    "decimals": 6,
+    "name": "Cega Vault (#19 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "2UZRyF8fPmmfLtqqPQhMx8ja3qQFjMudMnPAb2LGFs1A",
+    "decimals": 6,
+    "name": "Cega Vault (#5 Supercharger)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/7-token.png?v=1665559862633"
+  },
+  {
+    "chainId": 101,
+    "address": "Bi5wCdBiPgkXkgBrifGcahdhwJXEyU4MFizsyCGXafch",
+    "decimals": 6,
+    "name": "Cega Vault (#22 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "9dzZEhSEbPXpukcgyCovRGCv1Hw5EsQU4U7wvZNQKNXn",
+    "decimals": 6,
+    "name": "Cega Vault (#16 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "5teTUGgMPfnEKpG4r1qad8rdrSsURzFkh6VNKKZ5JLUd",
+    "decimals": 6,
+    "name": "Cega Vault (#0 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "91uc51P7Hz7xEw51Dc2RSjN5kDuY194479PrMp8CMGzN",
+    "decimals": 6,
+    "name": "Cega Vault (#23 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "2zC5Bq6u6RZ2aTvKmdFvv7D3iQBnzukk8hiFjRhZ4bnU",
+    "decimals": 6,
+    "name": "Cega Vault (#15 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "3LPaBHANqjgs6YK5BW9P8GyE118w4xVZP8BMqf5m3Z4E",
+    "decimals": 6,
+    "name": "Cega Vault (#13 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "G9LgRuYzxgeck9zBq6x54vMygpu5hAKg6AqPLg8yX6AT",
+    "decimals": 6,
+    "name": "Cega Vault (#4 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "BcLJGDSMecUH4xyKpFDC2dQz79yrjiTiCBHC8UJaW6ir",
+    "decimals": 6,
+    "name": "Cega Vault (#6 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "Br5bk5BD6aabmqLW9xCqSuDVMU5JHyZJforxsbPfS5SH",
+    "decimals": 6,
+    "name": "Cega Vault (#22 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "ADkDYffZEouCMN4mtxCKyDUdoyRADAPrP9PxFSbZnEqJ",
+    "decimals": 6,
+    "name": "Cega Vault (#15 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "8rWSrCgCwmtoo338e46Sm5NUjJG4Ak2trbweRwdaVENN",
+    "decimals": 6,
+    "name": "Cega Vault (#0 Autopilot)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_6_Auto__v02.png?v=1664232055303"
+  },
+  {
+    "chainId": 101,
+    "address": "EayBP38XkT5Wv32HgsEa8GVT3yYS7gQvTKrNYvgtBvRC",
+    "decimals": 6,
+    "name": "Cega Vault (#7 Supercharger)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/7-token.png?v=1665559862633"
+  },
+  {
+    "chainId": 101,
+    "address": "HXBSRK2cBKZp6E5Tu3HMPXmzbYXgwuSYMAGYAjzKENFm",
+    "decimals": 6,
+    "name": "Cega Vault (#23 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "63pRGtye5Phpf4xJ5gLJpwzAMt4txpJSVRSDjdL5myat",
+    "decimals": 6,
+    "name": "Cega Vault (#5 Autopilot)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_6_Auto__v02.png?v=1664232055303"
+  },
+  {
+    "chainId": 101,
+    "address": "4e5n66nPdmL8U6PCwjYVviMv4ahvQvqnourgPTfZV4d7",
+    "decimals": 6,
+    "name": "Cega Vault (#2 Starboard)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/8-token.png?v=1669342022772"
+  },
+  {
+    "chainId": 101,
+    "address": "3QGz3viSh7nuDXxfeWvWkdyZuUCJDAu7tefaLppRLres",
+    "decimals": 6,
+    "name": "Cega Vault (#11 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "3w7FNXhETF9w3NTzJwuNNMrKxdxiLM4BqJ2ZwRkFMKMU",
+    "decimals": 6,
+    "name": "Cega Vault (#3 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "9fb816HQepVwBZV5F8fiLCU4VNTD93Na4ipJ3TRdz656",
+    "decimals": 6,
+    "name": "Cega Vault (#7 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "7H5q2tQoFnjmcDiJtCLYRX3DmYn5q6TqVYFYx8u3Kgoj",
+    "decimals": 6,
+    "name": "Cega Vault (#21 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "8BhxuBqiC8952oUd39SfPrfVRqEWghm2XdB4U9idvee8",
+    "decimals": 6,
+    "name": "Cega Vault (#1 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "7Pr5J3kQ8JCGAFg7R5k44Rrse62RmnzT1AHi5AfMLauM",
+    "decimals": 6,
+    "name": "Cega Vault (#0 Solana Summer)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_5_SDS.png?v=1660599559995"
+  },
+  {
+    "chainId": 101,
+    "address": "2jrpr61TVGiK1voH2pzXo8YC2A4jMWTRf3RqpfvcMY7F",
+    "decimals": 6,
+    "name": "Cega Vault (#14 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "EkDmQrcVrU5jisLFaGbCKBVFa1hT8Lz67cDGdbZpf2FC",
+    "decimals": 6,
+    "name": "Cega Vault (#5 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "2A3B69mFgkbfSWjJ9oCsf3R66zBTzufQTqZgPZ5A1RMN",
+    "decimals": 6,
+    "name": "Cega Vault (#5 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "HWmPQ2ywkotnTRSbFBptk4kVpwxV49sWXvELL9ZA1eDF",
+    "decimals": 6,
+    "name": "Cega Vault (#21 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "GY9YFG7rntsALPR43g2jH1q7sXAwbBe3fSfcNzTCrAUd",
+    "decimals": 6,
+    "name": "Cega Vault (#4 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "7d8c1xq8rqPvpvsaHCzbV7ipJ8Rft7v1VcKu8BfidiTS",
+    "decimals": 6,
+    "name": "Cega Vault (#13 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "2U8i4ychzHZ5PqPaHbmXSzVJDHAfSmm5zQjPQcHWiqKF",
+    "decimals": 6,
+    "name": "Cega Vault (#9 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "3wAT1khVnRk7Jb6ATzCR9Q2vkJS51C7SyD14jVWQUvQb",
+    "decimals": 6,
+    "name": "Cega Vault (#12 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "3d2U4LuwCnoBhUTFQzcNbotJHJRFaJCPaDmZwukztbKW",
+    "decimals": 6,
+    "name": "Cega Vault (#1 Starboard)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/8-token.png?v=1669342022772"
+  },
+  {
+    "chainId": 101,
+    "address": "7T3S1aRU1uMwsDCYt91beUt9H4GHmVXfQyppvvyZ5TJ",
+    "decimals": 6,
+    "name": "Cega Vault (#1 Supercharger)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/7-token.png?v=1665559862633"
+  },
+  {
+    "chainId": 101,
+    "address": "7ZxoMoWKuHNC77YamUQk8Uf7KszpiVAK6Jn47zfg4b3t",
+    "decimals": 6,
+    "name": "Cega Vault (#10 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "4aoiTnXr8tPavEZLwWTxs7SXga7TkJGZsd8b6o2u3ups",
+    "decimals": 6,
+    "name": "Cega Vault (#5 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "8TZBNovTrvYRLtLdLBP2GZTdiTt5GdigjDRHxVhp53Do",
+    "decimals": 6,
+    "name": "Cega Vault (#20 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "2XCVDyeSiWRNX2TZbxvqMxfXj2FYvAPTUMph7nj6yZta",
+    "decimals": 6,
+    "name": "Cega Vault (#6 Autopilot)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_6_Auto__v02.png?v=1664232055303"
+  },
+  {
+    "chainId": 101,
+    "address": "4WtQsRwNfqh121YmqDSucoLij86NC4WGf8BxgLutZt7P",
+    "decimals": 6,
+    "name": "Cega Vault (#15 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "JARjE1Xy1etLFVDAVQdTUw6Hy1rx18TycWuH4iJMM8Gf",
+    "decimals": 6,
+    "name": "Cega Vault (#0 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "7WPZStcS8dXtCuVGY7pjXu2suSk7eCwNAhzGByujP3hY",
+    "decimals": 6,
+    "name": "Cega Vault (#21 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "C5VoxJm6iTbBSpFCK3rsW1y9AZLAhjsdUCFkZQv4jLYK",
+    "decimals": 6,
+    "name": "Cega Vault (#8 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "5jHjMdNQVSNBQ5uu7sDaxAR2PUZj65GTpJSxaEnR5ZyS",
+    "decimals": 6,
+    "name": "Cega Vault (#18 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "2tC26UozL4AGD5WHFuHx1TSZxUtMaEWLr3KrY2WsNN15",
+    "decimals": 6,
+    "name": "Cega Vault (#11 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "Fh5rjKU7Yky31QPaJFwNUJ15RJ7qNYXb6QZrwAwtBS9e",
+    "decimals": 6,
+    "name": "Cega Vault (#3 Supercharger)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/7-token.png?v=1665559862633"
+  },
+  {
+    "chainId": 101,
+    "address": "3bG5oKFU5qm2ifZUeLcSauQBTaxSNJHASiRZBa4FhneB",
+    "decimals": 6,
+    "name": "Cega Vault (#4 Autopilot)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_6_Auto__v02.png?v=1664232055303"
+  },
+  {
+    "chainId": 101,
+    "address": "3nAiNTNpFoYxkVD4RNM1iPZ5g75n3Umzbqk5B6bT6wHd",
+    "decimals": 6,
+    "name": "Cega Vault (#1 Solana Summer)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_5_SDS.png?v=1660599559995"
+  },
+  {
+    "chainId": 101,
+    "address": "J4Yb2JMg28Dg4ySkeTqsPEM5fx5u8r1wXTvyTxWSghTA",
+    "decimals": 6,
+    "name": "Cega Vault (#9 Go Fast)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_3_gotta.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "GAqoakw93E5rJ7iBiZSsRr8HfA9Tg9v5MpWE3rmFc88Y",
+    "decimals": 6,
+    "name": "Cega Vault (#11 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "6vBu3U9ggV8R4ykGy83zGwe3DT5R1Cq65oppW3vDBtKi",
+    "decimals": 6,
+    "name": "Cega Vault (#6 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "BokKmnvHCistjRhzh7NfHQ4bNok91sBD53MdVATFPkbu",
+    "decimals": 6,
+    "name": "Cega Vault (#17 Cruise Control)",
+    "symbol": "lpCega"
+  },
+  {
+    "chainId": 101,
+    "address": "H6QvAA8CF6sPXNX4skiYidUsZLnvtvUx1zSDSEXjG63J",
+    "decimals": 6,
+    "name": "Cega Vault (#17 Insanic)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_4_insanic.png?v=1660599559996"
+  },
+  {
+    "chainId": 101,
+    "address": "76EsTUc4LTTPu3DEkccATLUGzTXgWBQV8gWdY4SvS4yW",
+    "decimals": 6,
+    "name": "Cega Vault (#6 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "BAGo36peGpZdMgjCiS7p4WD25E6bkdpAvDT1Z4gFAmm2",
+    "decimals": 6,
+    "name": "Cega Vault (#2 Genesis Basket)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_2_genesis.png?v=1660599560070"
+  },
+  {
+    "chainId": 101,
+    "address": "8bmjH1Sc76aJv8BMkkTCkLdT6tizBfzRW7cPwbBe4MAm",
+    "decimals": 6,
+    "name": "Cega Vault (#7 Autopilot)",
+    "symbol": "lpCega",
+    "logoURI": "https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/cega_vault_token_6_Auto__v02.png?v=1664232055303"
+  },
+  {
+    "chainId": 101,
+    "address": "H8vbaGQfUBQxnh8WzKVS7QM2kfh7BHiRAR8EtwcHKYW",
+    "decimals": 6,
+    "name": "Cega Vault (#22 Cruise Control)",
+    "symbol": "lpCega"
   },
   {
     "chainId": 101,
@@ -31600,6 +32506,22 @@
   },
   {
     "chainId": 101,
+    "address": "5rMWS2wTiW9dcv4WpXt3jNfn6uHgGSELfsa2ftkQA7Zw",
+    "decimals": 6,
+    "name": "Nazare USDC/USDT",
+    "symbol": "nUSDC/USDT",
+    "logoURI": "https://www.nazare.so/coin-logos/usdc-usdt.png"
+  },
+  {
+    "chainId": 101,
+    "address": "Grwu1bWQ6HNqbY225EuYf3C4kL3835WQPgnff2a89vPw",
+    "decimals": 6,
+    "name": "Nazare USH / USDC",
+    "symbol": "nUSH/USDC",
+    "logoURI": "https://www.nazare.so/coin-logos/ush-ush.png"
+  },
+  {
+    "chainId": 101,
     "address": "4bgRUBC4gPoTs38TytDwujhcdn7reRoKynecvK7fJ5VW",
     "symbol": "NUT",
     "name": "NUT",
@@ -31637,6 +32559,14 @@
     "name": "NUWA Rex Token",
     "decimals": 3,
     "logoURI": "https://media.discordapp.net/attachments/926535226820276264/954723796252753971/coin.png"
+  },
+  {
+    "chainId": 101,
+    "address": "9z2a5zNvipEQxjyFfZf3gV4nw9NCr73FdRs1iq3VjTXc",
+    "decimals": 6,
+    "name": "Nazare UXD / USDC",
+    "symbol": "nUXD/USDC",
+    "logoURI": "https://www.nazare.so/coin-logos/uxd-usdc.png"
   },
   {
     "chainId": 101,

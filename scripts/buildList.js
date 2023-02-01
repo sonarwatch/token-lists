@@ -6,11 +6,11 @@ const getSchemaFromNetworkId = require("../src/helpers/getSchemaFromNetworkId");
 
 const networkId = process.argv[2];
 const args = [];
-switch (networkId) {
-  case "solana":
-    args.push(process.env.SOLANA_RPC_ENDPOINT);
-    break;
-}
+// switch (networkId) {
+//   case "solana":
+//     args.push(...);
+//     break;
+// }
 const listStaticConfig = listStaticConfigs[networkId];
 if (!listStaticConfig) {
   throw new Error(`Static config is missing: ${networkId}`);
