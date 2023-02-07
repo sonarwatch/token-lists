@@ -55162,5 +55162,16 @@
     "name": "ZENJIN VIPERZ OFFICIAL WL TOKEN",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ZZZE4qEtwCEgNqhQVLkRqnY2rBwsWL3W1XaYDkhVRUx/logo.png"
+  },
+  {
+    "chainId": 101,
+    "address": "FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr",
+    "symbol": "BOO",
+    "name": "Boo",
+    "decimals": 6,
+    "logoURI": "https://arweave.net/gtrxvZysottl1E9DkAz-cTnJhfsC2YUjgRygO5gWJVE",
+    "extensions": {
+      "coingeckoId": "boo"
+    }
   }
 ]
