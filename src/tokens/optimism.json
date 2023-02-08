@@ -6,15 +6,10 @@
     "name": "Ether",
     "symbol": "ETH",
     "logoURI": "https://aptos.sonar.watch/img/tokens/ETH.png",
-    "tags": ["native"]
-  },
-  {
-    "chainId": 10,
-    "address": "0x4200000000000000000000000000000000000042",
-    "decimals": 18,
-    "name": "Optimism",
-    "symbol": "OP",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/OP.png"
+    "tags": ["native"],
+    "extensions": {
+      "coingeckoId": "ethereum"
+    }
   },
   {
     "chainId": 10,
@@ -22,6 +17,21 @@
     "decimals": 18,
     "name": "Wrapped Ether",
     "symbol": "WETH",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/WETH.png"
+    "logoURI": "https://aptos.sonar.watch/img/tokens/WETH.png",
+    "tags": ["wnative"],
+    "extensions": {
+      "coingeckoId": "weth"
+    }
+  },
+  {
+    "chainId": 10,
+    "address": "0x4200000000000000000000000000000000000042",
+    "decimals": 18,
+    "name": "Optimism",
+    "symbol": "OP",
+    "logoURI": "https://aptos.sonar.watch/img/tokens/OP.png",
+    "extensions": {
+      "coingeckoId": "optimism"
+    }
   }
 ]

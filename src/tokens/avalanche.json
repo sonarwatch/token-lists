@@ -6,7 +6,10 @@
     "name": "Avalanche",
     "symbol": "AVAX",
     "logoURI": "https://snowtrace.io/token/images/avax_32.png",
-    "tags": ["native"]
+    "tags": ["native"],
+    "extensions": {
+      "coingeckoId": "avalanche-2"
+    }
   },
   {
     "chainId": 43114,
@@ -14,7 +17,11 @@
     "decimals": 18,
     "name": "Wrapped AVAX",
     "symbol": "WAVAX",
-    "logoURI": "https://snowtrace.io/token/images/avax_32.png"
+    "logoURI": "https://snowtrace.io/token/images/avax_32.png",
+    "tags": ["wnative"],
+    "extensions": {
+      "coingeckoId": "wrapped-avax"
+    }
   },
   {
     "chainId": 43114,
@@ -22,7 +29,10 @@
     "symbol": "WETH",
     "decimals": 18,
     "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/eth.svg"
+    "logoURI": "https://wallet-asset.matic.network/img/tokens/eth.svg",
+    "extensions": {
+      "coingeckoId": "weth"
+    }
   },
   {
     "chainId": 43114,
@@ -30,7 +40,21 @@
     "symbol": "USDC",
     "decimals": 6,
     "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdc.svg"
+    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdc.svg",
+    "extensions": {
+      "coingeckoId": "usd-coin-avalanche-bridged-usdc-e"
+    }
+  },
+  {
+    "chainId": 43114,
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdc.svg",
+    "extensions": {
+      "coingeckoId": "usd-coin"
+    }
   },
   {
     "chainId": 43114,
@@ -38,7 +62,21 @@
     "symbol": "USDT",
     "decimals": 6,
     "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdt.svg"
+    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdt.svg",
+    "extensions": {
+      "coingeckoId": "tether-avalanche-bridged-usdt-e"
+    }
+  },
+  {
+    "chainId": 43114,
+    "name": "Tether",
+    "symbol": "USDT",
+    "decimals": 6,
+    "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdt.svg",
+    "extensions": {
+      "coingeckoId": "tether"
+    }
   },
   {
     "chainId": 43114,
@@ -46,6 +84,9 @@
     "symbol": "DAI",
     "decimals": 18,
     "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/dai.svg"
+    "logoURI": "https://wallet-asset.matic.network/img/tokens/dai.svg",
+    "extensions": {
+      "coingeckoId": "dai"
+    }
   }
 ]

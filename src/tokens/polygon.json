@@ -6,7 +6,10 @@
     "decimals": 18,
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912",
-    "tags": ["native"]
+    "tags": ["native"],
+    "extensions": {
+      "coingeckoId": "matic-network"
+    }
   },
   {
     "name": "Wrapped Matic",
@@ -14,7 +17,11 @@
     "symbol": "WMATIC",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912"
+    "logoURI": "https://assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912",
+    "tags": ["wnative"],
+    "extensions": {
+      "coingeckoId": "wmatic"
+    }
   },
   {
     "name": "Wrapped Ether",
@@ -22,7 +29,10 @@
     "symbol": "WETH",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+    "extensions": {
+      "coingeckoId": "weth"
+    }
   },
   {
     "name": "Dai Stablecoin",
@@ -30,7 +40,10 @@
     "symbol": "DAI",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+    "extensions": {
+      "coingeckoId": "dai"
+    }
   },
   {
     "name": "0x Protocol Token",
@@ -38,7 +51,10 @@
     "symbol": "ZRX",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png",
+    "extensions": {
+      "coingeckoId": "0x"
+    }
   },
   {
     "name": "Curve DAO Token",
@@ -46,7 +62,10 @@
     "symbol": "CRV",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png",
+    "extensions": {
+      "coingeckoId": "curve-dao-token"
+    }
   },
   {
     "name": "Uniswap",
@@ -54,7 +73,10 @@
     "symbol": "UNI",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+    "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg",
+    "extensions": {
+      "coingeckoId": "uniswap"
+    }
   },
   {
     "name": "Tether USD",
@@ -62,7 +84,10 @@
     "symbol": "USDT",
     "decimals": 6,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "extensions": {
+      "coingeckoId": "tether"
+    }
   },
   {
     "name": "USDCoin",
@@ -70,7 +95,10 @@
     "symbol": "USDC",
     "decimals": 6,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+    "extensions": {
+      "coingeckoId": "usd-coin"
+    }
   },
   {
     "name": "Orchid",
@@ -78,7 +106,10 @@
     "symbol": "OXT",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4575f41308EC1483f3d399aa9a2826d74Da13Deb/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4575f41308EC1483f3d399aa9a2826d74Da13Deb/logo.png",
+    "extensions": {
+      "coingeckoId": "orchid-protocol"
+    }
   },
   {
     "name": "Maker",
@@ -86,7 +117,10 @@
     "symbol": "MKR",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png",
+    "extensions": {
+      "coingeckoId": "maker"
+    }
   },
   {
     "name": "ChainLink Token",
@@ -94,23 +128,10 @@
     "symbol": "LINK",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
-  },
-  {
-    "name": "Reputation Augur v2",
-    "address": "0x6563c1244820CfBd6Ca8820FBdf0f2847363F733",
-    "symbol": "REPv2",
-    "decimals": 18,
-    "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x221657776846890989a759BA2973e427DfF5C9bB/logo.png"
-  },
-  {
-    "name": "Kyber Network Crystal",
-    "address": "0x324b28d6565f784d596422B0F2E5aB6e9CFA1Dc7",
-    "symbol": "KNC",
-    "decimals": 18,
-    "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
+    "extensions": {
+      "coingeckoId": "chainlink"
+    }
   },
   {
     "name": "Compound",
@@ -118,39 +139,10 @@
     "symbol": "COMP",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
-  },
-  {
-    "chainId": 137,
-    "address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac",
-    "name": "Band Protocol",
-    "symbol": "BAND",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/9545/thumb/band-protocol.png?1568730326"
-  },
-  {
-    "name": "Numeraire",
-    "address": "0x0Bf519071b02F22C17E7Ed5F4002ee1911f46729",
-    "symbol": "NMR",
-    "decimals": 18,
-    "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671/logo.png"
-  },
-  {
-    "name": "UMA Voting Token v1",
-    "address": "0x3066818837c5e6eD6601bd5a91B0762877A6B731",
-    "symbol": "UMA",
-    "decimals": 18,
-    "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png"
-  },
-  {
-    "name": "LoopringCoin V2",
-    "address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1",
-    "symbol": "LRC",
-    "decimals": 18,
-    "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
+    "extensions": {
+      "coingeckoId": "compound-governance-token"
+    }
   },
   {
     "chainId": 137,
@@ -158,7 +150,10 @@
     "name": "yearn finance",
     "symbol": "YFI",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/11849/thumb/yfi-192x192.png?1598325330"
+    "logoURI": "https://assets.coingecko.com/coins/images/11849/thumb/yfi-192x192.png?1598325330",
+    "extensions": {
+      "coingeckoId": "yearn-finance"
+    }
   },
   {
     "name": "Republic Token",
@@ -166,7 +161,10 @@
     "symbol": "REN",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png",
+    "extensions": {
+      "coingeckoId": "republic-protocol"
+    }
   },
   {
     "name": "Wrapped BTC",
@@ -174,7 +172,10 @@
     "symbol": "WBTC",
     "decimals": 8,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+    "extensions": {
+      "coingeckoId": "wrapped-bitcoin"
+    }
   },
   {
     "name": "Balancer",
@@ -182,7 +183,10 @@
     "symbol": "BAL",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
+    "extensions": {
+      "coingeckoId": "balancer"
+    }
   },
   {
     "chainId": 137,
@@ -190,7 +194,10 @@
     "name": "Aave",
     "symbol": "AAVE",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/12645/thumb/AAVE.png?1601374110"
+    "logoURI": "https://assets.coingecko.com/coins/images/12645/thumb/AAVE.png?1601374110",
+    "extensions": {
+      "coingeckoId": "aave"
+    }
   },
   {
     "chainId": 137,
@@ -198,7 +205,10 @@
     "name": "The Graph",
     "symbol": "GRT",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/13397/thumb/Graph_Token.png?1608145566"
+    "logoURI": "https://assets.coingecko.com/coins/images/13397/thumb/Graph_Token.png?1608145566",
+    "extensions": {
+      "coingeckoId": "the-graph"
+    }
   },
   {
     "name": "Bancor Network Token",
@@ -206,7 +216,10 @@
     "symbol": "BNT",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C/logo.png",
+    "extensions": {
+      "coingeckoId": "bancor"
+    }
   },
   {
     "name": "Synthetix Network Token",
@@ -214,7 +227,10 @@
     "symbol": "SNX",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png",
+    "extensions": {
+      "coingeckoId": "havven"
+    }
   },
   {
     "chainId": 137,
@@ -222,15 +238,10 @@
     "name": "Decentraland",
     "symbol": "MANA",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/878/thumb/decentraland-mana.png?1550108745"
-  },
-  {
-    "name": "Loom Network",
-    "address": "0x66EfB7cC647e0efab02eBA4316a2d2941193F6b3",
-    "symbol": "LOOM",
-    "decimals": 18,
-    "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0/logo.png"
+    "logoURI": "https://assets.coingecko.com/coins/images/878/thumb/decentraland-mana.png?1550108745",
+    "extensions": {
+      "coingeckoId": "decentraland"
+    }
   },
   {
     "chainId": 137,
@@ -238,7 +249,10 @@
     "name": "Civic",
     "symbol": "CVC",
     "decimals": 8,
-    "logoURI": "https://assets.coingecko.com/coins/images/788/thumb/civic.png?1547034556"
+    "logoURI": "https://assets.coingecko.com/coins/images/788/thumb/civic.png?1547034556",
+    "extensions": {
+      "coingeckoId": "civic"
+    }
   },
   {
     "name": "Storj Token",
@@ -246,15 +260,10 @@
     "symbol": "STORJ",
     "decimals": 8,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC/logo.png"
-  },
-  {
-    "chainId": 137,
-    "address": "0x0621d647cecbFb64b79E44302c1933cB4f27054d",
-    "name": "Amp",
-    "symbol": "AMP",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/12409/thumb/amp-200x200.png?1599625397"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC/logo.png",
+    "extensions": {
+      "coingeckoId": "storj"
+    }
   },
   {
     "name": "Gnosis Token",
@@ -262,7 +271,10 @@
     "symbol": "GNO",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png",
+    "extensions": {
+      "coingeckoId": "gnosis"
+    }
   },
   {
     "chainId": 137,
@@ -270,7 +282,10 @@
     "name": "Keep Network",
     "symbol": "KEEP",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/3373/thumb/IuNzUb5b_400x400.jpg?1589526336"
+    "logoURI": "https://assets.coingecko.com/coins/images/3373/thumb/IuNzUb5b_400x400.jpg?1589526336",
+    "extensions": {
+      "coingeckoId": "keep-network"
+    }
   },
   {
     "chainId": 137,
@@ -278,7 +293,10 @@
     "name": "Ethereum Name Service",
     "symbol": "ENS",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/19785/thumb/acatxTm8_400x400.jpg?1635850140"
+    "logoURI": "https://assets.coingecko.com/coins/images/19785/thumb/acatxTm8_400x400.jpg?1635850140",
+    "extensions": {
+      "coingeckoId": "ethereum-name-service"
+    }
   },
   {
     "name": "Synth sUSD",
@@ -286,6 +304,9 @@
     "symbol": "sUSD",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://assets.coingecko.com/coins/images/5013/thumb/sUSD.png?1616150765"
+    "logoURI": "https://assets.coingecko.com/coins/images/5013/thumb/sUSD.png?1616150765",
+    "extensions": {
+      "coingeckoId": "nusd"
+    }
   }
 ]

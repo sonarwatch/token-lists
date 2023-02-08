@@ -6,7 +6,10 @@
     "name": "Aptos Coin",
     "symbol": "APT",
     "logoURI": "https://aptos.sonar.watch/img/tokens/APT.png",
-    "tags": ["native"]
+    "tags": ["native"],
+    "extensions": {
+      "coingeckoId": "aptos"
+    }
   },
   {
     "chainId": 1,
