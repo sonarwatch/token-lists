@@ -50,7 +50,7 @@
     "name": "USD Coin",
     "symbol": "USDC",
     "decimals": 6,
-    "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+    "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/usdc.svg",
     "extensions": {
       "coingeckoId": "usd-coin"
@@ -72,7 +72,7 @@
     "name": "Tether",
     "symbol": "USDT",
     "decimals": 6,
-    "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+    "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/usdt.svg",
     "extensions": {
       "coingeckoId": "tether"
