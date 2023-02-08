@@ -1,4 +1,4 @@
-const evmSchema = require("@uniswap/token-lists/src/tokenlist.schema.json");
+const evmSchema = require("../schemas/evmSchema");
 const aptosSchema = require("../schemas/aptosSchema");
 const solanaSchema = require("../schemas/solanaSchema");
 

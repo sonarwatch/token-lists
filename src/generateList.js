@@ -15,12 +15,7 @@ module.exports = function generateList(listConfig) {
     tags: {},
     logoURI: listConfig.logoURI,
     keywords: ["sonarwatch", listConfig.id],
-    tokens: listConfig.tokens.sort((t1, t2) => {
-      if (t1.chainId === t2.chainId) {
-        return t1.symbol.toLowerCase() < t2.symbol.toLowerCase() ? -1 : 1;
-      }
-      return t1.chainId < t2.chainId ? -1 : 1;
-    }),
+    tokens: listConfig.tokens,
   };
 
   const validate = ajv.compile(listConfig.schema);

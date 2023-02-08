@@ -1,4 +1,4 @@
-const evmSchema = require("@uniswap/token-lists/src/tokenlist.schema.json");
+const evmSchema = require("./evmSchema");
 
 const solanaSchema = JSON.parse(JSON.stringify(evmSchema));
 solanaSchema.definitions.TokenInfo.properties.address.pattern =
