@@ -11,7 +11,8 @@
     "name": "Avalanche",
     "addressType": "evm",
     "chainId": 43114,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png",
+    "rpcEndpoint": "https://avalanche-evm.publicnode.com"
   },
   "ethereum": {
     "id": "ethereum",
@@ -25,14 +26,16 @@
     "name": "Optimism",
     "addressType": "evm",
     "chainId": 10,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png",
+    "rpcEndpoint": "https://mainnet.optimism.io"
   },
   "polygon": {
     "id": "polygon",
     "name": "Polygon",
     "addressType": "evm",
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png",
+    "rpcEndpoint": "https://polygon.llamarpc.com"
   },
   "solana": {
     "id": "solana",
