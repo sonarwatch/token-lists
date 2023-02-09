@@ -35,7 +35,7 @@
     "addressType": "evm",
     "chainId": 137,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE/logo.png",
-    "rpcEndpoint": "https://polygon.llamarpc.com"
+    "rpcEndpoint": "https://polygon-rpc.com/"
   },
   "solana": {
     "id": "solana",

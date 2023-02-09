@@ -83,5 +83,6 @@ module.exports = async function getEvmTokensFromCoingecko(
     };
     tokensByAddress.set(address, token);
   }
+  await sleep(45000);
   return Array.from(tokensByAddress.values());
 };
