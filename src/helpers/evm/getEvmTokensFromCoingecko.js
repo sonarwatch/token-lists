@@ -65,7 +65,7 @@ module.exports = async function getEvmTokensFromCoingecko(
         },
       })
       .catch(() => null);
-    await sleep(10000);
+    await sleep(4000);
     if (!coinDetailsResponse || !coinDetailsResponse.data) continue;
     const coinDetails = coinDetailsResponse.data;
     const decimals = await getErc20Decimals(address, provider);

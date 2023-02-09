@@ -10,7 +10,7 @@ const tokenGenerators = {
   aptos: () => aptosTokens,
   avalanche: () => getEvmTokensFromCoingecko("avalanche", avalancheTokens),
   ethereum: getEthereumTokens,
-  optimism: () => optimismTokens,
+  optimism: () => getEvmTokensFromCoingecko("optimism", optimismTokens),
   polygon: () => polygonTokens,
   solana: () => solanaTokens,
 };
