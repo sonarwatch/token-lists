@@ -26,6 +26,7 @@ module.exports = async function getEvmTokensFromCoingecko(
       },
     })
     .catch(() => null);
+  await sleep(60000);
   if (!coinsListRes || !coinsListRes.data)
     throw new Error("Failed to fetch Coingecko's coins list");
 
@@ -83,6 +84,6 @@ module.exports = async function getEvmTokensFromCoingecko(
     };
     tokensByAddress.set(address, token);
   }
-  await sleep(45000);
+  await sleep(10000);
   return Array.from(tokensByAddress.values());
 };
