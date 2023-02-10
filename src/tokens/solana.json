@@ -1,6 +1,26 @@
 [
   {
     "chainId": 101,
+    "address": "11111111111111111111111111111111",
+    "symbol": "SOL",
+    "name": "Solana",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+    "tags": ["native"],
+    "extensions": { "coingeckoId": "solana" }
+  },
+  {
+    "chainId": 101,
+    "address": "So11111111111111111111111111111111111111112",
+    "symbol": "SOL",
+    "name": "Wrapped SOL",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+    "tags": ["wnative"],
+    "extensions": { "coingeckoId": "wrapped-solana" }
+  },
+  {
+    "chainId": 101,
     "address": "EAniGDVY2VKUtZxvpHnbazHfZgfo3bp61TxUGHzw3Cn7",
     "symbol": "007E",
     "name": "007 Exchange",
@@ -42774,15 +42794,6 @@
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GUohe4DJUA5FKPWo3joiPgsB7yzer7LpDmt1Vhzy3Zht/logo.png",
     "extensions": { "coingeckoId": "keep-network" }
-  },
-  {
-    "chainId": 101,
-    "address": "So11111111111111111111111111111111111111112",
-    "symbol": "SOL",
-    "name": "Wrapped SOL",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
-    "extensions": { "coingeckoId": "solana" }
   },
   {
     "chainId": 101,
