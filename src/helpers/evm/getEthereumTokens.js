@@ -1,5 +1,6 @@
 const { getAddress } = require("@ethersproject/address");
 const axios = require("axios");
+const ethereumBaseToken = require("../../tokens/ethereum.json");
 
 module.exports = async function getEthereumTokens() {
   const listRes = await axios.get(
@@ -26,15 +27,23 @@ module.exports = async function getEthereumTokens() {
     idByAddress.set(address, coin.id);
   });
 
-  return listRes.data.tokens.map((t) => {
+  const tokensByAddress = new Map();
+
+  listRes.data.tokens.forEach((t) => {
     const address = getAddress(t.address);
     const coingeckoId = idByAddress.get(address);
-    return {
+    const token = {
       ...t,
       address,
       extensions: {
         ...(coingeckoId && { coingeckoId }),
       },
     };
+    tokensByAddress.set(address, token);
   });
+
+  ethereumBaseToken.forEach((token) => {
+    tokensByAddress.set(token.address, token);
+  });
+  return Array.from(tokensByAddress.values());
 };
