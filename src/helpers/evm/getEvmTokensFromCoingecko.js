@@ -1,3 +1,5 @@
+const Ajv = require("ajv");
+const addFormats = require("ajv-formats");
 const axios = require("axios");
 const { getAddress } = require("@ethersproject/address");
 const { StaticJsonRpcProvider } = require("@ethersproject/providers");
@@ -5,6 +7,9 @@ const listStaticConfigs = require("../../assets/listStaticConfigs.json");
 const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkId");
 const sleep = require("../sleep");
 const getErc20Decimals = require("./getErc20Decimals");
+const uriSchema = require("../../schemas/uriSchema");
+
+const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
 module.exports = async function getEvmTokensFromCoingecko(
   networkId,
@@ -71,13 +76,15 @@ module.exports = async function getEvmTokensFromCoingecko(
     const coinDetails = coinDetailsResponse.data;
     const decimals = await getErc20Decimals(address, provider);
     if (decimals === null) continue;
+    const isUriValid = uriValidate(coinDetails.image.small);
+    const logoURI = isUriValid ? coinDetails.image.small : undefined;
     const token = {
       chainId,
       address,
       decimals,
       name: coinDetails.name.substring(0, 64),
       symbol: coinDetails.symbol.toUpperCase(),
-      logoURI: coinDetails.image.small,
+      logoURI,
       extensions: {
         coingeckoId: coinDetails.id,
       },

@@ -1,6 +1,9 @@
-const Ajv = require("ajv");
 const { version } = require("../package.json");
-const ajv = new Ajv({ allErrors: true, format: "full" });
+const Ajv = require("ajv");
+const addFormats = require("ajv-formats");
+
+const ajv = new Ajv({ allErrors: true, verbose: true });
+addFormats(ajv);
 
 module.exports = function generateList(listConfig) {
   const parsed = version.split(".");
