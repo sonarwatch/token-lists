@@ -55187,5 +55187,16 @@
     "extensions": {
       "coingeckoId": "boo"
     }
+  },
+  {
+    "chainId": 101,
+    "address": "H1G6sZ1WDoMmMCFqBKAbg9gkQPCo1sKQtaJWz9dHmqZr",
+    "symbol": "SBONK",
+    "name": "SHIBONK",
+    "decimals": 9,
+    "logoURI": "https://assets.coingecko.com/coins/images/28675/small/bonklogo2.png?1673161859",
+    "extensions": {
+      "coingeckoId": "shibonk-311f81df-a4ea-4f31-9e61-df0af8211bd7"
+    }
   }
 ]
