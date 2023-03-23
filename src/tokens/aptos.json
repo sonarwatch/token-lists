@@ -5,7 +5,7 @@
     "decimals": 8,
     "name": "Aptos Coin",
     "symbol": "APT",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/APT.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/APT.png",
     "tags": ["native"],
     "extensions": {
       "coingeckoId": "aptos"
@@ -17,7 +17,7 @@
     "decimals": 6,
     "name": "Wormhole USD Coin",
     "symbol": "USDC",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/USDC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
   },
   {
     "chainId": 1,
@@ -25,7 +25,7 @@
     "decimals": 6,
     "name": "Layerzero USD Coin",
     "symbol": "USDC",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/USDC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
   },
   {
     "chainId": 1,
@@ -33,7 +33,7 @@
     "decimals": 6,
     "name": "Layerzero Tether USD",
     "symbol": "USDT",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/USDT.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDT.png"
   },
   {
     "chainId": 1,
@@ -41,7 +41,7 @@
     "decimals": 6,
     "name": "Layerzero Wrapped Ether",
     "symbol": "WETH",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/ETH.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/ETH.png"
   },
   {
     "chainId": 1,
@@ -49,7 +49,7 @@
     "decimals": 8,
     "name": "Mojito",
     "symbol": "MOJO",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/MOJO.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4__coin__MOJO.png"
   },
   {
     "chainId": 1,
@@ -57,7 +57,7 @@
     "decimals": 8,
     "name": "Tortuga Staked APT",
     "symbol": "tAPT",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/tAPT.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114__staked_aptos_coin__StakedAptosCoin.png"
   },
   {
     "chainId": 1,
@@ -65,7 +65,7 @@
     "decimals": 8,
     "name": "Ditto Staked Aptos",
     "symbol": "stAPT",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/stAPT.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5__staked_coin__StakedAptos.png"
   },
   {
     "chainId": 1,
@@ -73,7 +73,7 @@
     "decimals": 6,
     "name": "Tether USD",
     "symbol": "USDT",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/USDT.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDT.png"
   },
   {
     "chainId": 1,
@@ -81,7 +81,7 @@
     "decimals": 6,
     "name": "Aptoge",
     "symbol": "APTOGE",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/APTOGE.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/0x5c738a5dfa343bee927c39ebe85b0ceb95fdb5ee5b323c95559614f5a77c47cf__Aptoge__Aptoge.png"
   },
   {
     "chainId": 1,
@@ -89,7 +89,7 @@
     "decimals": 8,
     "name": "Wrapped SOL",
     "symbol": "SOL",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/SOL.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/SOL.png"
   },
   {
     "chainId": 1,
@@ -97,15 +97,15 @@
     "decimals": 8,
     "name": "Wrapped BTC",
     "symbol": "WBTC",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/BTC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BTC.png"
   },
   {
     "chainId": 1,
+    "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
     "decimals": 8,
     "name": "PancakeSwap Token",
     "symbol": "Cake",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/CAKE.png",
-    "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6__oft__CakeOFT.png"
   },
   {
     "chainId": 1,
@@ -113,7 +113,7 @@
     "decimals": 6,
     "name": "Meeiro Coin",
     "symbol": "MEE",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/MEE.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/0xe9c192ff55cffab3963c695cff6dbf9dad6aff2bb5ac19a6415cad26a81860d9__mee_coin__MeeCoin.png"
   },
   {
     "chainId": 1,
@@ -121,7 +121,7 @@
     "decimals": 8,
     "name": "Binance Coin (Celer)",
     "symbol": "BNB",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/BNB.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BNB.png"
   },
   {
     "chainId": 1,
@@ -129,7 +129,7 @@
     "decimals": 6,
     "name": "USD Coin (Celer)",
     "symbol": "USDC",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/USDC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
   },
   {
     "chainId": 1,
@@ -137,7 +137,7 @@
     "decimals": 8,
     "name": "BUSD Token",
     "symbol": "BUSD",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/BUSD.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BUSD.png"
   },
   {
     "chainId": 1,
@@ -145,7 +145,7 @@
     "decimals": 8,
     "name": "DogLaika Coin",
     "symbol": "DLC",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/DLC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/0x84edd115c901709ef28f3cb66a82264ba91bfd24789500b6fd34ab9e8888e272__coin__DLC.png"
   },
   {
     "chainId": 1,
@@ -153,6 +153,6 @@
     "decimals": 8,
     "name": "AnimeSwap Coin",
     "symbol": "ANI",
-    "logoURI": "https://aptos.sonar.watch/img/tokens/ANI.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c__AnimeCoin__ANI.png"
   }
 ]
