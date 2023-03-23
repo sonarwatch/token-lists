@@ -85,6 +85,14 @@
   },
   {
     "chainId": 1,
+    "address": "0xdd89c0e695df0692205912fb69fc290418bed0dbe6e4573d744a6d5e6bab6c13::coin::T",
+    "decimals": 8,
+    "name": "Wrapped SOL",
+    "symbol": "SOL",
+    "logoURI": "https://aptos.sonar.watch/img/tokens/SOL.png"
+  },
+  {
+    "chainId": 1,
     "address": "0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T",
     "decimals": 8,
     "name": "Wrapped BTC",
@@ -122,6 +130,14 @@
     "name": "USD Coin (Celer)",
     "symbol": "USDC",
     "logoURI": "https://aptos.sonar.watch/img/tokens/USDC.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0xccc9620d38c4f3991fa68a03ad98ef3735f18d04717cb75d7a1300dd8a7eed75::coin::T",
+    "decimals": 8,
+    "name": "BUSD Token",
+    "symbol": "BUSD",
+    "logoURI": "https://aptos.sonar.watch/img/tokens/BUSD.png"
   },
   {
     "chainId": 1,
