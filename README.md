@@ -24,6 +24,9 @@ To request that we add a token to the list,
 ## Release version
 
 ```bash
+npm run build
+npm test
+
 npm run release -- --ci -i patch
 npm run release -- --ci -i minor
 npm run release -- --ci -i major
