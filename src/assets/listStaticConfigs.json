@@ -4,14 +4,14 @@
     "name": "Aptos",
     "addressType": "aptos",
     "chainId": 1,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/lists.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_aptos.png"
   },
   "avalanche": {
     "id": "avalanche",
     "name": "Avalanche",
     "addressType": "evm",
     "chainId": 43114,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/lists.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_avalanche.png",
     "rpcEndpoint": "https://avalanche-evm.publicnode.com"
   },
   "ethereum": {
@@ -19,14 +19,14 @@
     "name": "Ethereum",
     "addressType": "evm",
     "chainId": 1,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/lists.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_ethereum.png"
   },
   "optimism": {
     "id": "optimism",
     "name": "Optimism",
     "addressType": "evm",
     "chainId": 10,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/lists.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_optimism.png",
     "rpcEndpoint": "https://mainnet.optimism.io"
   },
   "polygon": {
@@ -34,7 +34,7 @@
     "name": "Polygon",
     "addressType": "evm",
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/lists.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_polygon.png",
     "rpcEndpoint": "https://polygon-rpc.com/"
   },
   "solana": {
@@ -42,6 +42,6 @@
     "name": "Solana",
     "addressType": "solana",
     "chainId": 101,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/lists.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_solana.png"
   }
 }
