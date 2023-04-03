@@ -1,0 +1,14 @@
+[
+  {
+    "chainId": 1,
+    "address": "bitcoin",
+    "decimals": 8,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BTC.png",
+    "tags": ["native"],
+    "extensions": {
+      "coingeckoId": "bitcoin"
+    }
+  }
+]

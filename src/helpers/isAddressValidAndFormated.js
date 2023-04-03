@@ -7,6 +7,9 @@ module.exports = function isAddressValidAndFormated(address, addressType) {
     case "aptos":
       isValid = address === address;
       break;
+    case "bitcoin":
+      isValid = address === "bitcoin";
+      break;
     case "evm":
       isValid = getAddress(address) === address;
       break;

@@ -14,6 +14,13 @@
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_avalanche.png",
     "rpcEndpoint": "https://avalanche-evm.publicnode.com"
   },
+  "bitcoin": {
+    "id": "bitcoin",
+    "name": "Bitcoin",
+    "addressType": "bitcoin",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
+  },
   "ethereum": {
     "id": "ethereum",
     "name": "Ethereum",

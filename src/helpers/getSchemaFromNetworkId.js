@@ -1,10 +1,12 @@
 const evmSchema = require("../schemas/evmSchema");
 const aptosSchema = require("../schemas/aptosSchema");
+const bitcoinSchema = require("../schemas/bitcoinSchema");
 const solanaSchema = require("../schemas/solanaSchema");
 
 const schemaByNetworkId = {
   aptos: aptosSchema,
   avalanche: evmSchema,
+  bitcoin: bitcoinSchema,
   ethereum: evmSchema,
   optimism: evmSchema,
   polygon: evmSchema,
