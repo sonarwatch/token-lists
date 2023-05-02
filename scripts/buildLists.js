@@ -5,6 +5,7 @@ const ethereumList = require("../build/sonarwatch.ethereum.tokenlist.json");
 const optimismList = require("../build/sonarwatch.optimism.tokenlist.json");
 const polygonList = require("../build/sonarwatch.polygon.tokenlist.json");
 const solanaList = require("../build/sonarwatch.solana.tokenlist.json");
+const suiList = require("../build/sonarwatch.sui.tokenlist.json");
 
 const lists = {
   aptos: aptosList,
@@ -14,5 +15,6 @@ const lists = {
   optimism: optimismList,
   polygon: polygonList,
   solana: solanaList,
+  sui: suiList,
 };
 console.log(JSON.stringify(lists, null, 2));

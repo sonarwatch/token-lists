@@ -4,7 +4,7 @@ const isSolanaAddress = require("./isSolanaAddress");
 module.exports = function isAddressValidAndFormated(address, addressType) {
   let isValid = false;
   switch (addressType) {
-    case "aptos":
+    case "move":
       isValid = address === address;
       break;
     case "bitcoin":

@@ -2,7 +2,7 @@
   "aptos": {
     "id": "aptos",
     "name": "Aptos",
-    "addressType": "aptos",
+    "addressType": "move",
     "chainId": 1,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_aptos.png"
   },
@@ -50,5 +50,12 @@
     "addressType": "solana",
     "chainId": 101,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_solana.png"
+  },
+  "sui": {
+    "id": "sui",
+    "name": "Sui",
+    "addressType": "move",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
   }
 }

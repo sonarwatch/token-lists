@@ -16,6 +16,7 @@
     "build:list:optimism": "mkdirp build && node scripts/buildList.js optimism > build/sonarwatch.optimism.tokenlist.json",
     "build:list:polygon": "mkdirp build && node scripts/buildList.js polygon > build/sonarwatch.polygon.tokenlist.json",
     "build:list:solana": "mkdirp build && node scripts/buildList.js solana > build/sonarwatch.solana.tokenlist.json",
+    "build:list:sui": "mkdirp build && node scripts/buildList.js sui > build/sonarwatch.sui.tokenlist.json",
     "release": "release-it",
     "postpublish": "npm run purge:cdn",
     "purge:cdn": "npm-run-all purge:cdn:*",
@@ -26,7 +27,8 @@
     "purge:cdn:ethereum": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.ethereum.tokenlist.json",
     "purge:cdn:optimism": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.optimism.tokenlist.json",
     "purge:cdn:polygon": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.polygon.tokenlist.json",
-    "purge:cdn:solana": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.solana.tokenlist.json"
+    "purge:cdn:solana": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.solana.tokenlist.json",
+    "purge:cdn:sui": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.sui.tokenlist.json"
   },
   "files": [
     "build/sonarwatch.tokenlists.json",

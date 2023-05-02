@@ -16,6 +16,7 @@ This NPM module and GitHub repo contains SonarWatch's token lists.
 - [Optimism](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.optimism.tokenlist.json)
 - [Polygon](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.polygon.tokenlist.json)
 - [Solana](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.solana.tokenlist.json)
+- [Sui](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.sui.tokenlist.json)
 
 ## Adding a token
 

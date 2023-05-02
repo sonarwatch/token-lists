@@ -5,6 +5,7 @@ const platforms = {
   optimism: "optimistic-ethereum",
   polygon: "polygon-pos",
   solana: "solana",
+  sui: "sui",
 };
 
 module.exports = function coingeckoPlatformFromNetworkId(networkId) {
