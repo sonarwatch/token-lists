@@ -12,5 +12,12 @@ provider
     coinType,
   })
   .then((coinMetadata) => {
-    console.log({ ...coinMetadata, coinType });
+    console.log({
+      chainId: 1,
+      address: coinType,
+      decimals: coinMetadata.decimals,
+      name: coinMetadata.name,
+      symbol: coinMetadata.symbol,
+      logoURI: coinMetadata.iconUrl,
+    });
   });
