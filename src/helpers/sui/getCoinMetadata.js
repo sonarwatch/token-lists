@@ -12,12 +12,13 @@ provider
     coinType,
   })
   .then((coinMetadata) => {
-    console.log({
+    const token = {
       chainId: 1,
       address: coinType,
       decimals: coinMetadata.decimals,
       name: coinMetadata.name,
       symbol: coinMetadata.symbol,
-      logoURI: coinMetadata.iconUrl,
-    });
+      logoURI: coinMetadata.iconUrl ? coinMetadata.iconUrl : undefined,
+    };
+    console.log(JSON.stringify(token, null, 2));
   });
