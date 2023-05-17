@@ -161,7 +161,10 @@
     "decimals": 8,
     "name": "Thala",
     "symbol": "THL",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615_thl_coin_thl.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615_thl_coin_thl.png",
+    "extensions": {
+      "coingeckoId": "thala"
+    }
   },
   {
     "chainId": 1,
@@ -169,6 +172,9 @@
     "decimals": 8,
     "name": "Move Dollar",
     "symbol": "MOD",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01_mod_coin_MOD.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01_mod_coin_MOD.png",
+    "extensions": {
+      "coingeckoId": "move-dollar"
+    }
   }
 ]
