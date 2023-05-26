@@ -1328,7 +1328,8 @@
     "symbol": "AIR",
     "name": "Balloonsville AIR",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E6eCEE3KqjRD5UxcBYQTdV8Z535hyaBuFin9Udm6s6bz/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E6eCEE3KqjRD5UxcBYQTdV8Z535hyaBuFin9Udm6s6bz/logo.png",
+    "extensions": { "coingeckoId": "balloonsville-air" }
   },
   {
     "chainId": 101,
@@ -14765,7 +14766,8 @@
     "symbol": "ENRX",
     "name": "Enrex",
     "decimals": 2,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5s4BYUXLuvs9ZcVDTxkTpKhThWFSpaU8GG55q2iySe2N/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5s4BYUXLuvs9ZcVDTxkTpKhThWFSpaU8GG55q2iySe2N/logo.png",
+    "extensions": { "coingeckoId": "enrex" }
   },
   {
     "chainId": 101,
