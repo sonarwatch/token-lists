@@ -157,11 +157,11 @@
   },
   {
     "chainId": 1,
-    "address": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::thl",
+    "address": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
     "decimals": 8,
     "name": "Thala",
     "symbol": "THL",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615_thl_coin_thl.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615_thl_coin_THL.png",
     "extensions": {
       "coingeckoId": "thala"
     }
