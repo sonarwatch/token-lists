@@ -17,6 +17,6 @@ assignees: ""
 * Token Name (from contract):
 * Token Decimals (from contract):
 * Token Symbol (from contract):
-* Uniswap V2 Pair Address of Token:
+* AMM Pair link:
 * Link to the official homepage of token:
 * Link to CoinGecko page of token:
