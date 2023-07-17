@@ -55222,5 +55222,16 @@
     "extensions": {
       "coingeckoId": "prnt"
     }
+  },
+  {
+  "chainId": 101,
+  "address": "CgnTSoL3DgY9SFHxcLj6CgCgKKoTBr6tp4CPAEWy25DE",
+  "symbol": "cgntSOL",
+  "name": "Cogent SOL",
+  "decimals": 9,
+  "logoURI": "https://cogent-cogs.s3.us-west-2.amazonaws.com/cgntSOL.json"
+    "extensions": {
+      "coingeckoId": "cogent-sol"
+    }
   }
 ]
