@@ -42,5 +42,38 @@
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
+    "decimals": 9,
+    "name": "Cetus Protocol",
+    "symbol": "CETUS",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b_cetus_CETUS.png",
+    "extensions": {
+      "coingeckoId": "cetus-protocol"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "0xd9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f::smove::SMOVE",
+    "decimals": 9,
+    "name": "BlueMove",
+    "symbol": "MOVE",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0xd9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f_smove_SMOVE.png",
+    "extensions": {
+      "coingeckoId": "bluemove"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "0x1d58e26e85fbf9ee8596872686da75544342487f95b1773be3c9a49ab1061b19::suia_token::SUIA_TOKEN",
+    "decimals": 9,
+    "name": "SUIA",
+    "symbol": "SUIA",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x1d58e26e85fbf9ee8596872686da75544342487f95b1773be3c9a49ab1061b19_suia_token_SUIA_TOKEN.png",
+    "extensions": {
+      "coingeckoId": "suia"
+    }
   }
 ]
