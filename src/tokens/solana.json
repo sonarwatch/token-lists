@@ -40002,6 +40002,14 @@
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/cqNTpypmbwghrf1G9VGvSENcw7M7wGSQ7JS8UTQWXwb/logo.png"
   },
   {
+     "chainId": 101,
+     "address": "51pPuhLArFyrUTiLwFtoySBnELppjNdG13b86zPVBY9Z",
+     "symbol": "CKKA",
+     "name": "CIKKA",
+     "decimals": 9,
+     "logoURI": "https://raw.githubusercontent.com/baba7ji/crypto/main/cikka.png.png",
+  },
+  {
     "chainId": 101,
     "address": "SCYfrGCw8aDiqdgcpdGjV6jp4UVVQLuphxTDLNWu36f",
     "symbol": "SCY",
