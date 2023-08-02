@@ -55233,5 +55233,12 @@
     "extensions": {
       "coingeckoId": "cogent-sol"
     }
+  },
+  {
+    "chainId": 101,
+    "address": "51pPuhLArFyrUTiLwFtoySBnELppjNdG13b86zPVBY9Z",
+    "symbol": "CKKA",
+    "name": "CIKKA",
+    "decimals": 9
   }
 ]
