@@ -60,7 +60,10 @@
     "decimals": 8,
     "name": "Tortuga Staked APT",
     "symbol": "tAPT",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114__staked_aptos_coin__StakedAptosCoin.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114__staked_aptos_coin__StakedAptosCoin.png",
+    "extensions": {
+      "coingeckoId": "tortuga-staked-aptos"
+    }
   },
   {
     "chainId": 1,
@@ -68,7 +71,10 @@
     "decimals": 8,
     "name": "Ditto Staked Aptos",
     "symbol": "stAPT",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5__staked_coin__StakedAptos.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5__staked_coin__StakedAptos.png",
+    "extensions": {
+      "coingeckoId": "ditto-staked-aptos"
+    }
   },
   {
     "chainId": 1,
