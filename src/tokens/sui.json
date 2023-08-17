@@ -47,7 +47,10 @@
     "decimals": 8,
     "name": "Wrapped Ether",
     "symbol": "WETH",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png",
+    "extensions": {
+      "coingeckoId": "ethereum-wormhole"
+    }
   },
   {
     "chainId": 1,
@@ -80,6 +83,17 @@
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x1d58e26e85fbf9ee8596872686da75544342487f95b1773be3c9a49ab1061b19_suia_token_SUIA_TOKEN.png",
     "extensions": {
       "coingeckoId": "suia"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc::TOKEN::TOKEN",
+    "decimals": 9,
+    "name": "Suiswap",
+    "symbol": "SSWP",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc_TOKEN_TOKEN.png",
+    "extensions": {
+      "coingeckoId": "suiswap"
     }
   }
 ]
