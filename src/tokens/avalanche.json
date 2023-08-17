@@ -5,7 +5,7 @@
     "decimals": 18,
     "name": "Avalanche",
     "symbol": "AVAX",
-    "logoURI": "https://snowtrace.io/token/images/avax_32.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/AVAX.png",
     "tags": ["native"],
     "extensions": {
       "coingeckoId": "avalanche-2"
@@ -17,7 +17,7 @@
     "decimals": 18,
     "name": "Wrapped AVAX",
     "symbol": "WAVAX",
-    "logoURI": "https://snowtrace.io/token/images/avax_32.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/AVAX.png",
     "tags": ["wnative"],
     "extensions": {
       "coingeckoId": "wrapped-avax"
@@ -29,7 +29,7 @@
     "symbol": "WETH",
     "decimals": 18,
     "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/eth.svg",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png",
     "extensions": {
       "coingeckoId": "weth"
     }
@@ -40,7 +40,7 @@
     "symbol": "USDC",
     "decimals": 6,
     "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdc.svg",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
     "extensions": {
       "coingeckoId": "usd-coin"
     }
@@ -51,7 +51,7 @@
     "symbol": "USDC.e",
     "decimals": 6,
     "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdc.svg",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
     "extensions": {
       "coingeckoId": "usd-coin-avalanche-bridged-usdc-e"
     }
@@ -62,7 +62,7 @@
     "symbol": "USDT.e",
     "decimals": 6,
     "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdt.svg",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDT.png",
     "extensions": {
       "coingeckoId": "tether-avalanche-bridged-usdt-e"
     }
@@ -73,7 +73,7 @@
     "symbol": "USDT",
     "decimals": 6,
     "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdt.svg",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDT.png",
     "extensions": {
       "coingeckoId": "tether"
     }
@@ -84,7 +84,7 @@
     "symbol": "DAI",
     "decimals": 18,
     "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/dai.svg",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/DAI.png",
     "extensions": {
       "coingeckoId": "dai"
     }

@@ -57,5 +57,12 @@
     "addressType": "move",
     "chainId": 1,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
+  },
+  "sei": {
+    "id": "sei",
+    "name": "Sei",
+    "addressType": "sei",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
   }
 }

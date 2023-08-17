@@ -1,0 +1,33 @@
+[
+  {
+    "chainId": 1,
+    "address": "usei",
+    "decimals": 6,
+    "name": "Sei",
+    "symbol": "SEI",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/SEI.png",
+    "tags": ["native"],
+    "extensions": {
+      "coingeckoId": "sei-network"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+    "decimals": 6,
+    "name": "Osmosis",
+    "symbol": "OSMO",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518.png",
+    "extensions": {
+      "coingeckoId": "osmosis"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "factory/sei1g67gjpzn53hc4qsta9jqe7yq40atuqxmuakqkg/sea",
+    "decimals": 6,
+    "name": "Sea",
+    "symbol": "SEA",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sei/sei1g67gjpzn53hc4qsta9jqe7yq40atuqxmuakqkg_sea.png"
+  }
+]

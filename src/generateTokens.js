@@ -5,6 +5,7 @@ const optimismTokens = require("./tokens/optimism.json");
 const polygonTokens = require("./tokens/polygon.json");
 const solanaTokens = require("./tokens/solana.json");
 const suiTokens = require("./tokens/sui.json");
+const seiTokens = require("./tokens/sei.json");
 const getEthereumTokens = require("./helpers/evm/getEthereumTokens");
 const getEvmTokensFromCoingecko = require("./helpers/evm/getEvmTokensFromCoingecko");
 
@@ -17,6 +18,7 @@ const tokenGenerators = {
   polygon: () => getEvmTokensFromCoingecko("polygon", polygonTokens),
   solana: () => solanaTokens,
   sui: () => suiTokens,
+  sei: () => seiTokens,
 };
 
 module.exports = async function generateTokens(networkId, args) {
