@@ -5,7 +5,7 @@
     "decimals": 18,
     "name": "Avalanche",
     "symbol": "AVAX",
-    "logoURI": "https://snowtrace.io/token/images/avax_32.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/AVAX.png",
     "tags": ["native"],
     "extensions": {
       "coingeckoId": "avalanche-2"
@@ -17,7 +17,7 @@
     "decimals": 18,
     "name": "Wrapped AVAX",
     "symbol": "WAVAX",
-    "logoURI": "https://snowtrace.io/token/images/avax_32.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/AVAX.png",
     "tags": ["wnative"],
     "extensions": {
       "coingeckoId": "wrapped-avax"
