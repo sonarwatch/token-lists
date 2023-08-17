@@ -16,6 +16,9 @@ module.exports = function isAddressValidAndFormated(address, addressType) {
     case "solana":
       isValid = isSolanaAddress(address);
       break;
+    case "sei":
+      isValid = address === address;
+      break;
   }
   return isValid;
 };

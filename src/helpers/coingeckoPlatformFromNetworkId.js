@@ -6,6 +6,7 @@ const platforms = {
   polygon: "polygon-pos",
   solana: "solana",
   sui: "sui",
+  sei: "sei",
 };
 
 module.exports = function coingeckoPlatformFromNetworkId(networkId) {

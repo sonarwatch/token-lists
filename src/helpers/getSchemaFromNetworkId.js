@@ -2,6 +2,7 @@ const evmSchema = require("../schemas/evmSchema");
 const moveSchema = require("../schemas/moveSchema");
 const bitcoinSchema = require("../schemas/bitcoinSchema");
 const solanaSchema = require("../schemas/solanaSchema");
+const cosmosSchema = require("../schemas/cosmosSchema");
 
 const schemaByNetworkId = {
   aptos: moveSchema,
@@ -12,6 +13,7 @@ const schemaByNetworkId = {
   polygon: evmSchema,
   solana: solanaSchema,
   sui: moveSchema,
+  sei: cosmosSchema,
 };
 
 module.exports = function getSchemaFromNetworkId(networkId) {
