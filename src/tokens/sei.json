@@ -29,5 +29,27 @@
     "name": "Sea",
     "symbol": "SEA",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sei/sei1g67gjpzn53hc4qsta9jqe7yq40atuqxmuakqkg_sea.png"
+  },
+  {
+    "chainId": 1,
+    "address": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/Hq4tuDzhRBnxw3tFA5n6M52NVMVcC19XggbyDiJKCD6H",
+    "decimals": 6,
+    "name": "USD Coin",
+    "symbol": "USDCet",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "extensions": {
+      "coingeckoId": "usd-coin-wormhole-from-ethereum"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/4tLQqCLaoKKfNFuPjA9o39YbKUwhR1F8N29Tz3hEbfP2",
+    "decimals": 8,
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png",
+    "extensions": {
+      "coingeckoId": "ethereum-wormhole"
+    }
   }
 ]
