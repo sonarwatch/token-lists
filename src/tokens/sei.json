@@ -47,9 +47,38 @@
     "decimals": 8,
     "name": "Wrapped Ether",
     "symbol": "WETH",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png",
-    "extensions": {
-      "coingeckoId": "ethereum-wormhole"
-    }
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png"
+  },
+  {
+    "chainId": 1,
+    "address": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7edDfnf4mku8So3t4Do215GNHwASEwCWrdhM5GqD51xZ",
+    "decimals": 6,
+    "name": "Wrapped USDC from Arbitrum (Wormhole)",
+    "symbol": "USDCar",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
+  },
+  {
+    "chainId": 1,
+    "address": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/871jbn9unTavWsAe83f2Ma9GJWSv6BKsyWYLiQ6z3Pva",
+    "decimals": 8,
+    "name": "Wrapped USDC from BSC (Wormhole)",
+    "symbol": "USDTbs",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDT.png"
+  },
+  {
+    "chainId": 1,
+    "address": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3VKKYtbQ9iq8f9CaZfgR6Cr3TUj6ypXPAn6kco6wjcAu",
+    "decimals": 6,
+    "name": "Wrapped USDC from Optimism (Wormhole)",
+    "symbol": "USDCop",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
+  },
+  {
+    "chainId": 1,
+    "address": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/DUVFMY2neJdL8aE4d3stcpttDDm5aoyfGyVvm29iA9Yp",
+    "decimals": 6,
+    "name": "Wrapped USDC from Polygon  (Wormhole)",
+    "symbol": "USDCpo",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
   }
 ]
