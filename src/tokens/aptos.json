@@ -16,7 +16,7 @@
     "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
     "decimals": 6,
     "name": "Wormhole USD Coin",
-    "symbol": "USDC",
+    "symbol": "USDCet",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-from-ethereum"
