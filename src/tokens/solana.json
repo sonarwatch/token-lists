@@ -5023,6 +5023,15 @@
   },
   {
     "chainId": 101,
+    "address": "BLZEEuZUBVqFhj8adcCFPJvPVCiCyVmh3hkJMrU8KuJA",
+    "symbol": "BLZ",
+    "name": "Blaze",
+    "decimals": 9,
+    "logoURI": "https://solblaze.org/assets/blze.png",
+    "extensions": { "coingeckoId": "solblaze" }
+  },
+  {
+    "chainId": 101,
     "address": "27NnGuWWsJ2aJvG85D27eiYBCcfc8LcFcvuW5yHM6gSz",
     "symbol": "BLC",
     "name": "bl Coin",
