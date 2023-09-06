@@ -106,5 +106,16 @@
     "extensions": {
       "coingeckoId": "suiswap"
     }
+  },
+  {
+    "chainId": 1,
+    "address": "0x5d1f47ea69bb0de31c313d7acf89b890dbb8991ea8e03c6c355171f84bb1ba4a::turbos::TURBOS",
+    "decimals": 9,
+    "name": "Turbos Finance",
+    "symbol": "TURBOS",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x1d58e26e85fbf9ee8596872686da75544342487f95b1773be3c9a49ab1061b19_suia_token_SUIA_TOKEN.png",
+    "extensions": {
+      "coingeckoId": "turbos-finance"
+    }
   }
 ]
