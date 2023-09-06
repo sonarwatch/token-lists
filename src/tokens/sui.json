@@ -54,7 +54,7 @@
   },
   {
     "chainId": 1,
-    "address": "0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
+    "address": "0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
     "decimals": 9,
     "name": "Cetus Protocol",
     "symbol": "CETUS",
