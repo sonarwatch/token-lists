@@ -117,5 +117,13 @@
     "extensions": {
       "coingeckoId": "turbos-finance"
     }
+  },
+  {
+    "chainId": 1,
+    "address": "0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK",
+    "decimals": 9,
+    "name": "Bucket USD",
+    "symbol": "BUCK",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/bucket-usd.png"
   }
 ]
