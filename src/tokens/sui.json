@@ -1,7 +1,7 @@
 [
   {
     "chainId": 1,
-    "address": "0x2::sui::SUI",
+    "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
     "decimals": 9,
     "name": "Sui Coin",
     "symbol": "SUI",
