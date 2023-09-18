@@ -188,5 +188,12 @@
     "extensions": {
       "coingeckoId": "move-dollar"
     }
+  },
+  {
+    "chainId": 1,
+    "address": "0xdc363e24e0d465bbfa4906b72526362cc2025f19091b9610544bbe7b08ab0021::arc_coin::ARC_Coin",
+    "decimals": 6,
+    "name": "ARC",
+    "symbol": "ARC"
   }
 ]
