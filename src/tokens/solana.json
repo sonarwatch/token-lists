@@ -55216,7 +55216,7 @@
     "symbol": "DUST",
     "name": "DUST Protocol",
     "decimals": 9,
-    "logoURI": "https://gateway.pinata.cloud/ipfs/Qmb5qNLPhR8fJaz5MN1W55iSCXdNgMMSdWn94Z9oiFjw3o",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/dust.png",
     "extensions": {
       "coingeckoId": "dust-protocol"
     }
@@ -55256,7 +55256,10 @@
     "symbol": "2080",
     "name": "2080",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2080.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2080.png",
+    "extensions": {
+      "coingeckoId": "2080"
+    }
   },
   {
     "chainId": 101,
