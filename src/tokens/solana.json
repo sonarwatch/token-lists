@@ -55257,5 +55257,13 @@
     "name": "2080",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2080.png"
+  },
+  {
+    "chainId": 101,
+    "address": "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
+    "symbol": "LST",
+    "name": "Liquid Staking Token",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp.png"
   }
 ]
