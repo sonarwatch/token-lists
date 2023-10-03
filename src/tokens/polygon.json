@@ -308,5 +308,16 @@
     "extensions": {
       "coingeckoId": "nusd"
     }
+  },
+  {
+    "name": "Wrapped stETH",
+    "address": "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/5013/thumb/sUSD.png?1616150765",
+    "extensions": {
+      "coingeckoId": "wrapped-steth"
+    }
   }
 ]
