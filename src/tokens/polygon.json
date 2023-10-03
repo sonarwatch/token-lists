@@ -315,7 +315,7 @@
     "symbol": "wstETH",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://assets.coingecko.com/coins/images/5013/thumb/sUSD.png?1616150765",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/wstETH.png",
     "extensions": {
       "coingeckoId": "wrapped-steth"
     }
