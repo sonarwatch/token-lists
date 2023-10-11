@@ -308,5 +308,16 @@
     "extensions": {
       "coingeckoId": "nusd"
     }
+  },
+  {
+    "name": "Wrapped stETH",
+    "address": "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/wstETH.png",
+    "extensions": {
+      "coingeckoId": "wrapped-steth"
+    }
   }
 ]
