@@ -47,7 +47,7 @@
     "decimals": 6,
     "name": "Layerzero Wrapped Ether",
     "symbol": "WETH",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/ETH.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png"
   },
   {
     "chainId": 1,
