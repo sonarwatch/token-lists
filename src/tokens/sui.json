@@ -125,5 +125,13 @@
     "name": "Bucket USD",
     "symbol": "BUCK",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/bucket-usd.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0x9a5502414b5d51d01c8b5641db7436d789fa15a245694b24aa37c25c2a6ce001::scb::SCB",
+    "decimals": 5,
+    "name": "Sacabam",
+    "symbol": "SCB",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/sacabam.png"
   }
 ]
