@@ -55268,5 +55268,21 @@
     "name": "Liquid Staking Token",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp.png"
+  },
+  {
+    "chainId": 101,
+    "address": "GDfnEsia2WLAW5t8yx2X5j2mkfA74i5kwGdDuZHt7XmG",
+    "symbol": "CROWN",
+    "name": "Crown Token",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/crown.png"
+  },
+  {
+    "chainId": 101,
+    "address": "BqVHWpwUDgMik5gbTciFfozadpE2oZth5bxCDrgbDt52",
+    "symbol": "OPOS",
+    "name": "Only Possible On Solana",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/OPOS.png"
   }
 ]
