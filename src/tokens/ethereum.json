@@ -5,7 +5,19 @@
     "decimals": 18,
     "name": "Ether",
     "symbol": "ETH",
-    "logoURI": "https://sonar.watch/img/tokens/ETH.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/ETH.png",
+    "tags": ["native"],
+    "extensions": {
+      "coingeckoId": "ethereum"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "decimals": 18,
+    "name": "Ether",
+    "symbol": "ETH",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/ETH.png",
     "tags": ["native"],
     "extensions": {
       "coingeckoId": "ethereum"
@@ -17,7 +29,7 @@
     "name": "WETH",
     "symbol": "WETH",
     "decimals": 18,
-    "logoURI": "https://sonar.watch/img/tokens/WETH.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png",
     "tags": ["wnative"],
     "extensions": {
       "coingeckoId": "weth"
@@ -38,5 +50,13 @@
     "symbol": "sDAI",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/ethereum/0x83F20F44975D03b1b09e64809B757c47f942BEeA.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0xa1116930326D21fB917d5A27F1E9943A9595fb47",
+    "name": "Staked Aave Balance Pool Token",
+    "symbol": "stkABPT",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/ethereum/0xa1116930326D21fB917d5A27F1E9943A9595fb47.png"
   }
 ]
