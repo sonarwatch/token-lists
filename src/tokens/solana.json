@@ -55308,5 +55308,13 @@
     "name": "Helium Mobile",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/mobile.png"
+  },
+  {
+    "chainId": 101,
+    "address": "Hjr9QG1mNUJfa3H4an1NH1xni8nDeBreoH83oMzrzwem",
+    "symbol": "vCYPH",
+    "name": "Cypher Voucher",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/vCYPH.png"
   }
 ]
