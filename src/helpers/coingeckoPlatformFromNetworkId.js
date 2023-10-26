@@ -1,6 +1,7 @@
 const platforms = {
   aptos: "aptos",
   avalanche: "avalanche",
+  bnb: "binance-smart-chain",
   ethereum: "ethereum",
   optimism: "optimistic-ethereum",
   polygon: "polygon-pos",

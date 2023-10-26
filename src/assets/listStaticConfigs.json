@@ -21,6 +21,13 @@
     "chainId": 1,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
   },
+  "bnb": {
+    "id": "bnb",
+    "name": "BNB Smart Chain",
+    "addressType": "evm",
+    "chainId": 56,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
+  },
   "ethereum": {
     "id": "ethereum",
     "name": "Ethereum",

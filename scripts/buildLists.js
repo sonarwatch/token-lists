@@ -1,6 +1,7 @@
 const aptosList = require("../build/sonarwatch.aptos.tokenlist.json");
 const avalancheList = require("../build/sonarwatch.avalanche.tokenlist.json");
 const bitcoinList = require("../build/sonarwatch.bitcoin.tokenlist.json");
+const bnbList = require("../build/sonarwatch.bnb.tokenlist.json");
 const ethereumList = require("../build/sonarwatch.ethereum.tokenlist.json");
 const optimismList = require("../build/sonarwatch.optimism.tokenlist.json");
 const polygonList = require("../build/sonarwatch.polygon.tokenlist.json");
@@ -12,6 +13,7 @@ const lists = {
   aptos: aptosList,
   avalanche: avalancheList,
   bitcoin: bitcoinList,
+  bnb: bnbList,
   ethereum: ethereumList,
   optimism: optimismList,
   polygon: polygonList,

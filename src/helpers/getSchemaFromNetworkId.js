@@ -10,6 +10,7 @@ const schemaByNetworkId = {
   bitcoin: bitcoinSchema,
   ethereum: evmSchema,
   optimism: evmSchema,
+  bnb: evmSchema,
   polygon: evmSchema,
   solana: solanaSchema,
   sui: moveSchema,
