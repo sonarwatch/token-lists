@@ -10,5 +10,17 @@
     "extensions": {
       "coingeckoId": "binancecoin"
     }
+  },
+  {
+    "chainId": 56,
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BNB.png",
+    "tags": ["wnative"],
+    "extensions": {
+      "coingeckoId": "wbnb"
+    }
   }
 ]
