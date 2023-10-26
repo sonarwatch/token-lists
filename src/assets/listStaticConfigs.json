@@ -26,7 +26,8 @@
     "name": "BNB",
     "addressType": "evm",
     "chainId": 56,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://bsc.publicnode.com"
   },
   "ethereum": {
     "id": "ethereum",
