@@ -5023,6 +5023,15 @@
   },
   {
     "chainId": 101,
+    "address": "BLZEEuZUBVqFhj8adcCFPJvPVCiCyVmh3hkJMrU8KuJA",
+    "symbol": "BLZ",
+    "name": "Blaze",
+    "decimals": 9,
+    "logoURI": "https://solblaze.org/assets/blze.png",
+    "extensions": { "coingeckoId": "solblaze" }
+  },
+  {
+    "chainId": 101,
     "address": "27NnGuWWsJ2aJvG85D27eiYBCcfc8LcFcvuW5yHM6gSz",
     "symbol": "BLC",
     "name": "bl Coin",
@@ -55207,7 +55216,7 @@
     "symbol": "DUST",
     "name": "DUST Protocol",
     "decimals": 9,
-    "logoURI": "https://gateway.pinata.cloud/ipfs/Qmb5qNLPhR8fJaz5MN1W55iSCXdNgMMSdWn94Z9oiFjw3o",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/dust.png",
     "extensions": {
       "coingeckoId": "dust-protocol"
     }
@@ -55240,5 +55249,72 @@
     "symbol": "CKKA",
     "name": "CIKKA",
     "decimals": 9
+  },
+  {
+    "chainId": 101,
+    "address": "Dwri1iuy5pDFf2u2GwwsH2MxjR6dATyDv9En9Jk8Fkof",
+    "symbol": "2080",
+    "name": "2080",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2080.png",
+    "extensions": {
+      "coingeckoId": "2080"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
+    "symbol": "LST",
+    "name": "Liquid Staking Token",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp.png"
+  },
+  {
+    "chainId": 101,
+    "address": "GDfnEsia2WLAW5t8yx2X5j2mkfA74i5kwGdDuZHt7XmG",
+    "symbol": "CROWN",
+    "name": "Crown Token",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/crown.png"
+  },
+  {
+    "chainId": 101,
+    "address": "BqVHWpwUDgMik5gbTciFfozadpE2oZth5bxCDrgbDt52",
+    "symbol": "OPOS",
+    "name": "Only Possible On Solana",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/OPOS.png"
+  },
+  {
+    "chainId": 101,
+    "address": "iotEVVZLEywoTn1QdwNPddxPWszn3zFhEot3MfL9fns",
+    "symbol": "IOT",
+    "name": "Helium IOT",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/iot.png"
+  },
+  {
+    "chainId": 101,
+    "address": "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux",
+    "symbol": "HNT",
+    "name": "Helium Network Token",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/hnt.png"
+  },
+  {
+    "chainId": 101,
+    "address": "mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6",
+    "symbol": "MOBILE",
+    "name": "Helium Mobile",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/mobile.png"
+  },
+  {
+    "chainId": 101,
+    "address": "Hjr9QG1mNUJfa3H4an1NH1xni8nDeBreoH83oMzrzwem",
+    "symbol": "vCYPH",
+    "name": "Cypher Voucher",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/vCYPH.png"
   }
 ]

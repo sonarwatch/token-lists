@@ -92,6 +92,17 @@
   {
     "name": "USDCoin",
     "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "extensions": {
+      "coingeckoId": "usd-coin"
+    }
+  },
+  {
+    "name": "USDCoin",
+    "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
     "symbol": "USDC",
     "decimals": 6,
     "chainId": 137,
@@ -307,6 +318,17 @@
     "logoURI": "https://assets.coingecko.com/coins/images/5013/thumb/sUSD.png?1616150765",
     "extensions": {
       "coingeckoId": "nusd"
+    }
+  },
+  {
+    "name": "Wrapped stETH",
+    "address": "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/wstETH.png",
+    "extensions": {
+      "coingeckoId": "wrapped-steth"
     }
   }
 ]

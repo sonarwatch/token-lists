@@ -16,7 +16,7 @@
     "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
     "decimals": 6,
     "name": "Wormhole USD Coin",
-    "symbol": "USDC",
+    "symbol": "USDCet",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-from-ethereum"
@@ -47,7 +47,7 @@
     "decimals": 6,
     "name": "Layerzero Wrapped Ether",
     "symbol": "WETH",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/ETH.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png"
   },
   {
     "chainId": 1,
@@ -188,5 +188,12 @@
     "extensions": {
       "coingeckoId": "move-dollar"
     }
+  },
+  {
+    "chainId": 1,
+    "address": "0xdc363e24e0d465bbfa4906b72526362cc2025f19091b9610544bbe7b08ab0021::arc_coin::ARC_Coin",
+    "decimals": 6,
+    "name": "ARC",
+    "symbol": "ARC"
   }
 ]
