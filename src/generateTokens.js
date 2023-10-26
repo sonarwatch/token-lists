@@ -14,7 +14,7 @@ const tokenGenerators = {
   aptos: () => aptosTokens,
   avalanche: () => getEvmTokensFromCoingecko("avalanche", avalancheTokens),
   bitcoin: () => bitcoinTokens,
-  bnb: () => bnbTokens,
+  bnb: () => getEvmTokensFromCoingecko("bnb", bnbTokens),
   ethereum: getEthereumTokens,
   optimism: () => getEvmTokensFromCoingecko("optimism", optimismTokens),
   polygon: () => getEvmTokensFromCoingecko("polygon", polygonTokens),
