@@ -86,7 +86,7 @@ module.exports = async function getEvmTokensFromCoingecko(
       address,
       decimals,
       name: coinDetails.name.substring(0, 64),
-      symbol: coinDetails.symbol.toUpperCase(),
+      symbol: coinDetails.symbol.toUpperCase().replaceAll(" ", ""),
       logoURI,
       extensions: {
         coingeckoId: coinDetails.id,
