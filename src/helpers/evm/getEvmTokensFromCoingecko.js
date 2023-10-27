@@ -56,8 +56,11 @@ module.exports = async function getEvmTokensFromCoingecko(
     chainId
   );
 
-  for (let i = 0; i < coinsListRes.data.length; i++) {
-    const coin = coinsListRes.data[i];
+  const coinsListResDataSuhffled = coinsListRes.data.sort(
+    (a, b) => 0.5 - Math.random()
+  );
+  for (let i = 0; i < 500; i++) {
+    const coin = coinsListResDataSuhffled[i];
     if (!coin.id || !coin.platforms || !coin.platforms[platform]) continue;
     const address = getAddress(coin.platforms[platform]);
     if (tokensByAddress.get(address)) continue;
