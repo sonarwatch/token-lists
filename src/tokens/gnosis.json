@@ -1,0 +1,26 @@
+[
+  {
+    "chainId": 100,
+    "address": "0x0000000000000000000000000000000000000000",
+    "decimals": 18,
+    "name": "Ether",
+    "symbol": "ETH",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/ETH.png",
+    "tags": ["native"],
+    "extensions": {
+      "coingeckoId": "ethereum"
+    }
+  },
+  {
+    "chainId": 100,
+    "address": "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
+    "decimals": 18,
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png",
+    "tags": ["wnative"],
+    "extensions": {
+      "coingeckoId": "weth"
+    }
+  }
+]
