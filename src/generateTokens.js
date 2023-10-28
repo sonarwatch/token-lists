@@ -31,7 +31,7 @@ const tokenGenerators = {
   linea: () => getEvmTokensFromCoingecko("linea", lineaTokens),
   scroll: () => getEvmTokensFromCoingecko("scroll", scrollTokens),
   starknet: () => starknetTokens,
-  zksync: () => getEvmTokensFromCoingecko("zksync", zksyncTokens),
+  zksync: () => zksyncTokens,
   "polygon-zkevm": () =>
     getEvmTokensFromCoingecko("polygon-zkevm", polygonZkEvmTokens),
   ethereum: getEthereumTokens,
