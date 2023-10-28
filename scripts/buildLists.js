@@ -31,7 +31,7 @@ const lists = {
   scroll: scrollList,
   starknet: starknetList,
   zksync: zksyncList,
-  polygon-zkevm: polygonZkEvmList,
+  "polygon-zkevm": polygonZkEvmList,
   ethereum: ethereumList,
   optimism: optimismList,
   polygon: polygonList,
