@@ -17,7 +17,7 @@ module.exports = function generateList(listConfig) {
     },
     tags: {},
     logoURI: listConfig.logoURI,
-    keywords: ["sonarwatch", listConfig.id],
+    keywords: ["sonarwatch", listConfig.id.replaceAll("-", "")],
     tokens: listConfig.tokens,
   };
 
