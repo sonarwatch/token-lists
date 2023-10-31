@@ -55201,17 +55201,6 @@
   },
   {
     "chainId": 101,
-    "address": "H1G6sZ1WDoMmMCFqBKAbg9gkQPCo1sKQtaJWz9dHmqZr",
-    "symbol": "SBONK",
-    "name": "SHIBONK",
-    "decimals": 9,
-    "logoURI": "https://gateway.ipfscdn.io/ipfs/QmfE1pfU2NnyoxRJGcwqzkVL4VX5BwPtfmoQsdP1h9WRok/0",
-    "extensions": {
-      "coingeckoId": "shibonk-311f81df-a4ea-4f31-9e61-df0af8211bd7"
-    }
-  },
-  {
-    "chainId": 101,
     "address": "DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ",
     "symbol": "DUST",
     "name": "DUST Protocol",
