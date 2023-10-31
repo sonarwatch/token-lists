@@ -94,6 +94,7 @@
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",
     "axios": "^1.2.6",
-    "chain-registry": "^1.19.0"
+    "chain-registry": "^1.19.0",
+    "sharp": "^0.32.6"
   }
 }
