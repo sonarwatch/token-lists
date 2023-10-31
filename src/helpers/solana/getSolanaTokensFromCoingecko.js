@@ -15,13 +15,11 @@ module.exports = async function getSolanaTokensFromCoingecko(
   networkId,
   baseTokens
 ) {
-  console.log("getSolanaTokensFromCoingecko:");
   const currentList = await axios
     .get(
       `https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.${networkId}.tokenlist.json`
     )
     .catch(() => null);
-  console.log("currentList:", currentList);
 
   if (!currentList || !currentList.data || !currentList.data.tokens)
     throw new Error("Failed to fetch current list");
@@ -49,14 +47,12 @@ module.exports = async function getSolanaTokensFromCoingecko(
   const chainId = listStaticConfigs[networkId]?.chainId;
   if (!chainId) throw new Error("List static config or chainId is missing ");
   const rpcEndpoint = listStaticConfigs[networkId]?.rpcEndpoint;
-  console.log("rpcEndpoint:", rpcEndpoint);
   if (!rpcEndpoint)
     throw new Error("List static config or rpcEndpoint is missing ");
   const connection = new Connection(rpcEndpoint);
 
   for (let i = 0; i < coinsListRes.data.length; i++) {
     const coin = coinsListRes.data[i];
-    console.log("coin:", coin);
     if (!coin.id || !coin.platforms || !coin.platforms[platform]) continue;
     const address = coin.platforms[platform];
     if (tokensByAddress.get(address)) continue;
@@ -69,16 +65,12 @@ module.exports = async function getSolanaTokensFromCoingecko(
           sparkline: false,
         },
       })
-      .catch((e) => {
-        console.error(e);
-      });
+      .catch(() => null);
     await sleep(4000);
     if (!coinDetailsResponse || !coinDetailsResponse.data) continue;
     const coinDetails = coinDetailsResponse.data;
-    console.log("coinDetails:", coinDetails);
 
     const { decimals } = await getMint(connection, new PublicKey(address));
-    console.log("decimals:", decimals);
 
     if (decimals === null) continue;
     const isUriValid = uriValidate(coinDetails.image.small);
@@ -94,7 +86,6 @@ module.exports = async function getSolanaTokensFromCoingecko(
         coingeckoId: coinDetails.id,
       },
     };
-    console.log("token:", token);
     tokensByAddress.set(address, token);
   }
   await sleep(10000);
