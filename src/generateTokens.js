@@ -18,6 +18,7 @@ const suiTokens = require("./tokens/sui.json");
 const seiTokens = require("./tokens/sei.json");
 const getEthereumTokens = require("./helpers/evm/getEthereumTokens");
 const getEvmTokensFromCoingecko = require("./helpers/evm/getEvmTokensFromCoingecko");
+const getSolanaTokensFromCoingecko = require("./helpers/solana/getSolanaTokensFromCoingecko");
 
 const tokenGenerators = {
   aptos: () => aptosTokens,
@@ -37,7 +38,7 @@ const tokenGenerators = {
   ethereum: getEthereumTokens,
   optimism: () => getEvmTokensFromCoingecko("optimism", optimismTokens),
   polygon: () => getEvmTokensFromCoingecko("polygon", polygonTokens),
-  solana: () => solanaTokens,
+  solana: () => getSolanaTokensFromCoingecko("solana", solanaTokens),
   sui: () => suiTokens,
   sei: () => seiTokens,
 };
