@@ -22,7 +22,10 @@ module.exports = async function getSolanaTokensFromOnChain(alreadyFetchedSet) {
     await sleep(500);
     if (!token) continue;
     await saveImage(token.logoURI, `images/solana/${token.address}.png`);
-    tokens.push(token);
+    token.logoURI = tokens.push({
+      ...token,
+      logoURI: `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${token.address}.png`,
+    });
   }
   return tokens;
 };
