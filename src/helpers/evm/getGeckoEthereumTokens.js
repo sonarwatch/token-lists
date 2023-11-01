@@ -1,10 +1,12 @@
 const { getAddress } = require("@ethersproject/address");
+const sleep = require("../sleep");
 const axios = require("axios");
 
 module.exports = async function getGeckoEthereumTokens() {
   const listRes = await axios.get(
     "https://tokens.coingecko.com/uniswap/all.json"
   );
+
   if (!listRes || !listRes.data || !listRes.data.tokens)
     throw new Error("Failed to fetch Coingecko's token list");
 
@@ -16,6 +18,7 @@ module.exports = async function getGeckoEthereumTokens() {
       },
     }
   );
+  await sleep(30000);
   if (!coinsListRes || !coinsListRes.data)
     throw new Error("Failed to fetch Coingecko's coins list");
 
