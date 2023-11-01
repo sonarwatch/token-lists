@@ -1,6 +1,7 @@
 const { default: axios } = require("axios");
 const getSolanaOnChainTokenFromMint = require("./getSolanaOnChainTokenFromMint");
 const sleep = require("../sleep");
+const shuffleArray = require("../shuffleArray");
 const saveImage = require("../saveImage");
 
 module.exports = async function getSolanaTokensFromOnChain(alreadyFetchedSet) {
@@ -12,9 +13,10 @@ module.exports = async function getSolanaTokensFromOnChain(alreadyFetchedSet) {
   const data = response.data;
   if (!data) return [];
   const tokens = [];
-  const mints = data
+  let mints = data
     .filter((str) => str.startsWith("tokenpricesource/solana/"))
     .map((str) => str.replace("tokenpricesource/solana/", ""));
+  mints = shuffleArray(mints);
   for (let i = 0; i < mints.length; i++) {
     const mint = mints[i];
     if (alreadyFetchedSet.has(mint)) continue;
