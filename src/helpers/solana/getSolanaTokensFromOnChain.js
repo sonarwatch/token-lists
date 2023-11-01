@@ -28,7 +28,6 @@ module.exports = async function getSolanaTokensFromOnChain(alreadyFetchedSet) {
       ...token,
       logoURI: `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${token.address}.png`,
     });
-    if (tokens.length === 3) break;
   }
   return tokens;
 };
