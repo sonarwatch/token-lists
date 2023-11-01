@@ -1,7 +1,8 @@
 {
   "git": {
     "push": true,
-    "commit": true
+    "commit": true,
+    "addUntrackedFiles": true
   },
   "github": {
     "release": false
