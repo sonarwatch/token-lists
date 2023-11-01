@@ -1,6 +1,7 @@
 const axios = require("axios");
 const getSolanaTokensFromCoingecko = require("./getSolanaTokensFromCoingecko");
 const getSolanaTokensFromOnChain = require("./getSolanaTokensFromOnChain");
+const getTokensFromList = require("../getTokensFromList");
 
 module.exports = async function getSolanaTokens(networkId, baseTokens) {
   const tokensByAddress = new Map();
@@ -18,19 +19,20 @@ module.exports = async function getSolanaTokens(networkId, baseTokens) {
   });
 
   // Add from json
-  baseTokens.forEach((token) => {
+  const listTokens = getTokensFromList(networkId);
+  listTokens.forEach((token) => {
     tokensByAddress.set(token.address, token);
   });
 
   // Add from coingecko
   let alreadyFetchedSet = new Set(Array.from(tokensByAddress.values()));
-  const geckoTokens = await getSolanaTokensFromCoingecko(
-    "solana",
-    alreadyFetchedSet
-  );
-  geckoTokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
+  // const geckoTokens = await getSolanaTokensFromCoingecko(
+  //   "solana",
+  //   alreadyFetchedSet
+  // );
+  // geckoTokens.forEach((token) => {
+  //   tokensByAddress.set(token.address, token);
+  // });
 
   // Add from on chain metadata
   alreadyFetchedSet = new Set(Array.from(tokensByAddress.values()));
