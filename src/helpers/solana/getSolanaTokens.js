@@ -20,7 +20,9 @@ module.exports = async function getSolanaTokens(networkId) {
   });
 
   // Add from coingecko
-  let alreadyFetchedSet = new Set(Array.from(tokensByAddress.values()));
+  let alreadyFetchedSet = new Set(
+    Array.from(tokensByAddress.values()).map((t) => t.address)
+  );
   const geckoTokens = await getSolanaTokensFromCoingecko(
     "solana",
     alreadyFetchedSet
@@ -30,7 +32,9 @@ module.exports = async function getSolanaTokens(networkId) {
   });
 
   // Add from on chain metadata
-  alreadyFetchedSet = new Set(Array.from(tokensByAddress.values()));
+  alreadyFetchedSet = new Set(
+    Array.from(tokensByAddress.values()).map((t) => t.address)
+  );
   const onChainTokens = await getSolanaTokensFromOnChain(alreadyFetchedSet);
   onChainTokens.forEach((token) => {
     tokensByAddress.set(token.address, token);

@@ -13,17 +13,8 @@ const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
 module.exports = async function getEvmTokensFromCoingecko(
   networkId,
-  baseTokens
+  alreadyFetchedSet
 ) {
-  const currentList = await axios
-    .get(
-      `https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.${networkId}.tokenlist.json`
-    )
-    .catch(() => null);
-
-  if (!currentList || !currentList.data || !currentList.data.tokens)
-    throw new Error("Failed to fetch current list");
-
   const coinsListRes = await axios
     .get("https://api.coingecko.com/api/v3/coins/list", {
       params: {
@@ -31,18 +22,11 @@ module.exports = async function getEvmTokensFromCoingecko(
       },
     })
     .catch(() => null);
-  await sleep(60000);
+  await sleep(45000);
   if (!coinsListRes || !coinsListRes.data)
     throw new Error("Failed to fetch Coingecko's coins list");
 
   const tokensByAddress = new Map();
-  currentList.data.tokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
-  baseTokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
-
   const platform = coingeckoPlatformFromNetworkId(networkId);
   const chainId = listStaticConfigs[networkId]?.chainId;
   if (!chainId) throw new Error("List static config or chainId is missing ");
@@ -60,6 +44,7 @@ module.exports = async function getEvmTokensFromCoingecko(
     const coin = coinsListRes.data[i];
     if (!coin.id || !coin.platforms || !coin.platforms[platform]) continue;
     const address = getAddress(coin.platforms[platform]);
+    if (alreadyFetchedSet.has(address)) continue;
     if (tokensByAddress.get(address)) continue;
     const coinDetailsResponse = await axios
       .get(`https://api.coingecko.com/api/v3/coins/${coin.id}`, {
