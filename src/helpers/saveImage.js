@@ -7,5 +7,6 @@ module.exports = async function saveImage(url, fileOut) {
       responseType: "arraybuffer",
     })
     .catch((e) => null);
+  if (!response || !response.data) return;
   await sharp(response.data).resize(64, 64).png().toFile(fileOut);
 };
