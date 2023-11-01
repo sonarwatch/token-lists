@@ -1,9 +1,10 @@
 const axios = require("axios");
 const getSolanaTokensFromCoingecko = require("./getSolanaTokensFromCoingecko");
 const getSolanaTokensFromOnChain = require("./getSolanaTokensFromOnChain");
+const getTokensFromCurrentList = require("../getTokensFromCurrentList");
 const getTokensFromList = require("../getTokensFromList");
 
-module.exports = async function getSolanaTokens(networkId, baseTokens) {
+module.exports = async function getSolanaTokens(networkId) {
   const tokensByAddress = new Map();
 
   // Fetch from current version
