@@ -1,4 +1,7 @@
 {
+  "git": {
+    "push": true
+  },
   "github": {
     "release": false
   },
