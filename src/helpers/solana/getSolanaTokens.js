@@ -6,12 +6,16 @@ const getTokensFromList = require("../getTokensFromList");
 
 module.exports = async function getSolanaTokens(networkId) {
   const tokensByAddress = new Map();
+  const random = Math.random();
+  const runTokensFromOnChain = random < 0.1;
 
   // Fetch from current version
-  const currentTokens = await getTokensFromCurrentList(networkId);
-  currentTokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
+  if (!runTokensFromOnChain) {
+    const currentTokens = await getTokensFromCurrentList(networkId);
+    currentTokens.forEach((token) => {
+      tokensByAddress.set(token.address, token);
+    });
+  }
 
   // Add from json
   const listTokens = getTokensFromList(networkId);
@@ -32,7 +36,7 @@ module.exports = async function getSolanaTokens(networkId) {
   });
 
   // Add from on chain metadata (10% chance to bu runned)
-  if (Math.random() < 0.1) {
+  if (runTokensFromOnChain) {
     alreadyFetchedSet = new Set(
       Array.from(tokensByAddress.values()).map((t) => t.address)
     );
