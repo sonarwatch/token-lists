@@ -31,14 +31,16 @@ module.exports = async function getSolanaTokens(networkId) {
     tokensByAddress.set(token.address, token);
   });
 
-  // Add from on chain metadata
-  alreadyFetchedSet = new Set(
-    Array.from(tokensByAddress.values()).map((t) => t.address)
-  );
-  const onChainTokens = await getSolanaTokensFromOnChain(alreadyFetchedSet);
-  onChainTokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
+  // Add from on chain metadata (10% chance to bu runned)
+  if (Math.random() < 0.1) {
+    alreadyFetchedSet = new Set(
+      Array.from(tokensByAddress.values()).map((t) => t.address)
+    );
+    const onChainTokens = await getSolanaTokensFromOnChain(alreadyFetchedSet);
+    onChainTokens.forEach((token) => {
+      tokensByAddress.set(token.address, token);
+    });
+  }
 
   return Array.from(tokensByAddress.values());
 };
