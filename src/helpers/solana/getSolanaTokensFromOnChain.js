@@ -21,14 +21,13 @@ module.exports = async function getSolanaTokensFromOnChain(alreadyFetchedSet) {
     const mint = mints[i];
     if (alreadyFetchedSet.has(mint)) continue;
     const token = await getSolanaOnChainTokenFromMint(mint).catch((e) => null);
-    await sleep(500);
+    await sleep(1000);
     if (!token) continue;
     await saveImage(token.logoURI, `images/solana/${token.address}.png`);
     token.logoURI = tokens.push({
       ...token,
       logoURI: `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${token.address}.png`,
     });
-    break;
   }
   return tokens;
 };
