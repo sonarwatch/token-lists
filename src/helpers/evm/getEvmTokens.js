@@ -13,23 +13,23 @@ module.exports = async function getEvmTokens(networkId) {
     tokensByAddress.set(token.address, token);
   });
 
-  if (networkId === "ethereum") {
-    const geckoEthTokens = await getGeckoEthereumTokens();
-    geckoEthTokens.forEach((token) => {
-      tokensByAddress.set(token.address, token);
-    });
-  } else {
-    const alreadyFetchedSet = new Set(
-      Array.from(tokensByAddress.values()).map((t) => t.address)
-    );
-    const geckoTokens = await getEvmTokensFromCoingecko(
-      networkId,
-      alreadyFetchedSet
-    );
-    geckoTokens.forEach((token) => {
-      tokensByAddress.set(token.address, token);
-    });
-  }
+  // if (networkId === "ethereum") {
+  //   const geckoEthTokens = await getGeckoEthereumTokens();
+  //   geckoEthTokens.forEach((token) => {
+  //     tokensByAddress.set(token.address, token);
+  //   });
+  // } else {
+  //   const alreadyFetchedSet = new Set(
+  //     Array.from(tokensByAddress.values()).map((t) => t.address)
+  //   );
+  //   const geckoTokens = await getEvmTokensFromCoingecko(
+  //     networkId,
+  //     alreadyFetchedSet
+  //   );
+  //   geckoTokens.forEach((token) => {
+  //     tokensByAddress.set(token.address, token);
+  //   });
+  // }
 
   // Add from json
   const listTokens = getTokensFromList(networkId);
