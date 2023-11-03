@@ -6,16 +6,13 @@ const getTokensFromList = require("../getTokensFromList");
 
 module.exports = async function getSolanaTokens(networkId) {
   const tokensByAddress = new Map();
-  const random = Math.random();
-  const runTokensFromOnChain = random < 0.1;
 
   // Fetch from current version
-  if (runTokensFromOnChain === false) {
-    const currentTokens = await getTokensFromCurrentList(networkId);
-    currentTokens.forEach((token) => {
-      tokensByAddress.set(token.address, token);
-    });
-  }
+  const currentTokens = await getTokensFromCurrentList(networkId);
+  currentTokens.forEach((token) => {
+    if (Math.random() < 0.05) return;
+    tokensByAddress.set(token.address, token);
+  });
 
   // Add from json
   const listTokens = getTokensFromList(networkId);

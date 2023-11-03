@@ -6,16 +6,13 @@ const getEvmTokensFromCoingecko = require("./getEvmTokensFromCoingecko");
 
 module.exports = async function getEvmTokens(networkId) {
   const tokensByAddress = new Map();
-  const random = Math.random();
-  const ignoreCurrentList = random < 0.25;
 
   // Fetch from current version
-  if (ignoreCurrentList === true) {
-    const currentTokens = await getTokensFromCurrentList(networkId);
-    currentTokens.forEach((token) => {
-      tokensByAddress.set(token.address, token);
-    });
-  }
+  const currentTokens = await getTokensFromCurrentList(networkId);
+  currentTokens.forEach((token) => {
+    if (Math.random() < 0.05) return;
+    tokensByAddress.set(token.address, token);
+  });
 
   if (networkId === "ethereum") {
     const geckoEthTokens = await getGeckoEthereumTokens();
