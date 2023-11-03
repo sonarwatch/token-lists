@@ -10,7 +10,7 @@ module.exports = async function getSolanaTokens(networkId) {
   const runTokensFromOnChain = random < 0.1;
 
   // Fetch from current version
-  if (!runTokensFromOnChain) {
+  if (runTokensFromOnChain === false) {
     const currentTokens = await getTokensFromCurrentList(networkId);
     currentTokens.forEach((token) => {
       tokensByAddress.set(token.address, token);
@@ -36,7 +36,7 @@ module.exports = async function getSolanaTokens(networkId) {
   });
 
   // Add from on chain metadata (10% chance to bu runned)
-  if (runTokensFromOnChain) {
+  if (runTokensFromOnChain === true) {
     alreadyFetchedSet = new Set(
       Array.from(tokensByAddress.values()).map((t) => t.address)
     );

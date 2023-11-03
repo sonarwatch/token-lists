@@ -10,7 +10,7 @@ module.exports = async function getEvmTokens(networkId) {
   const ignoreCurrentList = random < 0.25;
 
   // Fetch from current version
-  if (ignoreCurrentList) {
+  if (ignoreCurrentList === true) {
     const currentTokens = await getTokensFromCurrentList(networkId);
     currentTokens.forEach((token) => {
       tokensByAddress.set(token.address, token);
