@@ -55,9 +55,14 @@ module.exports = async function getSolanaTokensFromCoingecko(
     if (!coinDetailsResponse || !coinDetailsResponse.data) continue;
     const coinDetails = coinDetailsResponse.data;
 
-    const { decimals } = await getMint(connection, new PublicKey(address));
-
+    const mintResponse = await getMint(
+      connection,
+      new PublicKey(address)
+    ).catch((e) => null);
+    if (!mintResponse) continue;
+    const { decimals } = mintResponse;
     if (decimals === null) continue;
+
     const isUriValid = uriValidate(coinDetails.image.small);
     const logoURI = isUriValid ? coinDetails.image.small : undefined;
     const token = {
