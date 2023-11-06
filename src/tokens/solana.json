@@ -55305,5 +55305,13 @@
     "name": "Cypher Voucher",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/vCYPH.png"
+  },
+  {
+    "chainId": 101,
+    "address": "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof",
+    "symbol": "RENDER",
+    "name": "Render Token",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/rndr.png"
   }
 ]
