@@ -1,4 +1,3 @@
-const axios = require("axios");
 const getSolanaTokensFromCoingecko = require("./getSolanaTokensFromCoingecko");
 const getSolanaTokensFromOnChain = require("./getSolanaTokensFromOnChain");
 const getTokensFromCurrentList = require("../getTokensFromCurrentList");
