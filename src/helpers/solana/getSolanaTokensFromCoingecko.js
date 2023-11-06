@@ -22,7 +22,7 @@ module.exports = async function getSolanaTokensFromCoingecko(
       },
     })
     .catch(() => null);
-  await sleep(45000);
+  await sleep(60000);
   if (!coinsListRes || !coinsListRes.data)
     throw new Error("Failed to fetch Coingecko's coins list");
 

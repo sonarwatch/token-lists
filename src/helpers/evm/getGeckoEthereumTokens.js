@@ -18,7 +18,7 @@ module.exports = async function getGeckoEthereumTokens() {
       },
     }
   );
-  await sleep(30000);
+  await sleep(60000);
   if (!coinsListRes || !coinsListRes.data)
     throw new Error("Failed to fetch Coingecko's coins list");
 
