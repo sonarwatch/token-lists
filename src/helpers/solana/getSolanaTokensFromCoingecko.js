@@ -1,13 +1,12 @@
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
 const axios = require("axios");
-const { getAddress } = require("@ethersproject/address");
 const listStaticConfigs = require("../../assets/listStaticConfigs.json");
 const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkId");
 const sleep = require("../sleep");
 const uriSchema = require("../../schemas/uriSchema");
 const { Connection, PublicKey } = require("@solana/web3.js");
-const { getMint } = require("@solana/spl-token");
+const getSolanaMint = require("./getSolanaMint");
 
 const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
@@ -55,10 +54,7 @@ module.exports = async function getSolanaTokensFromCoingecko(
     if (!coinDetailsResponse || !coinDetailsResponse.data) continue;
     const coinDetails = coinDetailsResponse.data;
 
-    const mintResponse = await getMint(
-      connection,
-      new PublicKey(address)
-    ).catch((e) => null);
+    const mintResponse = await getSolanaMint(connection, address);
     if (!mintResponse) continue;
     const { decimals } = mintResponse;
     if (decimals === null) continue;

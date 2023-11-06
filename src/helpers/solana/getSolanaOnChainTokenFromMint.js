@@ -3,13 +3,13 @@ const uriSchema = require("../../schemas/uriSchema");
 const addFormats = require("ajv-formats");
 const listStaticConfigs = require("../../assets/listStaticConfigs.json");
 const { Connection, PublicKey } = require("@solana/web3.js");
-const { getMint } = require("@solana/spl-token");
 const {
   deserializeMetadata,
   findMetadataPda,
 } = require("@metaplex-foundation/mpl-token-metadata");
 const { createUmi } = require("@metaplex-foundation/umi-bundle-defaults");
 const { default: axios } = require("axios");
+const getSolanaMint = require("./getSolanaMint");
 const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
 async function getSolanaOnChainTokenFromMint(mint) {
@@ -19,9 +19,7 @@ async function getSolanaOnChainTokenFromMint(mint) {
 
   // Decimals
   const connection = new Connection(rpcEndpoint);
-  const mintResponse = await getMint(connection, new PublicKey(mint)).catch(
-    (e) => null
-  );
+  const mintResponse = await getSolanaMint(connection, mint);
   if (!mintResponse) return null;
   const decimals = mintResponse.decimals;
 
