@@ -55313,5 +55313,21 @@
     "name": "Render Token",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/rndr.png"
+  },
+  {
+    "chainId": 101,
+    "address": "2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf",
+    "symbol": "USDT-USDC",
+    "name": "Saber USDT-USDC LP",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf.png"
+  },
+  {
+    "chainId": 101,
+    "address": "SoLEao8wTzSfqhuou8rcYsVoLjthVmiXuEjzdNPMnCz",
+    "symbol": "mSOL-SOL",
+    "name": "Saber mSOL-SOL LP",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/SoLEao8wTzSfqhuou8rcYsVoLjthVmiXuEjzdNPMnCz.png"
   }
 ]
