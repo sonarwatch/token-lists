@@ -8,6 +8,7 @@ const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkI
 const sleep = require("../sleep");
 const getErc20Decimals = require("./getErc20Decimals");
 const uriSchema = require("../../schemas/uriSchema");
+const getCoingeckoCoinsList = require("../getCoingeckoCoinsList");
 
 const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
@@ -15,17 +16,7 @@ module.exports = async function getEvmTokensFromCoingecko(
   networkId,
   alreadyFetchedSet
 ) {
-  const coinsListRes = await axios
-    .get("https://api.coingecko.com/api/v3/coins/list", {
-      params: {
-        include_platform: "true",
-      },
-    })
-    .catch(() => null);
-  await sleep(60000);
-  if (!coinsListRes || !coinsListRes.data)
-    throw new Error("Failed to fetch Coingecko's coins list");
-
+  const coinsList = await getCoingeckoCoinsList();
   const tokensByAddress = new Map();
   const platform = coingeckoPlatformFromNetworkId(networkId);
   const chainId = listStaticConfigs[networkId]?.chainId;
@@ -40,8 +31,8 @@ module.exports = async function getEvmTokensFromCoingecko(
     chainId
   );
 
-  for (let i = 0; i < coinsListRes.data.length; i++) {
-    const coin = coinsListRes.data[i];
+  for (let i = 0; i < coinsList.length; i++) {
+    const coin = coinsList[i];
     if (!coin.id || !coin.platforms || !coin.platforms[platform]) continue;
     const address = getAddress(coin.platforms[platform]);
     if (alreadyFetchedSet.has(address)) continue;

@@ -1,6 +1,7 @@
 const { getAddress } = require("@ethersproject/address");
 const sleep = require("../sleep");
 const axios = require("axios");
+const getCoingeckoCoinsList = require("../getCoingeckoCoinsList");
 
 module.exports = async function getGeckoEthereumTokens() {
   const listRes = await axios.get(
@@ -10,20 +11,9 @@ module.exports = async function getGeckoEthereumTokens() {
   if (!listRes || !listRes.data || !listRes.data.tokens)
     throw new Error("Failed to fetch Coingecko's token list");
 
-  const coinsListRes = await axios.get(
-    "https://api.coingecko.com/api/v3/coins/list",
-    {
-      params: {
-        include_platform: "true",
-      },
-    }
-  );
-  await sleep(60000);
-  if (!coinsListRes || !coinsListRes.data)
-    throw new Error("Failed to fetch Coingecko's coins list");
-
+  const coinsList = await getCoingeckoCoinsList();
   const idByAddress = new Map();
-  coinsListRes.data.forEach((coin) => {
+  coinsList.forEach((coin) => {
     if (!coin.id || !coin.platforms || !coin.platforms.ethereum) return;
     const address = getAddress(coin.platforms.ethereum);
     idByAddress.set(address, coin.id);

@@ -5,8 +5,9 @@ const listStaticConfigs = require("../../assets/listStaticConfigs.json");
 const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkId");
 const sleep = require("../sleep");
 const uriSchema = require("../../schemas/uriSchema");
-const { Connection, PublicKey } = require("@solana/web3.js");
+const { Connection } = require("@solana/web3.js");
 const getSolanaMint = require("./getSolanaMint");
+const getCoingeckoCoinsList = require("../getCoingeckoCoinsList");
 
 const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
@@ -14,17 +15,7 @@ module.exports = async function getSolanaTokensFromCoingecko(
   networkId,
   alreadyFetchedSet
 ) {
-  const coinsListRes = await axios
-    .get("https://api.coingecko.com/api/v3/coins/list", {
-      params: {
-        include_platform: "true",
-      },
-    })
-    .catch(() => null);
-  await sleep(60000);
-  if (!coinsListRes || !coinsListRes.data)
-    throw new Error("Failed to fetch Coingecko's coins list");
-
+  const coinsList = await getCoingeckoCoinsList();
   const tokensByAddress = new Map();
 
   const platform = coingeckoPlatformFromNetworkId(networkId);
@@ -35,8 +26,8 @@ module.exports = async function getSolanaTokensFromCoingecko(
     throw new Error("List static config or rpcEndpoint is missing ");
   const connection = new Connection(rpcEndpoint);
 
-  for (let i = 0; i < coinsListRes.data.length; i++) {
-    const coin = coinsListRes.data[i];
+  for (let i = 0; i < coinsList.length; i++) {
+    const coin = coinsList[i];
     if (!coin.id || !coin.platforms || !coin.platforms[platform]) continue;
     const address = coin.platforms[platform];
     if (alreadyFetchedSet.has(address)) continue;
