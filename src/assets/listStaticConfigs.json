@@ -21,6 +21,85 @@
     "chainId": 1,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
   },
+  "bnb": {
+    "id": "bnb",
+    "name": "BNB",
+    "addressType": "evm",
+    "chainId": 56,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://bsc.publicnode.com"
+  },
+  "arbitrum": {
+    "id": "arbitrum",
+    "name": "Arbitrum",
+    "addressType": "evm",
+    "chainId": 42161,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://1rpc.io/arb"
+  },
+  "base": {
+    "id": "base",
+    "name": "Base",
+    "addressType": "evm",
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://base.llamarpc.com"
+  },
+  "cronos": {
+    "id": "cronos",
+    "name": "Cronos",
+    "addressType": "evm",
+    "chainId": 25,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://1rpc.io/cro"
+  },
+  "gnosis": {
+    "id": "gnosis",
+    "name": "Gnosis",
+    "addressType": "evm",
+    "chainId": 100,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://gnosis.publicnode.com"
+  },
+  "linea": {
+    "id": "linea",
+    "name": "Linea",
+    "addressType": "evm",
+    "chainId": 59144,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://1rpc.io/linea"
+  },
+  "scroll": {
+    "id": "scroll",
+    "name": "Scroll",
+    "addressType": "evm",
+    "chainId": 534352,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://1rpc.io/scroll"
+  },
+  "starknet": {
+    "id": "starknet",
+    "name": "Starknet",
+    "addressType": "starknet",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
+  },
+  "zksync": {
+    "id": "zksync",
+    "name": "zkSync",
+    "addressType": "evm",
+    "chainId": 324,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://mainnet.era.zksync.io"
+  },
+  "polygon-zkevm": {
+    "id": "polygon-zkevm",
+    "name": "Polygon ZkEvm",
+    "addressType": "evm",
+    "chainId": 1101,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
+    "rpcEndpoint": "https://1rpc.io/polygon/zkevm"
+  },
   "ethereum": {
     "id": "ethereum",
     "name": "Ethereum",
@@ -49,7 +128,8 @@
     "name": "Solana",
     "addressType": "solana",
     "chainId": 101,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_solana.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_solana.png",
+    "rpcEndpoint": "https://api.mainnet-beta.solana.com"
   },
   "sui": {
     "id": "sui",

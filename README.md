@@ -10,14 +10,24 @@ This NPM module and GitHub repo contains SonarWatch's token lists.
 ## Lists
 
 - [Aptos](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.aptos.tokenlist.json)
+- [Arbitrum](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.arbitrum.tokenlist.json)
 - [Avalanche](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.avalanche.tokenlist.json)
+- [Base](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.base.tokenlist.json)
 - [Bitcoin](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.bitcoin.tokenlist.json)
+- [BNB](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.bnb.tokenlist.json)
+- [Cronos](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.cronos.tokenlist.json)
 - [Ethereum](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.ethereum.tokenlist.json)
+- [Gnosis](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.gnosis.tokenlist.json)
+- [Linea](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.linea.tokenlist.json)
 - [Optimism](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.optimism.tokenlist.json)
+- [Polygon ZkEvm](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.polygon-zkevm.tokenlist.json)
 - [Polygon](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.polygon.tokenlist.json)
-- [Solana](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.solana.tokenlist.json)
-- [Sui](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.sui.tokenlist.json)
+- [Scroll](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.scroll.tokenlist.json)
 - [Sei](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.sei.tokenlist.json)
+- [Solana](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.solana.tokenlist.json)
+- [Starknet](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.starknet.tokenlist.json)
+- [Sui](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.sui.tokenlist.json)
+- [zkSync](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.zksync.tokenlist.json)
 
 ## Adding a token
 

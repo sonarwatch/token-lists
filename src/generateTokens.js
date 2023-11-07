@@ -1,22 +1,30 @@
 const aptosTokens = require("./tokens/aptos.json");
-const avalancheTokens = require("./tokens/avalanche.json");
 const bitcoinTokens = require("./tokens/bitcoin.json");
-const optimismTokens = require("./tokens/optimism.json");
-const polygonTokens = require("./tokens/polygon.json");
-const solanaTokens = require("./tokens/solana.json");
+const starknetTokens = require("./tokens/starknet.json");
+const zksyncTokens = require("./tokens/zksync.json");
 const suiTokens = require("./tokens/sui.json");
 const seiTokens = require("./tokens/sei.json");
-const getEthereumTokens = require("./helpers/evm/getEthereumTokens");
-const getEvmTokensFromCoingecko = require("./helpers/evm/getEvmTokensFromCoingecko");
+const getEvmTokens = require("./helpers/evm/getEvmTokens");
+const getSolanaTokens = require("./helpers/solana/getSolanaTokens");
 
 const tokenGenerators = {
   aptos: () => aptosTokens,
-  avalanche: () => getEvmTokensFromCoingecko("avalanche", avalancheTokens),
+  avalanche: () => getEvmTokens("avalanche"),
   bitcoin: () => bitcoinTokens,
-  ethereum: getEthereumTokens,
-  optimism: () => getEvmTokensFromCoingecko("optimism", optimismTokens),
-  polygon: () => getEvmTokensFromCoingecko("polygon", polygonTokens),
-  solana: () => solanaTokens,
+  bnb: () => getEvmTokens("bnb"),
+  arbitrum: () => getEvmTokens("arbitrum"),
+  base: () => getEvmTokens("base"),
+  cronos: () => getEvmTokens("cronos"),
+  gnosis: () => getEvmTokens("gnosis"),
+  linea: () => getEvmTokens("linea"),
+  scroll: () => getEvmTokens("scroll"),
+  starknet: () => starknetTokens,
+  zksync: () => zksyncTokens,
+  "polygon-zkevm": () => getEvmTokens("polygon-zkevm"),
+  ethereum: () => getEvmTokens("ethereum"),
+  optimism: () => getEvmTokens("optimism"),
+  polygon: () => getEvmTokens("polygon"),
+  solana: () => getSolanaTokens("solana"),
   sui: () => suiTokens,
   sei: () => seiTokens,
 };

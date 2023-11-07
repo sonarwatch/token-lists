@@ -8,41 +8,16 @@ const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkI
 const sleep = require("../sleep");
 const getErc20Decimals = require("./getErc20Decimals");
 const uriSchema = require("../../schemas/uriSchema");
+const getCoingeckoCoinsList = require("../getCoingeckoCoinsList");
 
 const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
 module.exports = async function getEvmTokensFromCoingecko(
   networkId,
-  baseTokens
+  alreadyFetchedSet
 ) {
-  const currentList = await axios
-    .get(
-      `https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.${networkId}.tokenlist.json`
-    )
-    .catch(() => null);
-
-  if (!currentList || !currentList.data || !currentList.data.tokens)
-    throw new Error("Failed to fetch current list");
-
-  const coinsListRes = await axios
-    .get("https://api.coingecko.com/api/v3/coins/list", {
-      params: {
-        include_platform: "true",
-      },
-    })
-    .catch(() => null);
-  await sleep(60000);
-  if (!coinsListRes || !coinsListRes.data)
-    throw new Error("Failed to fetch Coingecko's coins list");
-
+  const coinsList = await getCoingeckoCoinsList();
   const tokensByAddress = new Map();
-  currentList.data.tokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
-  baseTokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
-
   const platform = coingeckoPlatformFromNetworkId(networkId);
   const chainId = listStaticConfigs[networkId]?.chainId;
   if (!chainId) throw new Error("List static config or chainId is missing ");
@@ -56,10 +31,11 @@ module.exports = async function getEvmTokensFromCoingecko(
     chainId
   );
 
-  for (let i = 0; i < coinsListRes.data.length; i++) {
-    const coin = coinsListRes.data[i];
+  for (let i = 0; i < coinsList.length; i++) {
+    const coin = coinsList[i];
     if (!coin.id || !coin.platforms || !coin.platforms[platform]) continue;
     const address = getAddress(coin.platforms[platform]);
+    if (alreadyFetchedSet.has(address)) continue;
     if (tokensByAddress.get(address)) continue;
     const coinDetailsResponse = await axios
       .get(`https://api.coingecko.com/api/v3/coins/${coin.id}`, {
@@ -83,7 +59,7 @@ module.exports = async function getEvmTokensFromCoingecko(
       address,
       decimals,
       name: coinDetails.name.substring(0, 64),
-      symbol: coinDetails.symbol.toUpperCase(),
+      symbol: coinDetails.symbol.toUpperCase().replaceAll(" ", ""),
       logoURI,
       extensions: {
         coingeckoId: coinDetails.id,
