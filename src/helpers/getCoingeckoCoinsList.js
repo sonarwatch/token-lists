@@ -20,7 +20,7 @@ module.exports = async function getCoingeckoCoinsList() {
         `Failed to fetch Coingecko's coins list (${error.response.status})`
       );
     } else {
-      throw new Error(`Failed to fetch Coingecko's coins list`);
+      throw error;
     }
   }
 };
