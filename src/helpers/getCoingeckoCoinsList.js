@@ -11,10 +11,10 @@ module.exports = async function getCoingeckoCoinsList() {
         },
       }
     );
-    await sleep(60000);
+    await sleep(90000);
     return coinsListRes.data;
   } catch (error) {
-    await sleep(60000);
+    await sleep(90000);
     if (error.response) {
       throw new Error(
         `Failed to fetch Coingecko's coins list (${error.response.status})`
