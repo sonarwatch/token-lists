@@ -38,5 +38,11 @@ module.exports = async function getEvmTokens(networkId) {
     tokensByAddress.set(token.address, token);
   });
 
+  // Set current if not replaced
+  currentTokens.forEach((token) => {
+    if (tokensByAddress.has(token.address)) return;
+    tokensByAddress.set(token.address, token);
+  });
+
   return Array.from(tokensByAddress.values());
 };
