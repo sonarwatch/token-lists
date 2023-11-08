@@ -39402,7 +39402,7 @@
     "address": "2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq",
     "symbol": "SAO",
     "name": "Sator",
-    "decimals": 6,
+    "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq/Sator_Logo.png",
     "extensions": { "coingeckoId": "sator" }
   },
