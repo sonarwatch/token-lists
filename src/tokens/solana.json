@@ -55334,5 +55334,16 @@
     "name": "Peepo",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/n54ZwXEcLnc3o7zK48nhrLV4KTU5wWD4iq7Gvdt5tik.png"
+  },
+  {
+    "chainId": 101,
+    "address": "BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD ",
+    "symbol": "DIO",
+    "name": "Decimated",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/decimated.png",
+    "extensions": {
+      "coingeckoId": "decimated"
+    }
   }
 ]
