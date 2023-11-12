@@ -31,8 +31,8 @@ module.exports = async function getSolanaTokens(networkId) {
     tokensByAddress.set(token.address, token);
   });
 
-  // Add from on chain metadata (20% chance to be runned)
-  if (Math.random() < 0.2) {
+  // Add from on chain metadata (50% chance to be runned)
+  if (Math.random() < 0.5) {
     alreadyFetchedSet = new Set(
       Array.from(tokensByAddress.values()).map((t) => t.address)
     );
