@@ -2,14 +2,10 @@ const Ajv = require("ajv");
 const uriSchema = require("../../schemas/uriSchema");
 const addFormats = require("ajv-formats");
 const listStaticConfigs = require("../../assets/listStaticConfigs.json");
-const { Connection, PublicKey } = require("@solana/web3.js");
-const {
-  deserializeMetadata,
-  findMetadataPda,
-} = require("@metaplex-foundation/mpl-token-metadata");
-const { createUmi } = require("@metaplex-foundation/umi-bundle-defaults");
+const { Connection } = require("@solana/web3.js");
 const { default: axios } = require("axios");
 const getSolanaMint = require("./getSolanaMint");
+const getTokenMetadata = require("./getTokenMetadata");
 const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
 async function getSolanaOnChainTokenFromMint(mint) {
@@ -24,13 +20,8 @@ async function getSolanaOnChainTokenFromMint(mint) {
   const decimals = mintResponse.decimals;
 
   // TokenMetadata
-  const umi = createUmi(rpcEndpoint);
-  const metadataPDA = await findMetadataPda(umi, { mint });
-  const metadataAccount = await connection
-    .getAccountInfo(new PublicKey(metadataPDA.at(0)))
-    .catch((e) => null);
-  if (!metadataAccount) return null;
-  const metadata = deserializeMetadata(metadataAccount);
+  const metadata = await getTokenMetadata(connection, mint);
+  if (!metadata) return null;
   const { uri } = metadata;
   if (!uri) return null;
   const uriRes = await axios.get(uri);
