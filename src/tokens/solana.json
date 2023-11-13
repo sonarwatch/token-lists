@@ -55329,7 +55329,7 @@
   },
   {
     "chainId": 101,
-    "address": "n54ZwXEcLnc3o7zK48nhrLV4KTU5wWD4iq7Gvdt5tik  ",
+    "address": "n54ZwXEcLnc3o7zK48nhrLV4KTU5wWD4iq7Gvdt5tik",
     "symbol": "PEEP",
     "name": "Peepo",
     "decimals": 6,
@@ -55337,7 +55337,7 @@
   },
   {
     "chainId": 101,
-    "address": "BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD ",
+    "address": "BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD",
     "symbol": "DIO",
     "name": "Decimated",
     "decimals": 9,
