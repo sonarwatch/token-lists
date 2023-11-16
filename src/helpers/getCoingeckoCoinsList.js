@@ -3,6 +3,7 @@ const sleep = require("./sleep");
 
 module.exports = async function getCoingeckoCoinsList() {
   try {
+    await sleep(120000);
     const coinsListRes = await axios.get(
       "https://api.coingecko.com/api/v3/coins/list",
       {
