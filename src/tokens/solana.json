@@ -55345,5 +55345,16 @@
     "extensions": {
       "coingeckoId": "decimated"
     }
+  },
+  {
+    "chainId": 101,
+    "address": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+    "symbol": "PYTH",
+    "name": "Pyth Network",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/pyth.png",
+    "extensions": {
+      "coingeckoId": "pyth-network"
+    }
   }
 ]
