@@ -55269,7 +55269,8 @@
     "symbol": "IOT",
     "name": "Helium IOT",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/iot.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/iot.png",
+    "extensions": { "coingeckoId": "helium-iot" }
   },
   {
     "chainId": 101,
@@ -55277,7 +55278,8 @@
     "symbol": "HNT",
     "name": "Helium Network Token",
     "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/hnt.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/hnt.png",
+    "extensions": { "coingeckoId": "helium" }
   },
   {
     "chainId": 101,
@@ -55285,7 +55287,8 @@
     "symbol": "MOBILE",
     "name": "Helium Mobile",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/mobile.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/mobile.png",
+    "extensions": { "coingeckoId": "helium-mobile" }
   },
   {
     "chainId": 101,
