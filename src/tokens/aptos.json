@@ -195,5 +195,16 @@
     "decimals": 6,
     "name": "ARC",
     "symbol": "ARC"
+  },
+  {
+    "chainId": 1,
+    "address": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::ThalaAPT",
+    "decimals": 8,
+    "name": "Thala Aptos",
+    "symbol": "thAPT",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/thAPT.png",
+    "extensions": {
+      "coingeckoId": "thala-apt"
+    }
   }
 ]
