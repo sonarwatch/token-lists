@@ -195,7 +195,10 @@
     "decimals": 9,
     "name": "afSUI",
     "symbol": "afSUI",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/afsui.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/afsui.png",
+    "extensions": {
+      "coingeckoId": "aftermath-staked-sui"
+    }
   },
   {
     "chainId": 1,
