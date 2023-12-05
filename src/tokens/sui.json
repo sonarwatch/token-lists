@@ -208,7 +208,7 @@
   {
     "chainId": 1,
     "address": "0xbff8dc60d3f714f678cd4490ff08cabbea95d308c6de47a150c79cc875e0c7c6::sbox::SBOX",
-    "decimals": 9,
+    "decimals": 1,
     "name": "SBOX",
     "symbol": "SBOX",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/sbox.png"
