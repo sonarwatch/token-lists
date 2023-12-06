@@ -169,7 +169,7 @@
   },
   {
     "chainId": 1,
-    "address": "0xde2d3e02ba60b806f81ee9220be2a34932a513fe8d7f553167649e95de21c066",
+    "address": "0xde2d3e02ba60b806f81ee9220be2a34932a513fe8d7f553167649e95de21c066::reap_token::REAP_TOKEN",
     "decimals": 9,
     "name": "Releap",
     "symbol": "REAP",
