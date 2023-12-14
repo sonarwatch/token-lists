@@ -56,7 +56,7 @@ module.exports = async function getSolanaTokensFromCoingecko(
       chainId,
       address,
       decimals,
-      name: coinDetails.name.substring(0, 64),
+      name: coinDetails.name.substring(0, 64).trim(),
       symbol: coinDetails.symbol.toUpperCase().replaceAll(" ", ""),
       logoURI,
       extensions: {
