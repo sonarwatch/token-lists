@@ -37,6 +37,8 @@ To request that we add a token to the list,
 ## Release version
 
 ```bash
+npm run build:list:aptos
+
 npm run build
 npm test
 
