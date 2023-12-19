@@ -1,4 +1,3 @@
-const aptosTokens = require("./tokens/aptos.json");
 const bitcoinTokens = require("./tokens/bitcoin.json");
 const starknetTokens = require("./tokens/starknet.json");
 const zksyncTokens = require("./tokens/zksync.json");
@@ -6,9 +5,10 @@ const suiTokens = require("./tokens/sui.json");
 const seiTokens = require("./tokens/sei.json");
 const getEvmTokens = require("./helpers/evm/getEvmTokens");
 const getSolanaTokens = require("./helpers/solana/getSolanaTokens");
+const getAptosTokens = require("./helpers/aptos/getAptosTokens");
 
 const tokenGenerators = {
-  aptos: () => aptosTokens,
+  aptos: () => getAptosTokens(),
   avalanche: () => getEvmTokens("avalanche"),
   bitcoin: () => bitcoinTokens,
   bnb: () => getEvmTokens("bnb"),
