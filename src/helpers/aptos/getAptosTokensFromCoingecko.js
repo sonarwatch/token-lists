@@ -1,7 +1,6 @@
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
 const axios = require("axios");
-const { getAddress } = require("@ethersproject/address");
 const listStaticConfigs = require("../../assets/listStaticConfigs.json");
 const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkId");
 const sleep = require("../sleep");
