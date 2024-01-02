@@ -4,6 +4,7 @@ const sleep = require("../sleep");
 const shuffleArray = require("../shuffleArray");
 const saveImage = require("../saveImage");
 const { publicBearerToken } = require("@sonarwatch/portfolio-core");
+const listStaticConfigs = require("../../../src/assets/listStaticConfigs.json");
 
 module.exports = async function getSolanaTokensFromJup(alreadyFetchedSet) {
   const response = await axios.get("https://token.jup.ag/all", {}).catch(() => {
@@ -14,7 +15,7 @@ module.exports = async function getSolanaTokensFromJup(alreadyFetchedSet) {
   const jupTokens = response.data;
   for (let i = 0; i < jupTokens.length; i++) {
     const jupToken = jupTokens[i];
-    if (jupToken.chainId !== 101) continue;
+    if (jupToken.chainId !== listStaticConfigs.solana.chainId) continue;
     if (alreadyFetchedSet.has(jupToken.address)) continue;
 
     const isSave = await saveImage(
