@@ -31,7 +31,11 @@ module.exports = async function getSolanaTokensFromOnChain(alreadyFetchedSet) {
     const token = await getSolanaOnChainTokenFromMint(mint).catch((e) => null);
     await sleep(1500);
     if (!token) continue;
-    await saveImage(token.logoURI, `images/solana/${token.address}.png`);
+    const saved = await saveImage(
+      token.logoURI,
+      `images/solana/${token.address}.png`
+    );
+    if (!saved) continue;
     token.logoURI = tokens.push({
       ...token,
       logoURI: `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${token.address}.png`,
