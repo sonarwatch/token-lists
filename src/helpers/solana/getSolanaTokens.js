@@ -20,18 +20,6 @@ module.exports = async function getSolanaTokens(networkId) {
     tokensByAddress.set(token.address, token);
   });
 
-  // Add from coingecko
-  let alreadyFetchedSet = new Set(
-    Array.from(tokensByAddress.values()).map((t) => t.address)
-  );
-  const geckoTokens = await getSolanaTokensFromCoingecko(
-    "solana",
-    alreadyFetchedSet
-  );
-  geckoTokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
-
   // Add from jup
   alreadyFetchedSet = new Set(
     Array.from(tokensByAddress.values()).map((t) => t.address)
