@@ -23,5 +23,5 @@ module.exports = async function getSolanaMint(connection, mint) {
     token2022PID
   ).catch((e) => null);
   if (mint2022Response !== null) return mint2022Response;
-  return null;
+  throw new Error(`Unable to getSolanaMint [${mint}]`);
 };
