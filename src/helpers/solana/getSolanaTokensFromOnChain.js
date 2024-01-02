@@ -3,12 +3,20 @@ const getSolanaOnChainTokenFromMint = require("./getSolanaOnChainTokenFromMint")
 const sleep = require("../sleep");
 const shuffleArray = require("../shuffleArray");
 const saveImage = require("../saveImage");
+const { publicBearerToken } = require("@sonarwatch/portfolio-core");
 
 module.exports = async function getSolanaTokensFromOnChain(alreadyFetchedSet) {
   // Get SonarWatch priced mints
   const response = await axios
-    .get("https://portfolio-api.sonar.watch/v1/portfolio/cache/")
-    .catch((e) => null);
+    .get("https://portfolio-api-public.sonar.watch/v1/portfolio/cache", {
+      headers: {
+        Authorization: `Bearer ${publicBearerToken}`,
+      },
+    })
+    .catch(() => {
+      throw new Error("Unable to fetch portfolio cache");
+    });
+
   if (!response) return [];
   const data = response.data;
   if (!data) return [];
