@@ -2,6 +2,7 @@ const getSolanaTokensFromCoingecko = require("./getSolanaTokensFromCoingecko");
 const getSolanaTokensFromOnChain = require("./getSolanaTokensFromOnChain");
 const getTokensFromCurrentList = require("../getTokensFromCurrentList");
 const getTokensFromList = require("../getTokensFromList");
+const getSolanaTokensFromJup = require("./getSolanaTokensFromJup");
 
 module.exports = async function getSolanaTokens(networkId) {
   const tokensByAddress = new Map();
@@ -31,16 +32,14 @@ module.exports = async function getSolanaTokens(networkId) {
     tokensByAddress.set(token.address, token);
   });
 
-  // Add from on chain metadata (50% chance to be runned)
-  if (Math.random() < 0.99999) {
-    alreadyFetchedSet = new Set(
-      Array.from(tokensByAddress.values()).map((t) => t.address)
-    );
-    const onChainTokens = await getSolanaTokensFromOnChain(alreadyFetchedSet);
-    onChainTokens.forEach((token) => {
-      tokensByAddress.set(token.address, token);
-    });
-  }
+  // Add from jup
+  alreadyFetchedSet = new Set(
+    Array.from(tokensByAddress.values()).map((t) => t.address)
+  );
+  const jupTokens = await getSolanaTokensFromJup(alreadyFetchedSet);
+  jupTokens.forEach((token) => {
+    tokensByAddress.set(token.address, token);
+  });
 
   // Set current if not replaced
   currentTokens.forEach((token) => {
