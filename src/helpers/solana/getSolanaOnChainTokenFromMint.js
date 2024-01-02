@@ -9,9 +9,7 @@ const getTokenMetadata = require("./getTokenMetadata");
 const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
 async function getSolanaOnChainTokenFromMint(mint) {
-  const rpcEndpoint = listStaticConfigs.solana?.rpcEndpoint;
-  if (!rpcEndpoint)
-    throw new Error("List static config or rpcEndpoint is missing ");
+  const rpcEndpoint = listStaticConfigs.solana.rpcEndpoint;
 
   // Decimals
   const connection = new Connection(rpcEndpoint);
