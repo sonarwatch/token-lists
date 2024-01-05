@@ -49148,15 +49148,6 @@
   },
   {
     "chainId": 101,
-    "address": "AGqKX7F4mqJ8x2mUQVangJb5pWQJApaKoUfe5gXM53CV",
-    "symbol": "USDCav",
-    "name": "USDCav (Portal from Avalanche)",
-    "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AGqKX7F4mqJ8x2mUQVangJb5pWQJApaKoUfe5gXM53CV/logo.png",
-    "extensions": { "coingeckoId": "usd-coin" }
-  },
-  {
-    "chainId": 101,
     "address": "FCqfQSujuPxy6V42UvafBhsysWtEq1vhjfMN1PUbgaxA",
     "symbol": "USDCbs",
     "name": "USD Coin (Portal from BSC)",
@@ -49171,7 +49162,7 @@
     "name": "USD Coin (Portal from Ethereum)",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A9mUU4qviSctJVPJdBJWkb28deg915LYJKrzQ19ji3FM/logo.png",
-    "extensions": { "coingeckoId": "usd-coin" }
+    "extensions": { "coingeckoId": "usd-coin-wormhole-from-ethereum" }
   },
   {
     "chainId": 101,
@@ -49180,7 +49171,7 @@
     "name": "USD Coin (Portal from Polygon)",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E2VmbootbVCBkMNNxKQgCLMS1X3NoGMaYAsufaAsf7M/logo.png",
-    "extensions": { "coingeckoId": "usd-coin" }
+    "extensions": { "coingeckoId": "usd-coin-pos-wormhole" }
   },
   {
     "chainId": 101,
