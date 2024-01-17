@@ -10,6 +10,7 @@ module.exports = async function getCoingeckoCoinsList() {
         params: {
           include_platform: "true",
         },
+        timeout: 50000,
       }
     );
     await sleep(90000);
