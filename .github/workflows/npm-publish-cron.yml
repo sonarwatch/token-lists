@@ -21,7 +21,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test
-      - run: npm run release -- --ci -i patch --no-requireCleanWorkingDir
+      - run: npm run release -- --ci -i patch --no-git.requireCleanWorkingDir
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: npm publish
