@@ -55438,5 +55438,45 @@
     "name": "Kamino JUP-ARAB (Meteora)",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "EURPnveVbdoJkGs7qYqsEWBcCH4ZHChKEBbDGaQx4rUK",
+    "symbol": "fEUR",
+    "name": "FlashTrade Euro Spot",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/feur.png"
+  },
+  {
+    "chainId": 101,
+    "address": "XAGLictSZUYkCHgBWoPitFCDJECNZx1DVTzV74iM9dP",
+    "symbol": "fXAG",
+    "name": "FlashTrade Silver Spot",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fxag.png"
+  },
+  {
+    "chainId": 101,
+    "address": "GBPvXsT3uQVBmipvhhU5NW1JfhMJ2maYqLAbPzUq5NnY",
+    "symbol": "fGBP",
+    "name": "FlashTrade Pound Sterling Spot",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fgbp.png"
+  },
+  {
+    "chainId": 101,
+    "address": "AUDdbsJZpT1pFErezhe9pvcf97XnvD8oo8etZbeFbBX",
+    "symbol": "fAUD",
+    "name": "FlashTrade Australian Dollar Spot",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/faud.png"
+  },
+  {
+    "chainId": 101,
+    "address": "XAUfcdPHmEBnj78YnZ5YxqdwBmgbwoY5VfrRwETnKuQ",
+    "symbol": "fXAU",
+    "name": "FlashTrade Gold Spot",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fxau.png"
   }
 ]
