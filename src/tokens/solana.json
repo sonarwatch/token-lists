@@ -55350,5 +55350,93 @@
     "extensions": {
       "coingeckoId": "pyth-network"
     }
+  },
+  {
+    "chainId": 101,
+    "address": "CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz",
+    "symbol": "FLP.2",
+    "name": "Flash LP 2",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/flp2.png"
+  },
+  {
+    "chainId": 101,
+    "address": "2nsveNLZqybj7rb92JeT7LMT2EkpwBF5mw6NeoTVpYKM",
+    "symbol": "JSOL-JUP",
+    "name": "Kamino JSOL-JUP (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "7XB1azPg9hmD196uiGNa61EyvXbCmQhg8jSdptRGkRTZ",
+    "symbol": "bSOL-JUP",
+    "name": "Kamino bSOL-JUP (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "4uTX8aNyK7wgdXzmx8abCxEJMB2Luc5BMDTK792PT9Rk",
+    "symbol": "JUP-BONK",
+    "name": "Kamino JUP-BONK (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "2FMRw2qGceQzdahPZZZyAuxrFGDv2QVB3rqTy2e7xA1F",
+    "symbol": "JUP-SOL",
+    "name": "Kamino JUP-SOL (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "6UpEbQoyPQfYUQr6ku37FSJSaMyt9eDkBKVVHzG9CFjR",
+    "symbol": "JUP-WEN",
+    "name": "Kamino JUP-WEN (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "9UPiWkYayQtJamsmmhBV8WLNuTbtzEdPkTarFTbPDsHL",
+    "symbol": "JUP-CHKY",
+    "name": "Kamino JUP-CHKY (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "7iJyHPgvegHQBEeuKAqP2WMVQapzk9gaaK7VKaCBeVhX",
+    "symbol": "JUP-GECKO",
+    "name": "Kamino JUP-GECKO (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "88whff51vCRmGuohRc2BPiwsMgfZRFVFj8MVZCUAYUUU",
+    "symbol": "JUP-UCAR",
+    "name": "Kamino JUP-UCAR (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "7SUP2buMh1eCW584xwwqVKxej5Wo3oPevAFrhUXkdwCs",
+    "symbol": "JUP-USDH",
+    "name": "Kamino JUP-USDH (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+  },
+  {
+    "chainId": 101,
+    "address": "8BgDWQVy4L5hf59SCeeAnBfRhqAbSYNKymerRoB4Zjgb",
+    "symbol": "JUP-ARAB",
+    "name": "Kamino JUP-ARAB (Meteora)",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
   }
 ]
