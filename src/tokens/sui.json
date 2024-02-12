@@ -215,5 +215,77 @@
     "name": "SBOX",
     "symbol": "SBOX",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/sbox.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0x6db9a7bb22829898fd281879778a175120ebfc77eafc1f8ee341654cfc3f8dc2::burry::BURRY",
+    "decimals": 9,
+    "name": "Burrial",
+    "symbol": "BURRY",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/burry.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0x774621b70e7de5c094b15741583ede6ec110538891bd756bcc8a13c94eeaa3a6::ius::IUS",
+    "decimals": 9,
+    "name": "IUS",
+    "symbol": "IUS",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/ius.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0x8d7828432b668f731d3ceb17f7fb9cad7225bf01b6af16e61b71b02384f9f291::babyscb::BABYSCB",
+    "decimals": 3,
+    "name": "Baby Sacabam",
+    "symbol": "BABYSCB",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/babyscb.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0x31172eee47a69a0a5e6e198f385286c1f3b71cd73264e89234db7f318ec85a75::dsui::DSUI",
+    "decimals": 8,
+    "name": "Dragon on Sui",
+    "symbol": "DSUI",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/dsui.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0x6dae8ca14311574fdfe555524ea48558e3d1360d1607d1c7f98af867e3b7976c::flx::FLX",
+    "decimals": 8,
+    "name": "FlowX",
+    "symbol": "FLX",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/flx.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0xebbf537bc3686be32fe22b498b42715641bbb209267be72236a352e0444cc5df::sui_pepe::SUI_PEPE",
+    "decimals": 6,
+    "name": "SUI PEPE",
+    "symbol": "SUIPEPE",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/suipepe.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0x485209b209f8f25dc734b39dc2f8fbaa952d960eff12f369d84f52a97ded6241::src::SRC",
+    "decimals": 6,
+    "name": "Sui Rabbit Coin",
+    "symbol": "SRC",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/src.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0x84d155fb70aebcc1391bf497d8fc139154be745765dfec57faef4704f4112c79::vaporeon::VAPOREON",
+    "decimals": 8,
+    "name": "Vaporeon",
+    "symbol": "VAPOREON",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/vaporeon.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0xf650095a56628d769473cfb1df16941e8985ac339ba66832f84e2899854e4121::hold::HOLD",
+    "decimals": 8,
+    "name": "Hold it on Sui",
+    "symbol": "HOLD",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/hold.png"
   }
 ]
