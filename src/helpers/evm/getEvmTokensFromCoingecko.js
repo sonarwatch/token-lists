@@ -34,7 +34,13 @@ module.exports = async function getEvmTokensFromCoingecko(
   for (let i = 0; i < coinsList.length; i++) {
     const coin = coinsList[i];
     if (!coin.id || !coin.platforms || !coin.platforms[platform]) continue;
-    const address = getAddress(coin.platforms[platform]);
+    let address;
+    try {
+      address = getAddress(coin.platforms[platform]);
+    } catch (error) {
+      continue;
+    }
+
     if (alreadyFetchedSet.has(address)) continue;
     if (tokensByAddress.get(address)) continue;
     const coinDetailsResponse = await axios
