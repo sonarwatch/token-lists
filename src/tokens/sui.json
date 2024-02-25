@@ -162,7 +162,7 @@
     "decimals": 9,
     "name": "SuiPad",
     "symbol": "SUIP",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/suipad.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/suip.png",
     "extensions": {
       "coingeckoId": "suipad"
     }
@@ -287,5 +287,38 @@
     "name": "Hold it on Sui",
     "symbol": "HOLD",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/hold.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
+    "decimals": 9,
+    "name": "NAVX Token",
+    "symbol": "NAVX",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/navx.png",
+    "extensions": {
+      "coingeckoId": "navi"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "0xb779486cfd6c19e9218cc7dc17c453014d2d9ba12d2ee4dbb0ec4e1e02ae1cca::spt::SPT",
+    "decimals": 9,
+    "name": "SPT",
+    "symbol": "SPT",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/spt.png",
+    "extensions": {
+      "coingeckoId": "seapad"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "0x76cb819b01abed502bee8a702b4c2d547532c12f25001c9dea795a5e631c26f1::fud::FUD",
+    "decimals": 5,
+    "name": "FUD",
+    "symbol": "FUD",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/fud.png",
+    "extensions": {
+      "coingeckoId": "fud-the-pug"
+    }
   }
 ]
