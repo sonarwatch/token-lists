@@ -30,7 +30,7 @@
     "symbol": "USDC",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
     "extensions": {
-      "coingeckoId": "usd-coin"
+      "coingeckoId": "layerzero-bridged-usdc-aptos"
     }
   },
   {
@@ -77,6 +77,17 @@
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5__staked_coin__StakedAptos.png",
     "extensions": {
       "coingeckoId": "ditto-staked-aptos"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt",
+    "decimals": 8,
+    "name": "Staked Aptos Coin",
+    "symbol": "stAPT",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a__stapt_token__StakedApt.png",
+    "extensions": {
+      "coingeckoId": "amnis-staked-aptos-coin"
     }
   },
   {
