@@ -111,9 +111,12 @@
     "chainId": 1,
     "address": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
     "decimals": 6,
-    "name": "Tether USD",
+    "name": "Wormhole Tether USD",
     "symbol": "USDT",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDT.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDT.png",
+    "extensions": {
+      "coingeckoId": "tether"
+    }
   },
   {
     "chainId": 1,
@@ -127,17 +130,23 @@
     "chainId": 1,
     "address": "0xdd89c0e695df0692205912fb69fc290418bed0dbe6e4573d744a6d5e6bab6c13::coin::T",
     "decimals": 8,
-    "name": "Wrapped SOL",
+    "name": "Wormhole Wrapped SOL",
     "symbol": "SOL",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/SOL.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/SOL.png",
+    "extensions": {
+      "coingeckoId": "solana"
+    }
   },
   {
     "chainId": 1,
     "address": "0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T",
     "decimals": 8,
-    "name": "Wrapped BTC",
+    "name": "Wormhole Wrapped BTC",
     "symbol": "WBTC",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BTC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BTC.png",
+    "extensions": {
+      "coingeckoId": "wrapped-bitcoin"
+    }
   },
   {
     "chainId": 1,
