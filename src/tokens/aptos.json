@@ -16,7 +16,7 @@
     "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
     "decimals": 6,
     "name": "Wormhole USD Coin",
-    "symbol": "USDCet",
+    "symbol": "USDC",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-from-ethereum"
@@ -27,7 +27,7 @@
     "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
     "decimals": 6,
     "name": "Layerzero USD Coin",
-    "symbol": "USDC",
+    "symbol": "zUSDC",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
     "extensions": {
       "coingeckoId": "layerzero-bridged-usdc-aptos"
@@ -38,16 +38,33 @@
     "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
     "decimals": 6,
     "name": "Layerzero Tether USD",
-    "symbol": "USDT",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDT.png"
+    "symbol": "zUSDT",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDT.png",
+    "extensions": {
+      "coingeckoId": "tether"
+    }
   },
   {
     "chainId": 1,
     "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
     "decimals": 6,
     "name": "Layerzero Wrapped Ether",
+    "symbol": "zWETH",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png",
+    "extensions": {
+      "coingeckoId": "weth"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T",
+    "decimals": 8,
+    "name": "Wormhole Wrapped Ether",
     "symbol": "WETH",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/WETH.png",
+    "extensions": {
+      "coingeckoId": "ethereum-wormhole"
+    }
   },
   {
     "chainId": 1,
