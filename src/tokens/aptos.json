@@ -154,7 +154,10 @@
     "decimals": 8,
     "name": "PancakeSwap Token",
     "symbol": "Cake",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6__oft__CakeOFT.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6__oft__CakeOFT.png",
+    "extensions": {
+      "coingeckoId": "pancakeswap-token"
+    }
   },
   {
     "chainId": 1,
@@ -170,7 +173,10 @@
     "decimals": 8,
     "name": "Binance Coin (Celer)",
     "symbol": "BNB",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BNB.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BNB.png",
+    "extensions": {
+      "coingeckoId": "wrapped-bnb-celer"
+    }
   },
   {
     "chainId": 1,
@@ -184,9 +190,12 @@
     "chainId": 1,
     "address": "0xccc9620d38c4f3991fa68a03ad98ef3735f18d04717cb75d7a1300dd8a7eed75::coin::T",
     "decimals": 8,
-    "name": "BUSD Token",
+    "name": "Wormhole BUSD Token",
     "symbol": "BUSD",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BUSD.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BUSD.png",
+    "extensions": {
+      "coingeckoId": "binance-usd"
+    }
   },
   {
     "chainId": 1,
@@ -202,7 +211,10 @@
     "decimals": 8,
     "name": "AnimeSwap Coin",
     "symbol": "ANI",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c__AnimeCoin__ANI.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/0x16fe2df00ea7dde4a63409201f7f4e536bde7bb7335526a35d05111e68aa322c__AnimeCoin__ANI.png",
+    "extensions": {
+      "coingeckoId": "animeswap"
+    }
   },
   {
     "chainId": 1,
