@@ -255,5 +255,16 @@
     "extensions": {
       "coingeckoId": "thala-apt"
     }
+  },
+  {
+    "chainId": 1,
+    "address": "0x4def3d3dee27308886f0a3611dd161ce34f977a9a5de4e80b237225923492a2a::coin::T",
+    "decimals": 8,
+    "name": "GARI",
+    "symbol": "GARI",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/GARI.png",
+    "extensions": {
+      "coingeckoId": "gari-network"
+    }
   }
 ]
