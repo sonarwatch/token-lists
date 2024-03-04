@@ -320,5 +320,13 @@
     "extensions": {
       "coingeckoId": "fud-the-pug"
     }
+  },
+  {
+    "chainId": 1,
+    "address": "0x8c47c0bde84b7056520a44f46c56383e714cc9b6a55e919d8736a34ec7ccb533::suicune::SUICUNE",
+    "decimals": 9,
+    "name": "Suicune",
+    "symbol": "HSUI",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/suicune.png"
   }
 ]
