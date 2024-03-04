@@ -25540,7 +25540,10 @@
     "decimals": 9,
     "name": "Laine Stake Token",
     "symbol": "laineSOL",
-    "logoURI": "https://shdw-drive.genesysgo.net/4DUkKJB966oMk8zq57KkAUxqg9HpuWtZ3BKobhmYph39/laineSOL.webp"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X.png",
+    "extensions": {
+      "coingeckoId": "laine-stake"
+    }
   },
   {
     "chainId": 101,
