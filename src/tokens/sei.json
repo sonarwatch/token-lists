@@ -96,5 +96,16 @@
     "name": "Atom",
     "symbol": "ATOM",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sei/atom.png"
+  },
+  {
+    "chainId": 1,
+    "address": "factory/sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed",
+    "decimals": 6,
+    "name": "Seiyan",
+    "symbol": "SEIYAN",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sei/seiyanlogo.png",
+    "extensions": {
+      "coingeckoId": "seiyan"
+    }
   }
 ]
