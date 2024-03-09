@@ -320,5 +320,16 @@
     "extensions": {
       "coingeckoId": "fud-the-pug"
     }
+  },
+  {
+    "chainId": 1,
+    "address": "0x7016aae72cfc67f2fadf55769c0a7dd54291a583b63051a5ed71081cce836ac6::sca::SCA",
+    "decimals": 9,
+    "name": "Scallop",
+    "symbol": "SCA",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/sca.png",
+    "extensions": {
+      "coingeckoId": "scallop-2"
+    }
   }
 ]
