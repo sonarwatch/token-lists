@@ -3252,6 +3252,14 @@
   },
   {
     "chainId": 101,
+    "address": "xAURp5XmAG7772mfkSy6vRAjGK9JofYjc3dmQDWdVDP",
+    "symbol": "xAURY",
+    "name": "Aurory",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP/logo.png"
+  },
+  {
+    "chainId": 101,
     "address": "Djoz8btdR7p6xWHoVtPYF3zyN9LU5BBfMoDk4HczSDqc",
     "symbol": "AUSS",
     "name": "Ausshole",
@@ -55633,5 +55641,13 @@
     "name": "FlashTrade Gold Spot",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fxau.png"
+  },
+  {
+    "chainId": 101,
+    "address": "xHWKW3Yyji9xe6FnTmDqu3rBApt3Ysu5ysywUA85Len",
+    "symbol": "xHAWK",
+    "name": "xHAWK",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/xHawk.png"
   }
 ]
