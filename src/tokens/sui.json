@@ -339,5 +339,13 @@
     "name": "Suicune",
     "symbol": "HSUI",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/suicune.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0xceab84acf6bf70f503c3b0627acaff6b3f84cee0f2d7ed53d00fa6c2a168d14f::alp::ALP",
+    "decimals": 6,
+    "name": "ABEx LP Token",
+    "symbol": "ALP",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/alp.webp"
   }
 ]
