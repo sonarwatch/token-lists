@@ -55682,5 +55682,12 @@
     "extensions": {
       "coingeckoId": "cloned-sui"
     }
+  },
+  {
+    "address": "3wCoTb3TArUdzmeTBPzPFyPBUP6EJXaW5LAzGsWCpySu",
+    "symbol": "xWHALES",
+    "name": "Staked Whales",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/xWHALES.png"
   }
 ]
