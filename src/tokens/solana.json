@@ -55649,5 +55649,38 @@
     "name": "xHAWK",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/xHawk.png"
+  },
+  {
+    "chainId": 101,
+    "address": "9cMWa1wuWcio3vgEpiFg7PqKbcoafuUw5sLYFkXJ2J8M",
+    "symbol": "clARB",
+    "name": "Cloned Arbitrum",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9cMWa1wuWcio3vgEpiFg7PqKbcoafuUw5sLYFkXJ2J8M.webp",
+    "extensions": {
+      "coingeckoId": "clone-protocol-clarb"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "4cwVHQtwiK7r9aAUsu4cetk1JtLWPymopWcpTSsihCdL",
+    "symbol": "clOP",
+    "name": "Cloned Optimism",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/4cwVHQtwiK7r9aAUsu4cetk1JtLWPymopWcpTSsihCdL.webp",
+    "extensions": {
+      "coingeckoId": "clone-protocol-clop"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "JzwfZvJGdsqbrKZQUvzJpWhbHcZUix7CYcCaoiNpjxg",
+    "symbol": "clSUI",
+    "name": "Cloned Sui",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/JzwfZvJGdsqbrKZQUvzJpWhbHcZUix7CYcCaoiNpjxg.webp",
+    "extensions": {
+      "coingeckoId": "cloned-sui"
+    }
   }
 ]
