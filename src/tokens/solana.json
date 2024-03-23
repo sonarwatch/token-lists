@@ -55684,6 +55684,17 @@
     }
   },
   {
+    "chainId": 101,
+    "address": "Dd6Pde7K4J7yB691gW8K177TWd1Huy6RkfTwrbkz8Fre",
+    "symbol": "clDOGE",
+    "name": "Cloned Doge",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Dd6Pde7K4J7yB691gW8K177TWd1Huy6RkfTwrbkz8Fre.webp",
+    "extensions": {
+      "coingeckoId": "dogecoin"
+    }
+  },
+  {
     "address": "3wCoTb3TArUdzmeTBPzPFyPBUP6EJXaW5LAzGsWCpySu",
     "symbol": "xWHALES",
     "name": "Staked Whales",
