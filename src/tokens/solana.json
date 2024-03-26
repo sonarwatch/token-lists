@@ -39975,18 +39975,6 @@
   },
   {
     "chainId": 101,
-    "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
-    "symbol": "INF",
-    "name": "Infinity",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm/logo.png",
-    "extensions": {
-      "coingeckoId": "socean-staked-sol",
-      "index": "11111111111111111111111111111111"
-    }
-  },
-  {
-    "chainId": 101,
     "address": "HxBtpdMV1FZ4kDeZLkjeWNyFqhk4riNNnd6vMAGA4aYd",
     "symbol": "SCO",
     "name": "SCOCOIN",
