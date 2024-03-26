@@ -10,7 +10,7 @@ module.exports = async function getSolanaTokens(networkId) {
   // Fetch from current version
   const currentTokens = await getTokensFromCurrentList(networkId);
   currentTokens.forEach((token) => {
-    if (Math.random() < 0.05) return;
+    if (Math.random() < 0.95) return;
     tokensByAddress.set(token.address, token);
   });
 
