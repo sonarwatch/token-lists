@@ -11,6 +11,7 @@ fs.readdirSync(folder).forEach((file) => {
 async function main() {
   for (let i = 0; i < 4800; i++) {
     const pngFile = pngFiles[i];
+    if (!pngFile) return;
     await sharp(folder + pngFile)
       .resize(64, 64)
       .webp()
