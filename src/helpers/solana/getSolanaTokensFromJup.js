@@ -20,12 +20,12 @@ module.exports = async function getSolanaTokensFromJup(alreadyFetchedSet) {
 
     const isSave = await saveImage(
       jupToken.logoURI,
-      `images/solana/${jupToken.address}.png`
+      `images/solana/${jupToken.address}.webp`
     );
     if (!isSave) continue;
     jupToken.logoURI = tokens.push({
       ...jupToken,
-      logoURI: `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${jupToken.address}.png`,
+      logoURI: `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${jupToken.address}.webp`,
     });
   }
   return tokens;

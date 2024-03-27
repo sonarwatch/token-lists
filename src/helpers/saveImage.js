@@ -9,7 +9,7 @@ module.exports = async function saveImage(url, fileOut) {
     .catch((e) => null);
   if (!response || !response.data) return false;
   try {
-    await sharp(response.data).resize(64, 64).png().toFile(fileOut);
+    await sharp(response.data).resize(64, 64).webp().toFile(fileOut);
     return true;
   } catch (error) {
     return false;
