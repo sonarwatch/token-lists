@@ -16,8 +16,8 @@ async function main() {
       .webp()
       .toFile(folder + pngFile.slice(0, -3) + "webp")
       .catch((e) => {
-        console.error(e);
         console.error(pngFile);
+        throw e;
       });
     fs.unlinkSync(folder + pngFile);
   }
