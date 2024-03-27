@@ -1,9 +1,5 @@
 const { default: axios } = require("axios");
-const getSolanaOnChainTokenFromMint = require("./getSolanaOnChainTokenFromMint");
-const sleep = require("../sleep");
-const shuffleArray = require("../shuffleArray");
 const saveImage = require("../saveImage");
-const { publicBearerToken } = require("@sonarwatch/portfolio-core");
 const listStaticConfigs = require("../../../src/assets/listStaticConfigs.json");
 const runInBatch = require("../runInBatch");
 
@@ -25,7 +21,7 @@ module.exports = async function getSolanaTokensFromJup(currentTokensSet) {
       logoURI: `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${jupToken.address}.webp`,
       tags: [...(jupToken.tags || []), "from-jupiter"],
     });
-    if (!currentTokensSet.has(jupToken.address) || Math.random() < 0.05) {
+    if (!currentTokensSet.has(jupToken.address) || Math.random() < 0.25) {
       jupTokensToFetch.push(jupToken);
     }
   }
@@ -38,7 +34,8 @@ module.exports = async function getSolanaTokensFromJup(currentTokensSet) {
           `images/solana/${jupToken.address}.webp`
         );
       };
-    })
+    }),
+    10
   );
 
   return Array.from(tokens.values());

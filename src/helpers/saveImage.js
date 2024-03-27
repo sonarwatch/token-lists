@@ -5,6 +5,7 @@ module.exports = async function saveImage(url, fileOut) {
   const response = await axios
     .get(url, {
       responseType: "arraybuffer",
+      timeout: 5000,
     })
     .catch((e) => null);
   if (!response || !response.data) return false;
