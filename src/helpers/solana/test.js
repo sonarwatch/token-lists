@@ -14,7 +14,11 @@ async function main() {
     await sharp(folder + pngFile)
       .resize(64, 64)
       .webp()
-      .toFile(folder + pngFile.slice(0, -3) + "webp");
+      .toFile(folder + pngFile.slice(0, -3) + "webp")
+      .catch((e) => {
+        console.error(e);
+        console.error(pngFile);
+      });
     fs.unlinkSync(folder + pngFile);
   }
 }
