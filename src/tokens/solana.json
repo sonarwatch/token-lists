@@ -18,8 +18,7 @@
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
     "tags": ["wnative"],
     "extensions": {
-      "coingeckoId": "wrapped-solana",
-      "index": "11111111111111111111111111111111"
+      "coingeckoId": "wrapped-solana"
     }
   },
   {
@@ -376,8 +375,7 @@
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png",
     "extensions": {
-      "coingeckoId": "wrapped-bitcoin",
-      "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+      "coingeckoId": "wrapped-bitcoin"
     }
   },
   {
@@ -635,8 +633,7 @@
     "symbol": "acUSDC",
     "name": "Accrue USDC",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G8KevG5RY3KgikX6iDHKaNSP7R2ERyDF9JFaTS1z1nms/logo.png",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G8KevG5RY3KgikX6iDHKaNSP7R2ERyDF9JFaTS1z1nms/logo.png"
   },
   {
     "chainId": 101,
@@ -809,8 +806,7 @@
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png",
     "extensions": {
-      "coingeckoId": "wrapped-bitcoin",
-      "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+      "coingeckoId": "wrapped-bitcoin"
     }
   },
   {
@@ -837,8 +833,7 @@
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png",
     "extensions": {
-      "coingeckoId": "wrapped-bitcoin",
-      "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+      "coingeckoId": "wrapped-bitcoin"
     }
   },
   {
@@ -858,8 +853,7 @@
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png",
     "extensions": {
-      "coingeckoId": "weth",
-      "index": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+      "coingeckoId": "weth"
     }
   },
   {
@@ -902,8 +896,7 @@
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png",
     "extensions": {
-      "coingeckoId": "usd-coin",
-      "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      "coingeckoId": "usd-coin"
     }
   },
   {
@@ -1052,8 +1045,7 @@
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bo4ehCeRcRj2wp5tQpjfCJxYFn4KyRacfDzSa4Aj27tH/logo.png",
     "extensions": {
-      "coingeckoId": "wrapped-bitcoin",
-      "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+      "coingeckoId": "wrapped-bitcoin"
     }
   },
   {
@@ -1088,8 +1080,7 @@
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj/logo.png",
     "extensions": {
-      "coingeckoId": "tether",
-      "index": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+      "coingeckoId": "tether"
     }
   },
   {
@@ -1657,8 +1648,7 @@
     "symbol": "amUSDC",
     "name": "Accrue MAX USDC",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HUtSa4eT4ccqPU2SMwwAawHJGQoaAvgqwb65CRA8QycZ/logo.png",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HUtSa4eT4ccqPU2SMwwAawHJGQoaAvgqwb65CRA8QycZ/logo.png"
   },
   {
     "chainId": 101,
@@ -2156,8 +2146,7 @@
     "symbol": "apWBTC",
     "name": "Wrapped WBTC (Allbridge from Polygon)",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png",
-    "extensions": { "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png"
   },
   {
     "chainId": 101,
@@ -2165,8 +2154,7 @@
     "symbol": "apWETH",
     "name": "Wrapped WETH (Allbridge from Polygon)",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png",
-    "extensions": { "index": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png"
   },
   {
     "chainId": 101,
@@ -5554,8 +5542,7 @@
     "symbol": "boUSDC",
     "name": "Boson USDC",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/894Kdz8jCFeBfhDBm4VSRypvTgcRTdtAWxNyFQb2y5Ug/logo.png",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/894Kdz8jCFeBfhDBm4VSRypvTgcRTdtAWxNyFQb2y5Ug/logo.png"
   },
   {
     "chainId": 101,
@@ -6429,8 +6416,7 @@
     "symbol": "bUSDC",
     "name": "Bosonso USDC",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AFvt4EhTybpRHJpU5X9kYTWDqsgwD9gxittNtSsqMQxX/logo.png",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AFvt4EhTybpRHJpU5X9kYTWDqsgwD9gxittNtSsqMQxX/logo.png"
   },
   {
     "chainId": 101,
@@ -8551,8 +8537,7 @@
     "symbol": "cmSOL",
     "name": "Solend mSOL",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3JFC4cB56Er45nWVe29Bhnn5GnwQzSmHVf6eUq9ac91h/logo.png",
-    "extensions": { "index": "11111111111111111111111111111111" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3JFC4cB56Er45nWVe29Bhnn5GnwQzSmHVf6eUq9ac91h/logo.png"
   },
   {
     "chainId": 101,
@@ -10269,8 +10254,7 @@
     "symbol": "cUSDC",
     "name": "Solend USDC",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/993dVFL2uXWYeoXuEBFXR4BijeXdTv4s6BzsCjJZuwqk/logo.png",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/993dVFL2uXWYeoXuEBFXR4BijeXdTv4s6BzsCjJZuwqk/logo.png"
   },
   {
     "chainId": 101,
@@ -10278,8 +10262,7 @@
     "symbol": "cUSDT",
     "name": "Solend USDT",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BTsbZDV7aCMRJ3VNy9ygV4Q2UeEo9GpR8D6VvmMZzNr8/logo.png",
-    "extensions": { "index": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BTsbZDV7aCMRJ3VNy9ygV4Q2UeEo9GpR8D6VvmMZzNr8/logo.png"
   },
   {
     "chainId": 101,
@@ -14239,8 +14222,7 @@
     "decimals": 9,
     "name": "Everlend mSOL",
     "symbol": "evmSOL",
-    "logoURI": "https://everlend.github.io/icons/msol.png",
-    "extensions": { "index": "11111111111111111111111111111111" }
+    "logoURI": "https://everlend.github.io/icons/msol.png"
   },
   {
     "chainId": 101,
@@ -14264,8 +14246,7 @@
     "decimals": 6,
     "name": "Everlend USDC",
     "symbol": "evUSDC",
-    "logoURI": "https://everlend.github.io/icons/usdc.png",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://everlend.github.io/icons/usdc.png"
   },
   {
     "chainId": 101,
@@ -14273,8 +14254,7 @@
     "decimals": 6,
     "name": "Everlend USDT",
     "symbol": "evUSDT",
-    "logoURI": "https://everlend.github.io/icons/usdt.png",
-    "extensions": { "index": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB" }
+    "logoURI": "https://everlend.github.io/icons/usdt.png"
   },
   {
     "chainId": 101,
@@ -18921,8 +18901,7 @@
     "symbol": "gUSDC",
     "name": "GooseFX LP Token (gUSDC)",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7Hvq1zbYWmBpJ7qb4AZSpC1gLC95eBdQgdT3aLQyq6pG/logo.svg",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7Hvq1zbYWmBpJ7qb4AZSpC1gLC95eBdQgdT3aLQyq6pG/logo.svg"
   },
   {
     "chainId": 101,
@@ -19190,8 +19169,7 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dVH61ChzgmN9BwG4PkzwRP8PbYwPJ7ZPNF2vamKT2H8/logo.png",
     "extensions": {
-      "coingeckoId": "huobi-btc",
-      "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+      "coingeckoId": "huobi-btc"
     }
   },
   {
@@ -33360,8 +33338,7 @@
     "symbol": "pmSOL",
     "name": "Port Finance mSOL",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dt1Cuau5m5CSmun8hZstjEh9RszxAmejnq7ZaHNcuXfA/mSOL.svg",
-    "extensions": { "index": "11111111111111111111111111111111" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dt1Cuau5m5CSmun8hZstjEh9RszxAmejnq7ZaHNcuXfA/mSOL.svg"
   },
   {
     "chainId": 101,
@@ -34354,8 +34331,7 @@
     "symbol": "pUSDC",
     "name": "Port Finance USDC",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FgSsGV8GByPaMERxeQJPvZRZHf7zCBhrdYtztKorJS58/USDC.svg",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FgSsGV8GByPaMERxeQJPvZRZHf7zCBhrdYtztKorJS58/USDC.svg"
   },
   {
     "chainId": 101,
@@ -34363,8 +34339,7 @@
     "symbol": "pUSDT",
     "name": "Port Finance USDT",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3RudPTAkfcq9Q9Jk8SVeCoecCBmdKMj6q5smsWzxqtqZ/USDT.svg",
-    "extensions": { "index": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB" }
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3RudPTAkfcq9Q9Jk8SVeCoecCBmdKMj6q5smsWzxqtqZ/USDT.svg"
   },
   {
     "chainId": 101,
@@ -40861,8 +40836,7 @@
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png",
     "extensions": {
-      "coingeckoId": "usd-coin",
-      "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      "coingeckoId": "usd-coin"
     }
   },
   {
@@ -41834,8 +41808,7 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H2mf9QNdU2Niq6QR7367Ua2trBsvscLyX5bz7R3Pw5sE/logo.png",
     "extensions": {
-      "coingeckoId": "lido-staked-ether",
-      "index": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+      "coingeckoId": "lido-staked-ether"
     }
   },
   {
@@ -45023,8 +44996,7 @@
     "symbol": "tsUSDC",
     "name": "tsUSDC",
     "decimals": 6,
-    "logoURI": "https://user-images.githubusercontent.com/8619106/152620671-249ada62-ced7-4959-bc92-f16837ca83b1.png",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://user-images.githubusercontent.com/8619106/152620671-249ada62-ced7-4959-bc92-f16837ca83b1.png"
   },
   {
     "chainId": 101,
@@ -45032,8 +45004,7 @@
     "symbol": "tsUSDT",
     "name": "tsUSDT",
     "decimals": 6,
-    "logoURI": "https://user-images.githubusercontent.com/8619106/168857135-62593b94-1dcd-42d7-8373-ee505a006ed9.png",
-    "extensions": { "index": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB" }
+    "logoURI": "https://user-images.githubusercontent.com/8619106/168857135-62593b94-1dcd-42d7-8373-ee505a006ed9.png"
   },
   {
     "chainId": 101,
@@ -45201,8 +45172,7 @@
     "symbol": "tumSOL",
     "name": "tumSOL",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sol-farm/token-logos/dad49dff5a8cb4abc6c3ccae35dc845a2af46f98/tumSOL.png",
-    "extensions": { "index": "11111111111111111111111111111111" }
+    "logoURI": "https://raw.githubusercontent.com/sol-farm/token-logos/dad49dff5a8cb4abc6c3ccae35dc845a2af46f98/tumSOL.png"
   },
   {
     "chainId": 101,
@@ -45354,8 +45324,7 @@
     "symbol": "tuUSDC",
     "name": "tuUSDC",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sol-farm/token-logos/main/tuUSDC.png",
-    "extensions": { "index": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+    "logoURI": "https://raw.githubusercontent.com/sol-farm/token-logos/main/tuUSDC.png"
   },
   {
     "chainId": 101,
@@ -45363,8 +45332,7 @@
     "symbol": "tuUSDT",
     "name": "tuUSDT",
     "decimals": 6,
-    "logoURI": "https://user-images.githubusercontent.com/8619106/169034746-d2bef331-4829-442f-8f91-5556e7c60d28.png",
-    "extensions": { "index": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB" }
+    "logoURI": "https://user-images.githubusercontent.com/8619106/169034746-d2bef331-4829-442f-8f91-5556e7c60d28.png"
   },
   {
     "chainId": 101,
@@ -45953,8 +45921,7 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/B2wfeYz5VtBnQVrX4M8F6FeDrprVrzKPws5qg1in8bzR/logo.png",
     "extensions": {
-      "coingeckoId": "tether",
-      "index": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+      "coingeckoId": "tether"
     }
   },
   {
@@ -47410,8 +47377,7 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3UeKTABxz9XexDtyKq646rSQvx8GVpKNwfMoKKfxsTsF/logo.png",
     "extensions": {
-      "coingeckoId": "binance-wrapped-btc",
-      "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+      "coingeckoId": "binance-wrapped-btc"
     }
   },
   {
@@ -48077,8 +48043,7 @@
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref/logo.png",
     "extensions": {
-      "coingeckoId": "huobi-btc",
-      "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+      "coingeckoId": "huobi-btc"
     }
   },
   {
@@ -49059,8 +49024,7 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EK6iyvvqvQtsWYcySrZVHkXjCLX494r9PhnDWJaX1CPu/logo.png",
     "extensions": {
-      "coingeckoId": "renbtc",
-      "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+      "coingeckoId": "renbtc"
     }
   },
   {
@@ -49726,8 +49690,7 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png",
     "extensions": {
-      "coingeckoId": "wrapped-bitcoin",
-      "index": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+      "coingeckoId": "wrapped-bitcoin"
     }
   },
   {
