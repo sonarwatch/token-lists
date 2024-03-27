@@ -10,23 +10,20 @@ module.exports = async function getSolanaTokens(networkId) {
 
   // Fetch from current version
   const currentTokens = await getTokensFromCurrentList(networkId);
+  const currentTokensSet = new Set();
   currentTokens.forEach((token) => {
-    if (Math.random() < 0.25) return;
+    currentTokensSet.add(token.address);
+  });
+
+  // Add from jup
+  const jupTokens = await getSolanaTokensFromJup(currentTokensSet);
+  jupTokens.forEach((token) => {
     tokensByAddress.set(token.address, token);
   });
 
   // Add from json
   const listTokens = getTokensFromList(networkId);
   listTokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
-
-  // Add from jup
-  alreadyFetchedSet = new Set(
-    Array.from(tokensByAddress.values()).map((t) => t.address)
-  );
-  const jupTokens = await getSolanaTokensFromJup(alreadyFetchedSet);
-  jupTokens.forEach((token) => {
     tokensByAddress.set(token.address, token);
   });
 
