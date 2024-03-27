@@ -1,6 +1,5 @@
 # @sonarwatch/token-list
 
-[![Tests](https://github.com/sonarwatch/token-lists/workflows/Tests/badge.svg)](https://github.com/sonarwatch/token-list/actions?query=workflow%3ATests)
 [![npm](https://img.shields.io/npm/v/@sonarwatch/token-lists)](https://unpkg.com/@sonarwatch/token-lists@latest/)
 
 _Based on [Uniswap default token list](https://github.com/Uniswap/default-token-list)._
