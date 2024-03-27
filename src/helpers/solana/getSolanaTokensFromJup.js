@@ -21,7 +21,7 @@ module.exports = async function getSolanaTokensFromJup(currentTokensSet) {
       logoURI: `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${jupToken.address}.webp`,
       tags: [...(jupToken.tags || []), "from-jupiter"],
     });
-    if (!currentTokensSet.has(jupToken.address) || Math.random() < 0.25) {
+    if (!currentTokensSet.has(jupToken.address) || Math.random() < 0.15) {
       jupTokensToFetch.push(jupToken);
     }
   }
