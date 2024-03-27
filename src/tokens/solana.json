@@ -51379,7 +51379,7 @@
     "symbol": "vCYPH",
     "name": "Cypher Voucher",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/vCYPH.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/vCYPH.webp"
   },
   {
     "chainId": 101,
@@ -51387,7 +51387,7 @@
     "symbol": "USDT-USDC",
     "name": "Saber USDT-USDC LP",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf.webp"
   },
   {
     "chainId": 101,
@@ -51395,7 +51395,7 @@
     "symbol": "mSOL-SOL",
     "name": "Saber mSOL-SOL LP",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/SoLEao8wTzSfqhuou8rcYsVoLjthVmiXuEjzdNPMnCz.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/SoLEao8wTzSfqhuou8rcYsVoLjthVmiXuEjzdNPMnCz.webp"
   },
   {
     "chainId": 101,
@@ -51403,7 +51403,7 @@
     "symbol": "FLP.2",
     "name": "Flash LP 2",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/flp2.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/flp2.webp"
   },
   {
     "chainId": 101,
@@ -51411,7 +51411,7 @@
     "symbol": "JSOL-JUP",
     "name": "Kamino JSOL-JUP (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51419,7 +51419,7 @@
     "symbol": "bSOL-JUP",
     "name": "Kamino bSOL-JUP (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51427,7 +51427,7 @@
     "symbol": "JUP-BONK",
     "name": "Kamino JUP-BONK (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51435,7 +51435,7 @@
     "symbol": "JUP-SOL",
     "name": "Kamino JUP-SOL (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51443,7 +51443,7 @@
     "symbol": "JUP-WEN",
     "name": "Kamino JUP-WEN (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51451,7 +51451,7 @@
     "symbol": "JUP-CHKY",
     "name": "Kamino JUP-CHKY (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51459,7 +51459,7 @@
     "symbol": "JUP-GECKO",
     "name": "Kamino JUP-GECKO (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51467,7 +51467,7 @@
     "symbol": "JUP-UCAR",
     "name": "Kamino JUP-UCAR (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51475,7 +51475,7 @@
     "symbol": "JUP-USDH",
     "name": "Kamino JUP-USDH (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51483,7 +51483,7 @@
     "symbol": "JUP-ARAB",
     "name": "Kamino JUP-ARAB (Meteora)",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   },
   {
     "chainId": 101,
@@ -51491,7 +51491,7 @@
     "symbol": "fEUR",
     "name": "FlashTrade Euro Spot",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/feur.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/feur.webp"
   },
   {
     "chainId": 101,
@@ -51499,7 +51499,7 @@
     "symbol": "fXAG",
     "name": "FlashTrade Silver Spot",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fxag.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fxag.webp"
   },
   {
     "chainId": 101,
@@ -51507,7 +51507,7 @@
     "symbol": "fGBP",
     "name": "FlashTrade Pound Sterling Spot",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fgbp.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fgbp.webp"
   },
   {
     "chainId": 101,
@@ -51515,7 +51515,7 @@
     "symbol": "fAUD",
     "name": "FlashTrade Australian Dollar Spot",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/faud.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/faud.webp"
   },
   {
     "chainId": 101,
@@ -51523,7 +51523,7 @@
     "symbol": "fXAU",
     "name": "FlashTrade Gold Spot",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fxau.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/fxau.webp"
   },
   {
     "chainId": 101,
@@ -51567,6 +51567,6 @@
     "symbol": "xWHALES",
     "name": "Staked Whales",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/xWHALES.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/xWHALES.webp"
   }
 ]
