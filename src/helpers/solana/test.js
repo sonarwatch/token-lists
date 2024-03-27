@@ -9,7 +9,7 @@ fs.readdirSync(folder).forEach((file) => {
 });
 
 async function main() {
-  for (let i = 0; i < 2000; i++) {
+  for (let i = 0; i < 4000; i++) {
     const pngFile = pngFiles[i];
     await sharp(folder + pngFile)
       .resize(64, 64)
