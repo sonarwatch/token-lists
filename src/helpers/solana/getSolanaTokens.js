@@ -27,12 +27,6 @@ module.exports = async function getSolanaTokens(networkId) {
     tokensByAddress.set(token.address, token);
   });
 
-  // Set current if not replaced
-  currentTokens.forEach((token) => {
-    if (tokensByAddress.has(token.address)) return;
-    tokensByAddress.set(token.address, token);
-  });
-
   // Set indexes
   for (const [index, addresses] of Object.entries(indexes)) {
     [...addresses, index].forEach((address) => {
