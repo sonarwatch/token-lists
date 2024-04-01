@@ -8,7 +8,7 @@ module.exports = async function getEthereumTokens() {
   const listRes = await axios.get(
     "https://tokens.coingecko.com/uniswap/all.json"
   );
-  await sleep(60000);
+  await sleep(120000);
   if (!listRes || !listRes.data || !listRes.data.tokens)
     throw new Error("Failed to fetch Coingecko's token list");
 

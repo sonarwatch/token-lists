@@ -53,7 +53,7 @@ module.exports = async function getEvmTokensFromCoingecko(
         },
       })
       .catch(() => null);
-    await sleep(4000);
+    await sleep(5000);
     if (!coinDetailsResponse || !coinDetailsResponse.data) continue;
     const coinDetails = coinDetailsResponse.data;
     const decimals = await getErc20Decimals(address, provider);
@@ -73,6 +73,6 @@ module.exports = async function getEvmTokensFromCoingecko(
     };
     tokensByAddress.set(address, token);
   }
-  await sleep(10000);
+  await sleep(30000);
   return Array.from(tokensByAddress.values());
 };
