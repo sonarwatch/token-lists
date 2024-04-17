@@ -24,7 +24,6 @@ This NPM module and GitHub repo contains SonarWatch's token lists.
 - [Scroll](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.scroll.tokenlist.json)
 - [Sei](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.sei.tokenlist.json)
 - [Solana](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.solana.tokenlist.json)
-- [Starknet](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.starknet.tokenlist.json)
 - [Sui](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.sui.tokenlist.json)
 - [zkSync](https://cdn.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.zksync.tokenlist.json)
 
@@ -37,8 +36,10 @@ To request that we add a token to the list,
 
 ```bash
 npm run build:list:aptos
-
 npm run build
+
+npm test ./test/tokenIndexes.test.js
+npm test ./test/lists.test.js
 npm test
 
 npm run release -- --ci -i patch

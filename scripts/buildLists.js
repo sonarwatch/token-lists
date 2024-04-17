@@ -8,7 +8,6 @@ const cronosList = require("../build/sonarwatch.cronos.tokenlist.json");
 const gnosisList = require("../build/sonarwatch.gnosis.tokenlist.json");
 const lineaList = require("../build/sonarwatch.linea.tokenlist.json");
 const scrollList = require("../build/sonarwatch.scroll.tokenlist.json");
-const starknetList = require("../build/sonarwatch.starknet.tokenlist.json");
 const zksyncList = require("../build/sonarwatch.zksync.tokenlist.json");
 const polygonZkEvmList = require("../build/sonarwatch.polygon-zkevm.tokenlist.json");
 const ethereumList = require("../build/sonarwatch.ethereum.tokenlist.json");
@@ -29,7 +28,6 @@ const lists = {
   gnosis: gnosisList,
   linea: lineaList,
   scroll: scrollList,
-  starknet: starknetList,
   zksync: zksyncList,
   "polygon-zkevm": polygonZkEvmList,
   ethereum: ethereumList,
