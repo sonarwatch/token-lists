@@ -1,4 +1,5 @@
 const tokenIndexesByNetworkId = require("./tokenIndexes.json");
+const tokenExtensionsByNetworkId = require("./tokenExtensions.json");
 const bitcoinTokens = require("./tokens/bitcoin.json");
 const zksyncTokens = require("./tokens/zksync.json");
 const suiTokens = require("./tokens/sui.json");
@@ -38,19 +39,38 @@ module.exports = async function generateTokens(networkId, args) {
 
   // Add token indexes
   const tokenIndexes = tokenIndexesByNetworkId[networkId];
-  if (!tokenIndexes) return tokens;
-  const tokensByAddress = new Map();
-  tokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
-  for (const [indexAddress, indexedAddresses] of Object.entries(tokenIndexes)) {
-    indexedAddresses.forEach((address) => {
+  if (tokenIndexes) {
+    const tokensByAddress = new Map();
+    tokens.forEach((token) => {
+      tokensByAddress.set(token.address, token);
+    });
+    for (const [iAddress, iAddresses] of Object.entries(tokenIndexes)) {
+      iAddresses.forEach((address) => {
+        const token = tokensByAddress.get(address);
+        if (!token) return;
+        if (!token.extensions) token.extensions = {};
+        if (!token.extensions.indexedTo) token.extensions.indexedTo = [];
+        token.extensions.indexedTo.push(iAddress);
+      });
+    }
+    tokens = Array.from(tokensByAddress.values());
+  }
+
+  // Add extensions
+  const tokenExtensions = tokenExtensionsByNetworkId[networkId];
+  if (tokenIndexes) {
+    const tokensByAddress = new Map();
+    tokens.forEach((token) => {
+      tokensByAddress.set(token.address, token);
+    });
+    for (const [address, extensions] of Object.entries(tokenExtensions)) {
       const token = tokensByAddress.get(address);
       if (!token) return;
       if (!token.extensions) token.extensions = {};
-      if (!token.extensions.indexedTo) token.extensions.indexedTo = [];
-      token.extensions.indexedTo.push(indexAddress);
-    });
+      token.extensions = { ...token.extensions, ...extensions };
+    }
+    tokens = Array.from(tokensByAddress.values());
   }
-  return Array.from(tokensByAddress.values());
+
+  return tokens;
 };
