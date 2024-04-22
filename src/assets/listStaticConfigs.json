@@ -78,13 +78,6 @@
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png",
     "rpcEndpoint": "https://1rpc.io/scroll"
   },
-  "starknet": {
-    "id": "starknet",
-    "name": "Starknet",
-    "addressType": "starknet",
-    "chainId": 1,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/lists/sw_none.png"
-  },
   "zksync": {
     "id": "zksync",
     "name": "zkSync",

@@ -8,7 +8,6 @@ const cronosTokens = require("../tokens/cronos.json");
 const gnosisTokens = require("../tokens/gnosis.json");
 const lineaTokens = require("../tokens/linea.json");
 const scrollTokens = require("../tokens/scroll.json");
-const starknetTokens = require("../tokens/starknet.json");
 const zksyncTokens = require("../tokens/zksync.json");
 const polygonZkEvmTokens = require("../tokens/polygon-zkevm.json");
 const optimismTokens = require("../tokens/optimism.json");
@@ -29,7 +28,6 @@ const lists = {
   gnosis: gnosisTokens,
   linea: lineaTokens,
   scroll: scrollTokens,
-  starknet: starknetTokens,
   zksync: zksyncTokens,
   "polygon-zkevm": polygonZkEvmTokens,
   ethereum: ethereumTokens,

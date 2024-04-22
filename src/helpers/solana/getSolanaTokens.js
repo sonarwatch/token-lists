@@ -1,9 +1,6 @@
-const getSolanaTokensFromCoingecko = require("./getSolanaTokensFromCoingecko");
-const getSolanaTokensFromOnChain = require("./getSolanaTokensFromOnChain");
 const getTokensFromCurrentList = require("../getTokensFromCurrentList");
 const getTokensFromList = require("../getTokensFromList");
 const getSolanaTokensFromJup = require("./getSolanaTokensFromJup");
-const indexes = require("./indexes.json");
 
 module.exports = async function getSolanaTokens(networkId) {
   const tokensByAddress = new Map();
@@ -26,16 +23,6 @@ module.exports = async function getSolanaTokens(networkId) {
   listTokens.forEach((token) => {
     tokensByAddress.set(token.address, token);
   });
-
-  // Set indexes
-  for (const [index, addresses] of Object.entries(indexes)) {
-    [...addresses, index].forEach((address) => {
-      const token = tokensByAddress.get(address);
-      if (!token) return;
-      if (!token.extensions) token.extensions = {};
-      token.extensions.index = index;
-    });
-  }
 
   return Array.from(tokensByAddress.values());
 };

@@ -17,4 +17,15 @@ evmSchema.definitions.ExtensionPrimitiveValue.anyOf[valueStringIndex] = {
   maxLength: 84,
 };
 
+evmSchema.definitions.ExtensionPrimitiveValue.anyOf.push({
+  type: "array",
+  items: {
+    type: "string",
+    minLength: 1,
+    maxLength: 128,
+    pattern: "^[: \\w-]+$",
+  },
+  maxItems: 20,
+});
+
 module.exports = evmSchema;

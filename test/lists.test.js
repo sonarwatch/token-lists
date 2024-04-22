@@ -2,7 +2,7 @@ const packageJson = require("../package.json");
 const { expect } = require("chai");
 const lists = require("../build/sonarwatch.tokenlists.json");
 const listConfigs = require("../src/assets/listStaticConfigs.json");
-const isAddressValidAndFormated = require("../src/helpers/isAddressValidAndFormated");
+const formatTokenAddress = require("../src/helpers/formatTokenAddress");
 
 describe("lists", () => {
   it(`contains lists`, () => {
@@ -29,11 +29,8 @@ describe("lists", () => {
     it(`[${networkId}] all addresses are valid and correctly formated`, () => {
       const config = listConfigs[networkId];
       for (let token of list.tokens) {
-        const isValid = isAddressValidAndFormated(
-          token.address,
-          config.addressType
-        );
-        expect(isValid).to.eq(true, token.address);
+        const fAddress = formatTokenAddress(token.address, networkId);
+        expect(fAddress).to.equal(token.address);
       }
     });
 

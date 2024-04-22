@@ -13,8 +13,7 @@ if (!listStaticConfig) {
 }
 
 (async () => {
-  let tokens = await generateTokens(networkId, args);
-  tokens = tokens.map((t) => formatToken(t));
+  const tokens = await generateTokens(networkId, args);
   const config = {
     ...listStaticConfig,
     tokens,
