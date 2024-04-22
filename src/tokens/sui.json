@@ -265,10 +265,7 @@
     "decimals": 8,
     "name": "XFlowX",
     "symbol": "XFLX",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/xflx.png",
-    "extensions": {
-      "coingeckoId": "flowx-finance"
-    }
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/xflx.png"
   },
   {
     "chainId": 1,
