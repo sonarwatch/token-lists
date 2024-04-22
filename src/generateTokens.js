@@ -58,7 +58,7 @@ module.exports = async function generateTokens(networkId, args) {
 
   // Add extensions
   const tokenExtensions = tokenExtensionsByNetworkId[networkId];
-  if (tokenIndexes) {
+  if (tokenExtensions) {
     const tokensByAddress = new Map();
     tokens.forEach((token) => {
       tokensByAddress.set(token.address, token);
