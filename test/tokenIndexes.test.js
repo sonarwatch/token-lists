@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 
 const { assertNetworkId } = require("@sonarwatch/portfolio-core");
-const tokenIndexesByNetworkId = require("../src/tokenIndexes.json");
+const tokenIndexesByNetworkId = require("../src/tokenIndexes");
 const formatTokenAddress = require("../src/helpers/formatTokenAddress");
 
 describe("tokenIndexes", () => {

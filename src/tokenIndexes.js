@@ -1,5 +1,6 @@
-{
-  "solana": {
+const tokenIndexes = {
+  solana: {
+    // SOL
     "11111111111111111111111111111111": [
       "So11111111111111111111111111111111111111112",
       "3JFC4cB56Er45nWVe29Bhnn5GnwQzSmHVf6eUq9ac91h",
@@ -20,9 +21,12 @@
       "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
       "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj",
       "jucy5XJ76pHVvtPZb5TKRcGQExkwit2P5s4vY8UzmpC",
-      "9EaLkQrbjmbbuZG9Wdpo8qfNUEjHATJFSycEmw6f1rGX"
+      "9EaLkQrbjmbbuZG9Wdpo8qfNUEjHATJFSycEmw6f1rGX",
+      "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
     ],
-    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": [
+    // USDC
+    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v: [
       "G8KevG5RY3KgikX6iDHKaNSP7R2ERyDF9JFaTS1z1nms",
       "HUtSa4eT4ccqPU2SMwwAawHJGQoaAvgqwb65CRA8QycZ",
       "894Kdz8jCFeBfhDBm4VSRypvTgcRTdtAWxNyFQb2y5Ug",
@@ -34,22 +38,32 @@
       "Cvvh8nsKZet59nsDDo3orMa3rZnPWQhpgrMCVcRDRgip",
       "Amig8TisuLpzun8XyGfC5HJHHGUQEscjLgoTWsCCKihg",
       "Grk6b4UMRWkgyq4Y6S1BnNRF4hRgtnMFp7Sorkv6Ez4u",
-      "BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW"
+      "BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW",
+      "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
+      "CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz",
+      "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
     ],
-    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": [
+    // USDT
+    Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB: [
       "BTsbZDV7aCMRJ3VNy9ygV4Q2UeEo9GpR8D6VvmMZzNr8",
       "ERwFnz8xbtqDqyEkoHTAWNT6j4q3hVLduh5VtQkgPnbQ",
       "3RudPTAkfcq9Q9Jk8SVeCoecCBmdKMj6q5smsWzxqtqZ",
       "AHV6CBjuT7M2HMMKDa5gRSEoBcJGWVjURCBhpgMbyESX",
       "gLhY2arqFpmVGkpbBbTi3TeWbsWevA8dqrwbKacK3vJ",
       "GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj",
-      "B2wfeYz5VtBnQVrX4M8F6FeDrprVrzKPws5qg1in8bzR"
+      "B2wfeYz5VtBnQVrX4M8F6FeDrprVrzKPws5qg1in8bzR",
+      "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
     ],
+    // wETH
     "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs": [
       "zdABz6DyNFsH62xAoh1RThk2DH2mDPeEiFnmWcJTHTP",
       "BiryxNvVTABRs3pEE4fvVuu4d17aAYEsNmcPnJ8E8WeT",
-      "H2mf9QNdU2Niq6QR7367Ua2trBsvscLyX5bz7R3Pw5sE"
+      "H2mf9QNdU2Niq6QR7367Ua2trBsvscLyX5bz7R3Pw5sE",
+      "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
     ],
+    // wBTC
     "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh": [
       "AAuuhM6a9TJ6MsoKbSmBGbqBhDQkyuNUgDkH9E9j3Xzm",
       "Fd8xyHHRjTvxfZrBirb6MaxSmrZYw99gRSqFUKdFwFvw",
@@ -60,7 +74,26 @@
       "3UeKTABxz9XexDtyKq646rSQvx8GVpKNwfMoKKfxsTsF",
       "8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref",
       "EK6iyvvqvQtsWYcySrZVHkXjCLX494r9PhnDWJaX1CPu",
-      "qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL"
-    ]
-  }
-}
+      "qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL",
+      "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
+    ],
+    // JUP
+    JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN: [
+      "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
+    ],
+    // PYTH
+    HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3: [
+      "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
+    ],
+    // JTO
+    jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL: [
+      "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
+    ],
+    // W (Wormhole)
+    "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ": [
+      "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
+    ],
+  },
+};
+module.exports = tokenIndexes;

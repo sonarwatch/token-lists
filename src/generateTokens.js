@@ -1,4 +1,4 @@
-const tokenIndexesByNetworkId = require("./tokenIndexes.json");
+const tokenIndexesByNetworkId = require("./tokenIndexes");
 const tokenExtensionsByNetworkId = require("./tokenExtensions.json");
 const bitcoinTokens = require("./tokens/bitcoin.json");
 const zksyncTokens = require("./tokens/zksync.json");
