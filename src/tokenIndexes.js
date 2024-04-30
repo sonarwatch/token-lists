@@ -24,6 +24,21 @@ const tokenIndexes = {
       "9EaLkQrbjmbbuZG9Wdpo8qfNUEjHATJFSycEmw6f1rGX",
       "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
       "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
+      "HUBsveNpjo5pWqNkH57QzxjQASdTVXcSK7bVKTSZtcSX",
+      "st8QujHLPsX3d6HG9uQg9kJ91jFxUgruwsb1hyYXSNd",
+      "strng7mqqc1MBJJV6vMzYbEqnwVGvKKGKedeCvtktWA",
+      "suPer8CPwxoJPQ7zksGMwFvjBQhjAHwUMmPV4FVatBw",
+      "vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7",
+      "Zippybh3S5xYYam2nvL6hVJKz1got6ShgV4DyD1XQYF",
+      "CgnTSoL3DgY9SFHxcLj6CgCgKKoTBr6tp4CPAEWy25DE",
+      "GRJQtWwdJmp5LLpy8JWjPgn5FnLyqSJGNhn5ZnCTFUwM",
+      "edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt",
+      "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
+      "7Q2afV64in6N6SeZsAAB81TJzwDoD6zpqmHkzi9Dcavn",
+      "LnTRntk2kTfWEY6cVB8K9649pgJbt6dJLS1Ns1GZCWg",
+      "phaseZSfPxTDBpiVb96H4XFSD8xHeHxZre5HerehBJG",
+      "picobAEvs6w7QEknPce34wAE4gknZA9v5tTonnmHYdX",
+      "pumpkinsEq8xENVZE6QgTS93EN4r9iKvNxNALS1ooyp",
     ],
     // USDC
     EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v: [
@@ -43,6 +58,7 @@ const tokenIndexes = {
       "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
       "CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz",
       "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
+      "A9mUU4qviSctJVPJdBJWkb28deg915LYJKrzQ19ji3FM",
     ],
     // USDT
     Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB: [
