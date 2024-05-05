@@ -39,6 +39,7 @@ const tokenIndexes = {
       "phaseZSfPxTDBpiVb96H4XFSD8xHeHxZre5HerehBJG",
       "picobAEvs6w7QEknPce34wAE4gknZA9v5tTonnmHYdX",
       "pumpkinsEq8xENVZE6QgTS93EN4r9iKvNxNALS1ooyp",
+      "iceSdwqztAQFuH6En49HWwMxwthKMnGzLFQcMN3Bqhj",
     ],
     // USDC
     EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v: [
