@@ -2,7 +2,8 @@ module.exports = function formatToken(token) {
   const nToken = { ...token };
   nToken.name = token.name
     .normalize("NFKC")
-    .replace("\\", "")
+    .replaceAll("\\", "")
+    .replaceAll("\t", "")
     .trim()
     .substring(0, 64);
   nToken.symbol = token.symbol
