@@ -88,6 +88,7 @@ const tokenIndexes = {
       "CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz",
       "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
       "A9mUU4qviSctJVPJdBJWkb28deg915LYJKrzQ19ji3FM",
+      "GnxdTsSQNQ3FF72nTyWo4SUt59Tt1MqDkRRfoPtKjMvJ",
     ],
     // USDT
     Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB: [
@@ -122,6 +123,7 @@ const tokenIndexes = {
       "qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL",
       "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
       "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
+      "21BTCo9hWHjGYYUQQLqjLgDBxjcn8vDt4Zic7TB3UbNE",
     ],
     // JUP
     JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN: [
@@ -138,6 +140,10 @@ const tokenIndexes = {
     // W (Wormhole)
     "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ": [
       "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
+    ],
+    // BONK
+    DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263: [
+      "GnxdTsSQNQ3FF72nTyWo4SUt59Tt1MqDkRRfoPtKjMvJ",
     ],
   },
 };
