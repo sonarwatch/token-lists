@@ -37,4 +37,4 @@ const lists = {
   sui: suiList,
   sei: seiList,
 };
-console.log(JSON.stringify(lists, null, 2));
+console.log(JSON.stringify(lists));
