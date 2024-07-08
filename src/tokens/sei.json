@@ -36,7 +36,7 @@
     "decimals": 6,
     "name": "USD Coin",
     "symbol": "USDCet",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-from-ethereum"
     }
@@ -55,7 +55,7 @@
     "decimals": 6,
     "name": "Wrapped USDC from Arbitrum (Wormhole)",
     "symbol": "USDCar",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp"
   },
   {
     "chainId": 1,
@@ -71,7 +71,7 @@
     "decimals": 6,
     "name": "Wrapped USDC from Optimism (Wormhole)",
     "symbol": "USDCop",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp"
   },
   {
     "chainId": 1,
@@ -79,7 +79,7 @@
     "decimals": 6,
     "name": "Wrapped USDC from Polygon  (Wormhole)",
     "symbol": "USDCpo",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp"
   },
   {
     "chainId": 1,

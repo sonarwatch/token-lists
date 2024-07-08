@@ -17,7 +17,7 @@
     "decimals": 6,
     "name": "Wormhole USD Coin",
     "symbol": "USDC",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-from-ethereum"
     }
@@ -28,7 +28,7 @@
     "decimals": 6,
     "name": "Layerzero USD Coin",
     "symbol": "zUSDC",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "layerzero-bridged-usdc-aptos"
     }
@@ -184,7 +184,7 @@
     "decimals": 6,
     "name": "USD Coin (Celer)",
     "symbol": "USDC",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp"
   },
   {
     "chainId": 1,

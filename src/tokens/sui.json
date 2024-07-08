@@ -17,7 +17,7 @@
     "decimals": 6,
     "name": "USD Coin (Wormhole from Ethereum)",
     "symbol": "USDC",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-from-ethereum"
     }
@@ -39,7 +39,7 @@
     "decimals": 6,
     "name": "USD Coin (Wormhole from Solana)",
     "symbol": "USDCso",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp"
   },
   {
     "chainId": 1,
@@ -47,7 +47,7 @@
     "decimals": 8,
     "name": "USD Coin (BNB)",
     "symbol": "USDCbnb",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-bnb"
     }
@@ -58,7 +58,7 @@
     "decimals": 6,
     "name": "USD Coin (ARB)",
     "symbol": "USDCarb",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-arb"
     }
