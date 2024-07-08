@@ -4,6 +4,7 @@ module.exports = function formatToken(token) {
     .normalize("NFKC")
     .replaceAll("\\", "")
     .replaceAll("\t", "")
+    .replaceAll("\n", "")
     .trim()
     .substring(0, 64);
   nToken.symbol = token.symbol
