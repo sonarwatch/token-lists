@@ -20,5 +20,5 @@ if (!listStaticConfig) {
     schema: getSchemaFromNetworkId(networkId),
   };
   const list = generateList(config);
-  console.log(JSON.stringify(list, null, 2));
+  console.log(JSON.stringify(list));
 })();

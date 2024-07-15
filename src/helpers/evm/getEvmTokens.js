@@ -10,7 +10,6 @@ module.exports = async function getEvmTokens(networkId) {
   // Fetch from current version
   const currentTokens = await getTokensFromCurrentList(networkId);
   currentTokens.forEach((token) => {
-    if (Math.random() < 0.05) return;
     tokensByAddress.set(token.address, token);
   });
 
@@ -35,12 +34,6 @@ module.exports = async function getEvmTokens(networkId) {
   // Add from json
   const listTokens = getTokensFromList(networkId);
   listTokens.forEach((token) => {
-    tokensByAddress.set(token.address, token);
-  });
-
-  // Set current if not replaced
-  currentTokens.forEach((token) => {
-    if (tokensByAddress.has(token.address)) return;
     tokensByAddress.set(token.address, token);
   });
 

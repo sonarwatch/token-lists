@@ -41,7 +41,7 @@ module.exports = async function getEvmTokensFromCoingecko(
       continue;
     }
 
-    if (alreadyFetchedSet.has(address)) continue;
+    if (alreadyFetchedSet.has(address) && Math.random() > 0.05) continue;
     if (tokensByAddress.get(address)) continue;
     const coinDetailsResponse = await axios
       .get(`https://api.coingecko.com/api/v3/coins/${coin.id}`, {

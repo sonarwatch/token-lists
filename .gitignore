@@ -3,3 +3,7 @@
 node_modules
 build/
 .env
+
+# System Files
+.DS_Store
+Thumbs.db

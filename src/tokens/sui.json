@@ -17,7 +17,7 @@
     "decimals": 6,
     "name": "USD Coin (Wormhole from Ethereum)",
     "symbol": "USDC",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-from-ethereum"
     }
@@ -39,7 +39,7 @@
     "decimals": 6,
     "name": "USD Coin (Wormhole from Solana)",
     "symbol": "USDCso",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp"
   },
   {
     "chainId": 1,
@@ -47,7 +47,7 @@
     "decimals": 8,
     "name": "USD Coin (BNB)",
     "symbol": "USDCbnb",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-bnb"
     }
@@ -58,7 +58,7 @@
     "decimals": 6,
     "name": "USD Coin (ARB)",
     "symbol": "USDCarb",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin-wormhole-arb"
     }
@@ -349,7 +349,10 @@
     "decimals": 9,
     "name": "Suicune",
     "symbol": "HSUI",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/suicune.png"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/suicune.png",
+    "extensions": {
+      "coingeckoId": "suicune-on-sui"
+    }
   },
   {
     "chainId": 1,
@@ -358,5 +361,13 @@
     "name": "ABEx LP Token",
     "symbol": "ALP",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/alp.webp"
+  },
+  {
+    "chainId": 1,
+    "address": "0xda1644f58a955833a15abae24f8cc65b5bd8152ce013fde8be0a6a3dcf51fe36::token::TOKEN",
+    "decimals": 0,
+    "name": "Huski",
+    "symbol": "HUSKI",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/huski.webp"
   }
 ]

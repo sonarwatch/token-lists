@@ -40,7 +40,7 @@
     "symbol": "USDC",
     "decimals": 6,
     "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin"
     }
@@ -51,7 +51,7 @@
     "symbol": "USDC.e",
     "decimals": 6,
     "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.png",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/USDC.webp",
     "extensions": {
       "coingeckoId": "usd-coin-avalanche-bridged-usdc-e"
     }
