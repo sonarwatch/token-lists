@@ -20,8 +20,8 @@ const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkI
 async function jupApiGet(path) {
   const response = await axios
     .get(`https://tokens.jup.ag/${path}`, { timeout: 50000 })
-    .catch(() => {
-      throw new Error(`Unable to fetch jup list: ${path}`);
+    .catch((e) => {
+      throw new Error(`Unable to fetch jup list: ${path}`, e);
     });
   if (!response || !response.data) return [];
   return response.data;
