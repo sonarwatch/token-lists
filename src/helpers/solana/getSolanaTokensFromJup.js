@@ -4,6 +4,7 @@ const listStaticConfigs = require("../../../src/assets/listStaticConfigs.json");
 const runInBatch = require("../runInBatch");
 const getCoingeckoCoinsList = require("../getCoingeckoCoinsList");
 const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkId");
+const sleep = require("../sleep");
 
 // export type JupToken = {
 //   address:          string;
@@ -29,6 +30,7 @@ async function jupApiGet(path) {
 
 module.exports = async function getSolanaTokensFromJup(currentTokensSet) {
   const tokensWithMarket = await jupApiGet("tokens_with_markets");
+  await sleep(5000);
   const tokensVerified = await jupApiGet("tokens?tags=verified");
   const jupTokensMap = new Map();
   [...tokensWithMarket, ...tokensVerified].forEach((t) => {
