@@ -266,5 +266,24 @@
     "extensions": {
       "coingeckoId": "gari-network"
     }
+  },
+  {
+    "chainId": 1,
+    "address": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakedThalaAPT",
+    "decimals": 8,
+    "name": "Staked Thala Aptos",
+    "symbol": "sthAPT",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/aptos/sthAPT.png",
+    "extensions": {
+      "coingeckoId": "staked-thala-apt"
+    }
+  },
+  {
+    "chainId": 1,
+    "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WBTC",
+    "decimals": 6,
+    "name": "Wrapped BTC (LayerZero)",
+    "symbol": "zWBTC",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/common/BTC.png"
   }
 ]
