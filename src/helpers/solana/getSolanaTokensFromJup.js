@@ -20,7 +20,7 @@ const sleep = require("../sleep");
 
 async function jupApiGet(path) {
   const response = await axios
-    .get(`https://tokens.jup.ag/${path}`, { timeout: 50000 })
+    .get(`https://tokens.jup.ag/${path}`, { timeout: 90000 })
     .catch((e) => {
       throw new Error(`Unable to fetch jup list: ${path}`, e);
     });
