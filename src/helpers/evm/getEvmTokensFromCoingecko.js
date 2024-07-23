@@ -14,7 +14,7 @@ const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
 module.exports = async function getEvmTokensFromCoingecko(
   networkId,
-  alreadyFetchedSet
+  currentTokensMap
 ) {
   const coinsList = await getCoingeckoCoinsList();
   const tokensByAddress = new Map();
@@ -41,7 +41,10 @@ module.exports = async function getEvmTokensFromCoingecko(
       continue;
     }
 
-    if (alreadyFetchedSet.has(address) && Math.random() > 0.05) continue;
+    if (currentTokensMap.get(address) && Math.random() > 0.1) {
+      tokensByAddress.set(address, currentTokensMap.get(address));
+      continue;
+    }
     if (tokensByAddress.get(address)) continue;
     const coinDetailsResponse = await axios
       .get(`https://api.coingecko.com/api/v3/coins/${coin.id}`, {
@@ -56,7 +59,9 @@ module.exports = async function getEvmTokensFromCoingecko(
     await sleep(5000);
     if (!coinDetailsResponse || !coinDetailsResponse.data) continue;
     const coinDetails = coinDetailsResponse.data;
-    const decimals = await getErc20Decimals(address, provider);
+    const decimals =
+      coinDetails.detail_platforms?.[platform].decimal_place || null;
+    if (decimals === null) decimals = await getErc20Decimals(address, provider);
     if (decimals === null) continue;
     const isUriValid = uriValidate(coinDetails.image.small);
     const logoURI = isUriValid ? coinDetails.image.small : undefined;
@@ -64,8 +69,8 @@ module.exports = async function getEvmTokensFromCoingecko(
       chainId,
       address,
       decimals,
-      name: coinDetails.name.substring(0, 64).trim(),
-      symbol: coinDetails.symbol.toUpperCase().replaceAll(" ", ""),
+      name: coinDetails.name,
+      symbol: coinDetails.symbol.toUpperCase(),
       logoURI,
       extensions: {
         coingeckoId: coinDetails.id,
