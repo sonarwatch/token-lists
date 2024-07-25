@@ -99,16 +99,5 @@
     "extensions": {
       "coingeckoId": "wrapped-bitcoin"
     }
-  },
-  {
-    "chainId": 43114,
-    "address": "0x8aD25B0083C9879942A64f00F20a70D3278f6187",
-    "decimals": 18,
-    "name": "MeowCat",
-    "symbol": "MEOW",
-    "logoURI": "https://assets.coingecko.com/coins/images/36042/small/meow.png?1710400599",
-    "extensions": {
-      "coingeckoId": "meowcat-2"
-    }
   }
 ]
