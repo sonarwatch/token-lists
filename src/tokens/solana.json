@@ -51013,6 +51013,14 @@
   },
   {
     "chainId": 101,
+    "address": "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
+    "symbol": "FLP.1",
+    "name": "Flash LP 1",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX.webp"
+  },
+  {
+    "chainId": 101,
     "address": "CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz",
     "symbol": "FLP.2",
     "name": "Flash LP 2",
@@ -52330,14 +52338,6 @@
     "name": "Mantle Network",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BQnJTNbkQLhb6aS8A5wsdqjfARKr1t5czP1bMS7JprHS.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "G3tRJHBagYNYMEW77b9pPY1kSYvGKigGncJUFCfPg2Vd",
-    "symbol": "RNF",
-    "name": "Rain.fi",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/G3tRJHBagYNYMEW77b9pPY1kSYvGKigGncJUFCfPg2Vd.webp"
   },
   {
     "address": "3Kwsdqgxp5c6yQQLVU3L6LC9LWThwvPr1urwc9UhqH2P",
