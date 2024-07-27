@@ -60806,15 +60806,6 @@
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/G3tRJHBagYNYMEW77b9pPY1kSYvGKigGncJUFCfPg2Vd.webp"
   },
   {
-    "address": "H1XJ1WKAgPdx8gLkiVGj6bnbCkWKDdkzHRiDe2ou1CFH",
-    "chainId": 101,
-    "decimals": 8,
-    "name": "David Attenborough",
-    "symbol": "David",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/H1XJ1WKAgPdx8gLkiVGj6bnbCkWKDdkzHRiDe2ou1CFH.webp",
-    "tags": ["  "]
-  },
-  {
     "address": "3Kwsdqgxp5c6yQQLVU3L6LC9LWThwvPr1urwc9UhqH2P",
     "chainId": 101,
     "decimals": 9,
