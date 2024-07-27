@@ -57243,22 +57243,6 @@
     "tags": ["community"]
   },
   {
-    "chainId": 101,
-    "address": "35LeGB6qw9YWWZWA1C1vj8jzoHSAajwNQiBSM93f2yaW",
-    "symbol": "kLAINEJITO",
-    "name": "Kamino LAINEJITO (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/35LeGB6qw9YWWZWA1C1vj8jzoHSAajwNQiBSM93f2yaW.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "9Q4JAY8q8srjN1ndJRMvrVT7AhRsFaqn3ehNypqXHSRM",
-    "symbol": "kSOL-EUROE",
-    "name": "Kamino SOL-EUROE (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9Q4JAY8q8srjN1ndJRMvrVT7AhRsFaqn3ehNypqXHSRM.webp"
-  },
-  {
     "address": "GChHQ2ok1P34H1p862c3hFhBx5zHQJfBTaZZWJS6LNqX",
     "chainId": 101,
     "decimals": 6,
