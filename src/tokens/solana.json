@@ -51755,7 +51755,6 @@
     "name": "Yaku",
     "symbol": "YAKU",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/NGK3iHqqQkyRZUj4uhJDQqEyKKcZ7mdawWpqwMffM3s.webp",
-    "tags": ["community", "solana-fm"],
     "extensions": { "coingeckoId": "yaku" }
   },
   {
@@ -51839,15 +51838,6 @@
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2hH3ey8U94cvcxcaxZP3GDVNPFfgavn3K2mYvkUDV3Sm.webp"
   },
   {
-    "address": "hone3CJTYjczb5nJh45KCNMkjrKMt7SCnHkWGWsVfVu",
-    "chainId": 101,
-    "decimals": 0,
-    "name": "Yokoito Crew Hone",
-    "symbol": "HONE",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/hone3CJTYjczb5nJh45KCNMkjrKMt7SCnHkWGWsVfVu.webp",
-    "tags": ["old-registry", "solana-fm"]
-  },
-  {
     "chainId": 101,
     "address": "9MDpyAPEUSWCx5JrPvRRmnwSVdKtNBfXMnnE7L4AE7QV",
     "symbol": "SOGAT",
@@ -51888,15 +51878,6 @@
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/8nx5mWfiBDLdX1DKXYDK4KXMfkgGVUbLMFppHt7Pummq.webp"
   },
   {
-    "address": "94eKLx2MnfnVpbwqGvBwQCAyjdYUqs4B9MG19GS1mJ5i",
-    "chainId": 101,
-    "decimals": 3,
-    "name": "Bit Harvest Studio Token",
-    "symbol": "BHST",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/94eKLx2MnfnVpbwqGvBwQCAyjdYUqs4B9MG19GS1mJ5i.webp",
-    "tags": ["community"]
-  },
-  {
     "chainId": 101,
     "address": "ErEvq3apphoGdMmorqGx6SuEE3tvRo7ozE9LzRfe5CoK",
     "symbol": "kSTSOL-ETH",
@@ -51934,8 +51915,7 @@
     "decimals": 9,
     "name": "Saber Wrapped FTT (Portal) (9 decimals)",
     "symbol": "swFTT-9",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FTT9GrHBVHvDeUTgLU8FxVJouGqg9uiWGmmjETdm32Sx.webp",
-    "tags": ["old-registry"]
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FTT9GrHBVHvDeUTgLU8FxVJouGqg9uiWGmmjETdm32Sx.webp"
   },
   {
     "chainId": 101,
@@ -51976,15 +51956,6 @@
     "name": "Kamino JITO-USDC (Orca)",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Ay9H7GYTF7HqJu2Tk2CQWd7vreC6ZKtxKv37YqXTGoRp.webp"
-  },
-  {
-    "address": "B8wCsjSv3TDZcaLuhPZNDvpk2vuBtRgpgmTuvoDAJZZ7",
-    "chainId": 101,
-    "decimals": 9,
-    "name": "Chimp",
-    "symbol": "CHIMP",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/B8wCsjSv3TDZcaLuhPZNDvpk2vuBtRgpgmTuvoDAJZZ7.webp",
-    "tags": ["old-registry", "solana-fm"]
   },
   {
     "chainId": 101,
@@ -52280,8 +52251,7 @@
     "decimals": 9,
     "name": "Saber Wrapped renLUNA (9 decimals)",
     "symbol": "srenLUNA-9",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/KUANeD8EQvwpT1W7QZDtDqctLEh2FfSTy5pThE9CogT.webp",
-    "tags": ["old-registry"]
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/KUANeD8EQvwpT1W7QZDtDqctLEh2FfSTy5pThE9CogT.webp"
   },
   {
     "chainId": 101,
