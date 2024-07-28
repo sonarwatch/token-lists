@@ -21,11 +21,219 @@
   },
   {
     "chainId": 101,
-    "address": "DL1WSv3tZpYr6pN489XXgP5GFvLyGtoDy6EW6dL6bFfL",
-    "symbol": "0T",
-    "name": "Jeweloophole",
+    "address": "2xZzszs2FeTffckT5WhvHXzuXbM94bvp31vC7BRdXWhE",
+    "symbol": "aeTRYB",
+    "name": "Wrapped TRYB (Allbridge from Ethereum)",
     "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/DL1WSv3tZpYr6pN489XXgP5GFvLyGtoDy6EW6dL6bFfL.webp"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2xZzszs2FeTffckT5WhvHXzuXbM94bvp31vC7BRdXWhE.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "E7zDjtDVWRgsdgMDcbtzTMVMkcWcyF35Do6Qmis5nvBZ",
+    "symbol": "aeUNI",
+    "name": "Wrapped UNI (Allbridge from Ethereum)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/E7zDjtDVWRgsdgMDcbtzTMVMkcWcyF35Do6Qmis5nvBZ.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "88GEfTd3JKyQtRE3kYCup73MFe2gqHtZSCgqaUB5zDHV",
+    "symbol": "aeWBTC",
+    "name": "Wrapped BTC (Allbridge from Ethereum)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/88GEfTd3JKyQtRE3kYCup73MFe2gqHtZSCgqaUB5zDHV.webp",
+    "extensions": { "coingeckoId": "wrapped-bitcoin" }
+  },
+  {
+    "chainId": 101,
+    "address": "Fd8xyHHRjTvxfZrBirb6MaxSmrZYw99gRSqFUKdFwFvw",
+    "symbol": "aaWBTC",
+    "name": "Wrapped BTC (Allbridge from Avalanche)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Fd8xyHHRjTvxfZrBirb6MaxSmrZYw99gRSqFUKdFwFvw.webp",
+    "extensions": { "coingeckoId": "wrapped-bitcoin" }
+  },
+  {
+    "chainId": 101,
+    "address": "4nLJaxZbHMNXPpg6BSEruyU1vh4sAbRxSkjEkmJVJDKy",
+    "symbol": "abBNB",
+    "name": "Wrapped BNB (Allbridge from BSC)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/4nLJaxZbHMNXPpg6BSEruyU1vh4sAbRxSkjEkmJVJDKy.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "29r14BEftB1RnSdq2ygVnwmEThbhmwvaaXhkmv5GvyyG",
+    "symbol": "abDAI",
+    "name": "Wrapped DAI (Allbridge from BSC)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/29r14BEftB1RnSdq2ygVnwmEThbhmwvaaXhkmv5GvyyG.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "BAexggGFsiLCKr17cSZF12wkHd8BkR1DBhzuSb78WTR2",
+    "symbol": "aeFEI",
+    "name": "Wrapped FEI (Allbridge from Ethereum)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BAexggGFsiLCKr17cSZF12wkHd8BkR1DBhzuSb78WTR2.webp",
+    "extensions": { "coingeckoId": "fei-usd" }
+  },
+  {
+    "chainId": 101,
+    "address": "BFsCwfk8VsEbSfLkkgmoKsAPk2N6FMJjeTsuxfGa9VEf",
+    "symbol": "aeFTT",
+    "name": "Wrapped FTT (Allbridge from Ethereum)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BFsCwfk8VsEbSfLkkgmoKsAPk2N6FMJjeTsuxfGa9VEf.webp",
+    "extensions": { "coingeckoId": "ftx-token" }
+  },
+  {
+    "chainId": 101,
+    "address": "GFdVCMBimnf2Dmx2D4DtPhghTkLYh6JG4u5hKB89t9n1",
+    "symbol": "aeLINK",
+    "name": "Wrapped LINK (Allbridge from Ethereum)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GFdVCMBimnf2Dmx2D4DtPhghTkLYh6JG4u5hKB89t9n1.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "2ASbApnFVSTp2RJvMLgLVfbDwJvu1FRXdhJWrGs89Lhj",
+    "symbol": "aeMIM",
+    "name": "Wrapped MIM (Allbridge from Ethereum)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2ASbApnFVSTp2RJvMLgLVfbDwJvu1FRXdhJWrGs89Lhj.webp",
+    "extensions": { "coingeckoId": "magic-internet-money" }
+  },
+  {
+    "chainId": 101,
+    "address": "DoH3AKgMCShGxzpSgHeGyU3AosnHmJbYShgjZwNeFEsm",
+    "symbol": "abLINK",
+    "name": "Wrapped LINK (Allbridge from BSC)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/DoH3AKgMCShGxzpSgHeGyU3AosnHmJbYShgjZwNeFEsm.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "7eYsZw57mTK3y63R8xv3uehPm3bKTdoyAtAqHUxVxuyP",
+    "symbol": "abUNI",
+    "name": "Wrapped UNI (Allbridge from BSC)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/7eYsZw57mTK3y63R8xv3uehPm3bKTdoyAtAqHUxVxuyP.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "7g166TuBmnoHKvS2PEkZx6kREZtbfjUxCHGWjCqoDXZv",
+    "symbol": "acEUR",
+    "name": "Wrapped CEUR (Allbridge from Celo)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/7g166TuBmnoHKvS2PEkZx6kREZtbfjUxCHGWjCqoDXZv.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "FdvkkCbCgYht1xTR1W9MBJhEF1JEPVhHtW1NXBYRzZts",
+    "symbol": "afBTC",
+    "name": "Wrapped BTC (Allbridge from Fantom)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FdvkkCbCgYht1xTR1W9MBJhEF1JEPVhHtW1NXBYRzZts.webp",
+    "extensions": { "coingeckoId": "wrapped-bitcoin" }
+  },
+  {
+    "chainId": 101,
+    "address": "HjUhUzi6fVkY1BndaSc4Dcg2mCzvnqzXjVJtXsj78ver",
+    "symbol": "afDAI",
+    "name": "Wrapped DAI (Allbridge from Fantom)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/HjUhUzi6fVkY1BndaSc4Dcg2mCzvnqzXjVJtXsj78ver.webp",
+    "extensions": { "coingeckoId": "dai" }
+  },
+  {
+    "chainId": 101,
+    "address": "BiryxNvVTABRs3pEE4fvVuu4d17aAYEsNmcPnJ8E8WeT",
+    "symbol": "afETH",
+    "name": "Wrapped ETH (Allbridge from Fantom)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BiryxNvVTABRs3pEE4fvVuu4d17aAYEsNmcPnJ8E8WeT.webp",
+    "extensions": { "coingeckoId": "weth" }
+  },
+  {
+    "chainId": 101,
+    "address": "CChDnBH5UdEPGtYfwrFf7Bdmtvc5WnSKtN77oVsPkHBK",
+    "symbol": "afLINK",
+    "name": "Wrapped LINK (Allbridge from Fantom)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CChDnBH5UdEPGtYfwrFf7Bdmtvc5WnSKtN77oVsPkHBK.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "Grk6b4UMRWkgyq4Y6S1BnNRF4hRgtnMFp7Sorkv6Ez4u",
+    "symbol": "afUSDC",
+    "name": "Wrapped USDC (Allbridge from Fantom)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Grk6b4UMRWkgyq4Y6S1BnNRF4hRgtnMFp7Sorkv6Ez4u.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "xAx6d1sjmBvpWkVZQEqgUvPmGBNndEXPxYpr3QVp61H",
+    "symbol": "xABR",
+    "name": "Allbridge Staking",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/xAx6d1sjmBvpWkVZQEqgUvPmGBNndEXPxYpr3QVp61H.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "3X2UQQkHhbW1mHtS7BQgt7hUALw8pHS334FMpuoBADPt",
+    "symbol": "apDAI",
+    "name": "Wrapped DAI (Allbridge from Polygon)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/3X2UQQkHhbW1mHtS7BQgt7hUALw8pHS334FMpuoBADPt.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "EwzpcfgyE3UZsNbpMkKjgQWiXYDmY3LFcvc7DKjtdvWk",
+    "symbol": "apMATIC",
+    "name": "Wrapped MATIC (Allbridge from Polygon)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EwzpcfgyE3UZsNbpMkKjgQWiXYDmY3LFcvc7DKjtdvWk.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "AAuuhM6a9TJ6MsoKbSmBGbqBhDQkyuNUgDkH9E9j3Xzm",
+    "symbol": "apWBTC",
+    "name": "Wrapped WBTC (Allbridge from Polygon)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/AAuuhM6a9TJ6MsoKbSmBGbqBhDQkyuNUgDkH9E9j3Xzm.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "zdABz6DyNFsH62xAoh1RThk2DH2mDPeEiFnmWcJTHTP",
+    "symbol": "apWETH",
+    "name": "Wrapped WETH (Allbridge from Polygon)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/zdABz6DyNFsH62xAoh1RThk2DH2mDPeEiFnmWcJTHTP.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "3LKZU3iQx9KM94S4uYRdYwAHTm6odDyzGQqTBNj7J27z",
+    "symbol": "atLUNA",
+    "name": "Wrapped Luna (Allbridge from Terra)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/3LKZU3iQx9KM94S4uYRdYwAHTm6odDyzGQqTBNj7J27z.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "GNCjk3FmPPgZTkbQRSxr6nCvLtYMbXKMnRxg8BgJs62e",
+    "symbol": "CELO",
+    "name": "CELO (Allbridge from Celo)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GNCjk3FmPPgZTkbQRSxr6nCvLtYMbXKMnRxg8BgJs62e.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "A96PoNcxa9LMxcF9HhKAfA1p3M1dGbubPMWf19gHAkgJ",
+    "symbol": "atUST",
+    "name": "Wrapped UST (Allbridge from Terra)",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/A96PoNcxa9LMxcF9HhKAfA1p3M1dGbubPMWf19gHAkgJ.webp"
   },
   {
     "chainId": 101,
@@ -359,36 +567,11 @@
   },
   {
     "chainId": 101,
-    "address": "Fd8xyHHRjTvxfZrBirb6MaxSmrZYw99gRSqFUKdFwFvw",
-    "symbol": "aaWBTC",
-    "name": "Wrapped BTC (Allbridge from Avalanche)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Fd8xyHHRjTvxfZrBirb6MaxSmrZYw99gRSqFUKdFwFvw.webp",
-    "extensions": { "coingeckoId": "wrapped-bitcoin" }
-  },
-  {
-    "chainId": 101,
-    "address": "4nLJaxZbHMNXPpg6BSEruyU1vh4sAbRxSkjEkmJVJDKy",
-    "symbol": "abBNB",
-    "name": "Wrapped BNB (Allbridge from BSC)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/4nLJaxZbHMNXPpg6BSEruyU1vh4sAbRxSkjEkmJVJDKy.webp"
-  },
-  {
-    "chainId": 101,
     "address": "G2Cg4XoXdEJT5sfrSy9N6YCC3uuVV3AoTQSvMeSqT8ZV",
     "symbol": "ABC",
     "name": "AmerisourceBergen Corp",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/G2Cg4XoXdEJT5sfrSy9N6YCC3uuVV3AoTQSvMeSqT8ZV.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "29r14BEftB1RnSdq2ygVnwmEThbhmwvaaXhkmv5GvyyG",
-    "symbol": "abDAI",
-    "name": "Wrapped DAI (Allbridge from BSC)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/29r14BEftB1RnSdq2ygVnwmEThbhmwvaaXhkmv5GvyyG.webp"
   },
   {
     "chainId": 101,
@@ -421,14 +604,6 @@
     "name": "aBion",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/J3ts1ZEyQeUAbUyYHjZR6sE93YQTrfBzho8UKWnEa1j.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "DoH3AKgMCShGxzpSgHeGyU3AosnHmJbYShgjZwNeFEsm",
-    "symbol": "abLINK",
-    "name": "Wrapped LINK (Allbridge from BSC)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/DoH3AKgMCShGxzpSgHeGyU3AosnHmJbYShgjZwNeFEsm.webp"
   },
   {
     "chainId": 101,
@@ -469,14 +644,6 @@
     "name": "Astrobabies Staking Token",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/D3csbk4gBLzWMB2xjAYSoF6Gz8ZVS9R1QRs3KYLfaW7Y.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "7eYsZw57mTK3y63R8xv3uehPm3bKTdoyAtAqHUxVxuyP",
-    "symbol": "abUNI",
-    "name": "Wrapped UNI (Allbridge from BSC)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/7eYsZw57mTK3y63R8xv3uehPm3bKTdoyAtAqHUxVxuyP.webp"
   },
   {
     "chainId": 101,
@@ -541,14 +708,6 @@
     "name": "ACEVERSE",
     "decimals": 2,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EiJEQs1Hdo41RWvdFeRJi1umZLuvkgBYbipWS7Udpdxc.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "7g166TuBmnoHKvS2PEkZx6kREZtbfjUxCHGWjCqoDXZv",
-    "symbol": "acEUR",
-    "name": "Wrapped CEUR (Allbridge from Celo)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/7g166TuBmnoHKvS2PEkZx6kREZtbfjUxCHGWjCqoDXZv.webp"
   },
   {
     "chainId": 101,
@@ -713,41 +872,6 @@
   },
   {
     "chainId": 101,
-    "address": "BAexggGFsiLCKr17cSZF12wkHd8BkR1DBhzuSb78WTR2",
-    "symbol": "aeFEI",
-    "name": "Wrapped FEI (Allbridge from Ethereum)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BAexggGFsiLCKr17cSZF12wkHd8BkR1DBhzuSb78WTR2.webp",
-    "extensions": { "coingeckoId": "fei-usd" }
-  },
-  {
-    "chainId": 101,
-    "address": "BFsCwfk8VsEbSfLkkgmoKsAPk2N6FMJjeTsuxfGa9VEf",
-    "symbol": "aeFTT",
-    "name": "Wrapped FTT (Allbridge from Ethereum)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BFsCwfk8VsEbSfLkkgmoKsAPk2N6FMJjeTsuxfGa9VEf.webp",
-    "extensions": { "coingeckoId": "ftx-token" }
-  },
-  {
-    "chainId": 101,
-    "address": "GFdVCMBimnf2Dmx2D4DtPhghTkLYh6JG4u5hKB89t9n1",
-    "symbol": "aeLINK",
-    "name": "Wrapped LINK (Allbridge from Ethereum)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GFdVCMBimnf2Dmx2D4DtPhghTkLYh6JG4u5hKB89t9n1.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "2ASbApnFVSTp2RJvMLgLVfbDwJvu1FRXdhJWrGs89Lhj",
-    "symbol": "aeMIM",
-    "name": "Wrapped MIM (Allbridge from Ethereum)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2ASbApnFVSTp2RJvMLgLVfbDwJvu1FRXdhJWrGs89Lhj.webp",
-    "extensions": { "coingeckoId": "magic-internet-money" }
-  },
-  {
-    "chainId": 101,
     "address": "BjZ5Hazjyp9LrzfapAHYZuceWm6zJZDqMH1QPCWtsouq",
     "symbol": "AERA",
     "name": "Aera Token",
@@ -772,31 +896,6 @@
   },
   {
     "chainId": 101,
-    "address": "2xZzszs2FeTffckT5WhvHXzuXbM94bvp31vC7BRdXWhE",
-    "symbol": "aeTRYB",
-    "name": "Wrapped TRYB (Allbridge from Ethereum)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2xZzszs2FeTffckT5WhvHXzuXbM94bvp31vC7BRdXWhE.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "E7zDjtDVWRgsdgMDcbtzTMVMkcWcyF35Do6Qmis5nvBZ",
-    "symbol": "aeUNI",
-    "name": "Wrapped UNI (Allbridge from Ethereum)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/E7zDjtDVWRgsdgMDcbtzTMVMkcWcyF35Do6Qmis5nvBZ.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "88GEfTd3JKyQtRE3kYCup73MFe2gqHtZSCgqaUB5zDHV",
-    "symbol": "aeWBTC",
-    "name": "Wrapped BTC (Allbridge from Ethereum)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/88GEfTd3JKyQtRE3kYCup73MFe2gqHtZSCgqaUB5zDHV.webp",
-    "extensions": { "coingeckoId": "wrapped-bitcoin" }
-  },
-  {
-    "chainId": 101,
     "address": "Amori9cHbNiLDeec7WqXSUopheaxLvVxRzuGCNauPshB",
     "symbol": "AF",
     "name": "Amorfati",
@@ -810,41 +909,6 @@
     "name": "Amoeba Friends",
     "decimals": 1,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/4eYYeaFqjscucKTUBHfgQe5zf8xF8YXqTA55EfXFYxB6.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "FdvkkCbCgYht1xTR1W9MBJhEF1JEPVhHtW1NXBYRzZts",
-    "symbol": "afBTC",
-    "name": "Wrapped BTC (Allbridge from Fantom)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FdvkkCbCgYht1xTR1W9MBJhEF1JEPVhHtW1NXBYRzZts.webp",
-    "extensions": { "coingeckoId": "wrapped-bitcoin" }
-  },
-  {
-    "chainId": 101,
-    "address": "HjUhUzi6fVkY1BndaSc4Dcg2mCzvnqzXjVJtXsj78ver",
-    "symbol": "afDAI",
-    "name": "Wrapped DAI (Allbridge from Fantom)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/HjUhUzi6fVkY1BndaSc4Dcg2mCzvnqzXjVJtXsj78ver.webp",
-    "extensions": { "coingeckoId": "dai" }
-  },
-  {
-    "chainId": 101,
-    "address": "BiryxNvVTABRs3pEE4fvVuu4d17aAYEsNmcPnJ8E8WeT",
-    "symbol": "afETH",
-    "name": "Wrapped ETH (Allbridge from Fantom)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BiryxNvVTABRs3pEE4fvVuu4d17aAYEsNmcPnJ8E8WeT.webp",
-    "extensions": { "coingeckoId": "weth" }
-  },
-  {
-    "chainId": 101,
-    "address": "CChDnBH5UdEPGtYfwrFf7Bdmtvc5WnSKtN77oVsPkHBK",
-    "symbol": "afLINK",
-    "name": "Wrapped LINK (Allbridge from Fantom)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CChDnBH5UdEPGtYfwrFf7Bdmtvc5WnSKtN77oVsPkHBK.webp"
   },
   {
     "chainId": 101,
@@ -869,15 +933,6 @@
     "name": "After Token",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/E3qVrUYYXEgt8HFhCks3Do2Ehxq6C9uqqTxLZwqxgcY7.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "Grk6b4UMRWkgyq4Y6S1BnNRF4hRgtnMFp7Sorkv6Ez4u",
-    "symbol": "afUSDC",
-    "name": "Wrapped USDC (Allbridge from Fantom)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Grk6b4UMRWkgyq4Y6S1BnNRF4hRgtnMFp7Sorkv6Ez4u.webp",
-    "extensions": { "coingeckoId": "usd-coin" }
   },
   {
     "chainId": 101,
@@ -1010,15 +1065,6 @@
   },
   {
     "chainId": 101,
-    "address": "Bo4ehCeRcRj2wp5tQpjfCJxYFn4KyRacfDzSa4Aj27tH",
-    "symbol": "ahBTC",
-    "name": "Wrapped BTC (Allbridge from HECO)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Bo4ehCeRcRj2wp5tQpjfCJxYFn4KyRacfDzSa4Aj27tH.webp",
-    "extensions": { "coingeckoId": "wrapped-bitcoin" }
-  },
-  {
-    "chainId": 101,
     "address": "Ahiss7vnLA3JZW76TNLkHMHA8FKytdfMnQ5GzEwTt3Ed",
     "symbol": "AHI",
     "name": "Ahi Token",
@@ -1040,15 +1086,6 @@
     "name": "Alcohol",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2knG14icDCxtvCW5NC43CjgkgKxmnuPGv94GUj7bGp3s.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj",
-    "symbol": "ahUSDT",
-    "name": "Wrapped USDT (Allbridge from HECO)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj.webp",
-    "extensions": { "coingeckoId": "tether" }
   },
   {
     "chainId": 101,
@@ -1934,14 +1971,6 @@
   },
   {
     "chainId": 101,
-    "address": "3X2UQQkHhbW1mHtS7BQgt7hUALw8pHS334FMpuoBADPt",
-    "symbol": "apDAI",
-    "name": "Wrapped DAI (Allbridge from Polygon)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/3X2UQQkHhbW1mHtS7BQgt7hUALw8pHS334FMpuoBADPt.webp"
-  },
-  {
-    "chainId": 101,
     "address": "APDLahB6PxznoWyHpnxj2P99Xnk4weHeYgCtjSxNGvoa",
     "symbol": "APDL",
     "name": "API Permanent Deposit Liquidity Pool",
@@ -2022,14 +2051,6 @@
   },
   {
     "chainId": 101,
-    "address": "EwzpcfgyE3UZsNbpMkKjgQWiXYDmY3LFcvc7DKjtdvWk",
-    "symbol": "apMATIC",
-    "name": "Wrapped MATIC (Allbridge from Polygon)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EwzpcfgyE3UZsNbpMkKjgQWiXYDmY3LFcvc7DKjtdvWk.webp"
-  },
-  {
-    "chainId": 101,
     "address": "apnggFw6CdVzxjdVC3KbfT6qVYfNi4VgQBuW7hVM9us",
     "symbol": "APN",
     "name": "APN",
@@ -2099,22 +2120,6 @@
     "name": "AsciiPunk Token",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/D4KVLfryvPdjPsWRKDWGz4YpqpqZHkrjk1JzUMeBG8JJ.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "AAuuhM6a9TJ6MsoKbSmBGbqBhDQkyuNUgDkH9E9j3Xzm",
-    "symbol": "apWBTC",
-    "name": "Wrapped WBTC (Allbridge from Polygon)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/AAuuhM6a9TJ6MsoKbSmBGbqBhDQkyuNUgDkH9E9j3Xzm.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "zdABz6DyNFsH62xAoh1RThk2DH2mDPeEiFnmWcJTHTP",
-    "symbol": "apWETH",
-    "name": "Wrapped WETH (Allbridge from Polygon)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/zdABz6DyNFsH62xAoh1RThk2DH2mDPeEiFnmWcJTHTP.webp"
   },
   {
     "chainId": 101,
@@ -2745,14 +2750,6 @@
   },
   {
     "chainId": 101,
-    "address": "3LKZU3iQx9KM94S4uYRdYwAHTm6odDyzGQqTBNj7J27z",
-    "symbol": "atLUNA",
-    "name": "Wrapped Luna (Allbridge from Terra)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/3LKZU3iQx9KM94S4uYRdYwAHTm6odDyzGQqTBNj7J27z.webp"
-  },
-  {
-    "chainId": 101,
     "address": "FowCNsVNypPgQqSGu8ZQ4GLxMMsZTsciSFYbSURHcBdz",
     "symbol": "ATOS",
     "name": "Atom Solana Token",
@@ -2790,14 +2787,6 @@
     "name": "Attention",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/3P7TBkAZjRQdEQgLj2y8cSCPpjhsmyvWHNgc4G9VYn2n.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "A96PoNcxa9LMxcF9HhKAfA1p3M1dGbubPMWf19gHAkgJ",
-    "symbol": "atUST",
-    "name": "Wrapped UST (Allbridge from Terra)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/A96PoNcxa9LMxcF9HhKAfA1p3M1dGbubPMWf19gHAkgJ.webp"
   },
   {
     "chainId": 101,
@@ -7359,15 +7348,6 @@
     "name": "Celebration",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/kDpB4LcBvjSG4BFHEsgWoUK9v6wVmQT7ZheqBRQtL39.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "GNCjk3FmPPgZTkbQRSxr6nCvLtYMbXKMnRxg8BgJs62e",
-    "symbol": "CELO",
-    "name": "CELO (Allbridge from Celo)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GNCjk3FmPPgZTkbQRSxr6nCvLtYMbXKMnRxg8BgJs62e.webp",
-    "extensions": { "coingeckoId": "celo" }
   },
   {
     "chainId": 101,
@@ -30934,158 +30914,6 @@
   },
   {
     "chainId": 101,
-    "address": "FpXqUpigzx447tDv4iYX7M4aPZrMFTbiMdmuyjbEuUeH",
-    "symbol": "OFS",
-    "name": "OnChain FS",
-    "decimals": 2,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FpXqUpigzx447tDv4iYX7M4aPZrMFTbiMdmuyjbEuUeH.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "6AQkpGv2haWpHAnxWimZ2JZDJ8fmFFxq8YP1V2bSuEgn",
-    "symbol": "OG420",
-    "name": "BluntDAO",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/6AQkpGv2haWpHAnxWimZ2JZDJ8fmFFxq8YP1V2bSuEgn.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "GHJxwtgZcjNBXQJ5bAcByvnxN1BX6kKk5wndq9nVuJCE",
-    "symbol": "OGBNNA",
-    "name": "OG Token",
-    "decimals": 1,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GHJxwtgZcjNBXQJ5bAcByvnxN1BX6kKk5wndq9nVuJCE.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "DWPkCJS4hR3DPXGi3jkmLJSHEm6JLgu8hqNEZfyeh9vr",
-    "symbol": "OGR",
-    "name": "OGRE",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/DWPkCJS4hR3DPXGi3jkmLJSHEm6JLgu8hqNEZfyeh9vr.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "4jrEk3D6fLgrXAUj9uAffxYJq3bdygfB4KdFrBaEApSy",
-    "symbol": "OGREJUICE",
-    "name": "Ogre Juice",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/4jrEk3D6fLgrXAUj9uAffxYJq3bdygfB4KdFrBaEApSy.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "2WozVZ5yp5T3cabdXbARyjYW82obC4JvyNbgj1JwM11V",
-    "symbol": "OGSOLAR",
-    "name": "Off Grid Solar Coin",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2WozVZ5yp5T3cabdXbARyjYW82obC4JvyNbgj1JwM11V.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "7N4c1HY6iYFo6Z5eAQUzBK3TpAJMRa5nNBvL5Mg6Zpb8",
-    "symbol": "OHHH",
-    "name": "Distract",
-    "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/7N4c1HY6iYFo6Z5eAQUzBK3TpAJMRa5nNBvL5Mg6Zpb8.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "Afe9gSG8NcWicJtC58tUPGWG6pUcdK29d59BJuSAsePJ",
-    "symbol": "OHM_v1",
-    "name": "Olympus V1 (Portal)",
-    "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Afe9gSG8NcWicJtC58tUPGWG6pUcdK29d59BJuSAsePJ.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "4YnWvpPRFypDAjzDbTegBivy6hbDp8UAMRKrCkmvAhdP",
-    "symbol": "OIL",
-    "name": "SolBots OIL",
-    "decimals": 2,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/4YnWvpPRFypDAjzDbTegBivy6hbDp8UAMRKrCkmvAhdP.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "GYv7dD3cbsL8BHgp12wx34xtMwfS1C5j4MdsGQU5Gg4i",
-    "symbol": "OIL",
-    "name": "OIL",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYv7dD3cbsL8BHgp12wx34xtMwfS1C5j4MdsGQU5Gg4i.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "BwGLzB8Upv2RxanfgkSVAYNjenuz26mQjHPH6c7ytr1u",
-    "symbol": "OIL",
-    "name": "SolBots",
-    "decimals": 5,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BwGLzB8Upv2RxanfgkSVAYNjenuz26mQjHPH6c7ytr1u.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "Aojru8bfwZK6sgrx6exNazxASFZUjPpRY59byMrs6izt",
-    "symbol": "OINK",
-    "name": "OINK",
-    "decimals": 10,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Aojru8bfwZK6sgrx6exNazxASFZUjPpRY59byMrs6izt.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "EZK41VTdm3j8iuDBigM6kyboBk2wqgAabtmt8CCiVKVt",
-    "symbol": "OINKS",
-    "name": "OINK COIN",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EZK41VTdm3j8iuDBigM6kyboBk2wqgAabtmt8CCiVKVt.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "J8iu9djzKxxSY1s5inb7KDrka32iR3rF6rCDHGjafANf",
-    "symbol": "OKAY",
-    "name": "OKAY Token",
-    "decimals": 4,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/J8iu9djzKxxSY1s5inb7KDrka32iR3rF6rCDHGjafANf.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "okayHk8cku6TyeRP8F1rfZramrJ93Y3wbWpqovacnkS",
-    "symbol": "OKAYWL",
-    "name": "Okay Bears Whitelist Token",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/okayHk8cku6TyeRP8F1rfZramrJ93Y3wbWpqovacnkS.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "FFQnGJkWtaSjpUTQVqEWPQwSPBC5EvTBWLR5nyE43rWn",
-    "symbol": "OKDT",
-    "name": "Oskadon't Team",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FFQnGJkWtaSjpUTQVqEWPQwSPBC5EvTBWLR5nyE43rWn.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "EqCgGcBmRKo6sP3T84oKZBmH19bSGK4Npi5ySGCeHF23",
-    "symbol": "OKE",
-    "name": "Kuma Coin",
-    "decimals": 2,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EqCgGcBmRKo6sP3T84oKZBmH19bSGK4Npi5ySGCeHF23.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "GJQpf6Zjvokd3YK5EprXqZUah9jxkn8aG4pTeWL7Gkju",
-    "symbol": "OKI",
-    "name": "HDOKI",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GJQpf6Zjvokd3YK5EprXqZUah9jxkn8aG4pTeWL7Gkju.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "AAHdKByKPccoWKYsV5kXXmmuBaS2gzSh7Bg5H3ByXjzD",
-    "symbol": "OKSA",
-    "name": "Test coin",
-    "decimals": 2,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/AAHdKByKPccoWKYsV5kXXmmuBaS2gzSh7Bg5H3ByXjzD.webp"
-  },
-  {
-    "chainId": 101,
     "address": "76f4Q85ZamR7LhFwjQmw8nLc7cg1WjGYTLFLTxFWtAJ2",
     "symbol": "OLDMAN",
     "name": "Dad Oldman token",
@@ -49549,14 +49377,6 @@
     "name": "X",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FNuzzAmiz8Mqspggzyt3fmm3CtjMw1175P2Bubfys8p1.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "xAx6d1sjmBvpWkVZQEqgUvPmGBNndEXPxYpr3QVp61H",
-    "symbol": "xABR",
-    "name": "Allbridge Staking",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/xAx6d1sjmBvpWkVZQEqgUvPmGBNndEXPxYpr3QVp61H.webp"
   },
   {
     "chainId": 101,
