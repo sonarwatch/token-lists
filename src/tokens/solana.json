@@ -965,86 +965,6 @@
   },
   {
     "chainId": 101,
-    "address": "2nsveNLZqybj7rb92JeT7LMT2EkpwBF5mw6NeoTVpYKM",
-    "symbol": "JSOL-JUP",
-    "name": "Kamino JSOL-JUP (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2nsveNLZqybj7rb92JeT7LMT2EkpwBF5mw6NeoTVpYKM.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "7XB1azPg9hmD196uiGNa61EyvXbCmQhg8jSdptRGkRTZ",
-    "symbol": "bSOL-JUP",
-    "name": "Kamino bSOL-JUP (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/7XB1azPg9hmD196uiGNa61EyvXbCmQhg8jSdptRGkRTZ.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "4uTX8aNyK7wgdXzmx8abCxEJMB2Luc5BMDTK792PT9Rk",
-    "symbol": "JUP-BONK",
-    "name": "Kamino JUP-BONK (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/4uTX8aNyK7wgdXzmx8abCxEJMB2Luc5BMDTK792PT9Rk.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "2FMRw2qGceQzdahPZZZyAuxrFGDv2QVB3rqTy2e7xA1F",
-    "symbol": "JUP-SOL",
-    "name": "Kamino JUP-SOL (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2FMRw2qGceQzdahPZZZyAuxrFGDv2QVB3rqTy2e7xA1F.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "6UpEbQoyPQfYUQr6ku37FSJSaMyt9eDkBKVVHzG9CFjR",
-    "symbol": "JUP-WEN",
-    "name": "Kamino JUP-WEN (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/6UpEbQoyPQfYUQr6ku37FSJSaMyt9eDkBKVVHzG9CFjR.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "9UPiWkYayQtJamsmmhBV8WLNuTbtzEdPkTarFTbPDsHL",
-    "symbol": "JUP-CHKY",
-    "name": "Kamino JUP-CHKY (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9UPiWkYayQtJamsmmhBV8WLNuTbtzEdPkTarFTbPDsHL.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "7iJyHPgvegHQBEeuKAqP2WMVQapzk9gaaK7VKaCBeVhX",
-    "symbol": "JUP-GECKO",
-    "name": "Kamino JUP-GECKO (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/7iJyHPgvegHQBEeuKAqP2WMVQapzk9gaaK7VKaCBeVhX.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "88whff51vCRmGuohRc2BPiwsMgfZRFVFj8MVZCUAYUUU",
-    "symbol": "JUP-UCAR",
-    "name": "Kamino JUP-UCAR (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/88whff51vCRmGuohRc2BPiwsMgfZRFVFj8MVZCUAYUUU.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "7SUP2buMh1eCW584xwwqVKxej5Wo3oPevAFrhUXkdwCs",
-    "symbol": "JUP-USDH",
-    "name": "Kamino JUP-USDH (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/7SUP2buMh1eCW584xwwqVKxej5Wo3oPevAFrhUXkdwCs.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "8BgDWQVy4L5hf59SCeeAnBfRhqAbSYNKymerRoB4Zjgb",
-    "symbol": "JUP-ARAB",
-    "name": "Kamino JUP-ARAB (Meteora)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/8BgDWQVy4L5hf59SCeeAnBfRhqAbSYNKymerRoB4Zjgb.webp"
-  },
-  {
-    "chainId": 101,
     "address": "EURPnveVbdoJkGs7qYqsEWBcCH4ZHChKEBbDGaQx4rUK",
     "symbol": "fEUR",
     "name": "FlashTrade Euro Spot",
@@ -1125,27 +1045,11 @@
   },
   {
     "chainId": 101,
-    "address": "9L9XWRvzFwc237ekFvc7afzZS9NmifUbeK3udMhXGB4W",
-    "symbol": "kSOL-HADES",
-    "name": "Kamino SOL-HADES (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9L9XWRvzFwc237ekFvc7afzZS9NmifUbeK3udMhXGB4W.webp"
-  },
-  {
-    "chainId": 101,
     "address": "3K9HBbAviWBx7CQZ3dTWxfE5XzU8bYGm9tUhjN2t7QoQ",
     "symbol": "PEAH",
     "name": "Peah",
     "decimals": 2,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/3K9HBbAviWBx7CQZ3dTWxfE5XzU8bYGm9tUhjN2t7QoQ.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "CFA7HajtXL1WsmaqaiKYJsNr8NShcjkjHdVN6BM8zPYn",
-    "symbol": "kUSDC-USDE",
-    "name": "Kamino USDC-USDe (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CFA7HajtXL1WsmaqaiKYJsNr8NShcjkjHdVN6BM8zPYn.webp"
   },
   {
     "chainId": 101,
@@ -1157,59 +1061,11 @@
   },
   {
     "chainId": 101,
-    "address": "EmSdoyQsdCvLr5ARW916KFbj4Bw4WAN8x2EhMWGADa2t",
-    "symbol": "kUSDR-USDC",
-    "name": "Kamino USDr-USDC (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EmSdoyQsdCvLr5ARW916KFbj4Bw4WAN8x2EhMWGADa2t.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "65hd5mHyH7PQLZd9H6yvaNJZkPLY6UE3aj2CtWWVNbZ9",
-    "symbol": "kJSOL-BSOL",
-    "name": "Kamino jSOL-bSOL (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/65hd5mHyH7PQLZd9H6yvaNJZkPLY6UE3aj2CtWWVNbZ9.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "HKqoFirSehxdTGaksVAwu8Qwm4Pst8G2Y3P5gMKZfZ3A",
-    "symbol": "kSOL-RAY",
-    "name": "Kamino SOL-RAY (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/HKqoFirSehxdTGaksVAwu8Qwm4Pst8G2Y3P5gMKZfZ3A.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "5ThJNbrsEayH1z4nZsrveVrqVH3XvRvnSmJiuZyTk4GV",
-    "symbol": "kSOL-USDT",
-    "name": "Kamino SOL-USDT (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/5ThJNbrsEayH1z4nZsrveVrqVH3XvRvnSmJiuZyTk4GV.webp"
-  },
-  {
-    "chainId": 101,
     "address": "GKUFisphBxStWxJLCyefVnc81fRZgZ4fR2swXCwQpopg",
     "symbol": "NEU",
     "name": "Neutra Finance",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GKUFisphBxStWxJLCyefVnc81fRZgZ4fR2swXCwQpopg.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "8SkS3LaBki3xuwz32wnQPCfqqk1yvXPd4GY7nBbZ2d8w",
-    "symbol": "kMSOL-ETH",
-    "name": "Kamino mSOL-ETH (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/8SkS3LaBki3xuwz32wnQPCfqqk1yvXPd4GY7nBbZ2d8w.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "9EWJZxjpzri7AG1WUW4jKcHwKm3ZDa9hQZ65Qj8bknZW",
-    "symbol": "kBSOL-BONK",
-    "name": "Kamino bSOL-BONK (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9EWJZxjpzri7AG1WUW4jKcHwKm3ZDa9hQZ65Qj8bknZW.webp"
   },
   {
     "chainId": 101,
@@ -1237,14 +1093,6 @@
   },
   {
     "chainId": 101,
-    "address": "8aRT9m1wJ63mnFxeZ3qyBCrwbNMuPKPCEYxpXB41WzYd",
-    "symbol": "kSOL-USDC",
-    "name": "Kamino SOL-USDC (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/8aRT9m1wJ63mnFxeZ3qyBCrwbNMuPKPCEYxpXB41WzYd.webp"
-  },
-  {
-    "chainId": 101,
     "address": "8BMzMi2XxZn9afRaMx5Z6fauk9foHXqV5cLTCYWRcVje",
     "decimals": 9,
     "name": "Staika",
@@ -1262,27 +1110,11 @@
   },
   {
     "chainId": 101,
-    "address": "9Lp1QjKTWCLhaVi73UbXMcgnvTAgn7HkgGddeynxnufQ",
-    "symbol": "kMSOL-BSOL",
-    "name": "Kamino MSOL-BSOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9Lp1QjKTWCLhaVi73UbXMcgnvTAgn7HkgGddeynxnufQ.webp"
-  },
-  {
-    "chainId": 101,
     "address": "BnB7BZ3QLaF576uPgsy4RVUF4uopcc3kdwkGugpw28w7",
     "symbol": "HHH",
     "name": "HHH v8",
     "decimals": 2,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BnB7BZ3QLaF576uPgsy4RVUF4uopcc3kdwkGugpw28w7.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "GxRNe8dB8iksy1GcNH3du152QdoDoeer9wYMKnCnWTtk",
-    "symbol": "kSTSO-USDC",
-    "name": "Kamino stSOL-USDC (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GxRNe8dB8iksy1GcNH3du152QdoDoeer9wYMKnCnWTtk.webp"
   },
   {
     "chainId": 101,
@@ -1294,35 +1126,11 @@
   },
   {
     "chainId": 101,
-    "address": "6zAV7DRzQAz2RJYTtVLDN4niCqYYsLZD5X19BF1ozLoj",
-    "symbol": "kSOL-WBTC",
-    "name": "Kamino SOL-wBTC (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/6zAV7DRzQAz2RJYTtVLDN4niCqYYsLZD5X19BF1ozLoj.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "BsEznGKPWFH6xXtBShPrSvwJSNue87qjNLYx4KdcJRZA",
-    "symbol": "kUSDH-HNT",
-    "name": "Kamino USDH-HNT (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BsEznGKPWFH6xXtBShPrSvwJSNue87qjNLYx4KdcJRZA.webp"
-  },
-  {
-    "chainId": 101,
     "address": "DF75DjaQ1nJn2GkSVYq5coC6wTqcRsyv4Sjkk2rrMuPZ",
     "symbol": "MAASROT",
     "name": "Maasrot",
     "decimals": 2,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/DF75DjaQ1nJn2GkSVYq5coC6wTqcRsyv4Sjkk2rrMuPZ.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "Be1y1Rwy4fxfLrGK9w7J3HrfsnysK3zU5ZFJoQTTrFA2",
-    "symbol": "kLST-SOL",
-    "name": "Kamino LST-SOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Be1y1Rwy4fxfLrGK9w7J3HrfsnysK3zU5ZFJoQTTrFA2.webp"
   },
   {
     "chainId": 101,
@@ -1342,35 +1150,11 @@
   },
   {
     "chainId": 101,
-    "address": "3jHDLjqPVv8vYrRptR3ykrcXZkfJz6uTz6sLuoco2LLJ",
-    "symbol": "kMSOL-CSOL",
-    "name": "Kamino mSOL-cSOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/3jHDLjqPVv8vYrRptR3ykrcXZkfJz6uTz6sLuoco2LLJ.webp"
-  },
-  {
-    "chainId": 101,
     "address": "Gq6QdwRBU4Tkjsn3Be76CmB6DGoJSibWmfQDPcpEGunt",
     "symbol": "BOZO",
     "name": "Bozo",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Gq6QdwRBU4Tkjsn3Be76CmB6DGoJSibWmfQDPcpEGunt.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "51q54r8v43dYG3PZo4hDg7PSaTxBcq69QSb8cCP7UznX",
-    "symbol": "kUSDH-USDT",
-    "name": "Kamino USDH-USDT (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/51q54r8v43dYG3PZo4hDg7PSaTxBcq69QSb8cCP7UznX.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "9HB4kAMLSYfGFfN142DKMyPyHyZQ8pXF8M1STbDudodY",
-    "symbol": "kSOL-BSOL",
-    "name": "Kamino SOL-bSOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9HB4kAMLSYfGFfN142DKMyPyHyZQ8pXF8M1STbDudodY.webp"
   },
   {
     "chainId": 101,
@@ -1390,14 +1174,6 @@
   },
   {
     "chainId": 101,
-    "address": "2JXZkNFZuzoeXLSGmLyvjPPr9BvDk65oTkzCcBJbyuCn",
-    "symbol": "kUSDH-STSO",
-    "name": "Kamino USDH-stSOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2JXZkNFZuzoeXLSGmLyvjPPr9BvDk65oTkzCcBJbyuCn.webp"
-  },
-  {
-    "chainId": 101,
     "address": "9hjbnN7sA2yurQBcLi3iUpdt3sNYeBrkC4gqU5jirmHo",
     "symbol": "ETRN",
     "name": "Eternal Finance",
@@ -1411,14 +1187,6 @@
     "name": "SLEEK",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/ETNCHNQ3AJBb2EgmDiaBgf6kknjRCMp1n1U3jiDGK6He.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "BkdMT54jqF4t5LBdfEUcBW8dPt2ymLhdMgVGR4LHkrRR",
-    "symbol": "kRNDR-USDC",
-    "name": "Kamino RNDR-USDC (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BkdMT54jqF4t5LBdfEUcBW8dPt2ymLhdMgVGR4LHkrRR.webp"
   },
   {
     "chainId": 101,
@@ -1462,22 +1230,6 @@
   },
   {
     "chainId": 101,
-    "address": "4G9USgnbg6fDTQ5AUfpCjM89zqbzWj32xfqvsaAu66DM",
-    "symbol": "kUXD-USDC",
-    "name": "Kamino UXD-USDC (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/4G9USgnbg6fDTQ5AUfpCjM89zqbzWj32xfqvsaAu66DM.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "227Wj4QXM8sHzwThyqiyTENWgX2Dq7nZ9twAaPAW1pSy",
-    "symbol": "kUSDH-BONK",
-    "name": "Kamino USDH-BONK (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/227Wj4QXM8sHzwThyqiyTENWgX2Dq7nZ9twAaPAW1pSy.webp"
-  },
-  {
-    "chainId": 101,
     "address": "AdrE89Fya8VqNEKhopizBZK9W3zRfMsMabqG7pRCTi5G",
     "symbol": "REEE",
     "name": "Reee",
@@ -1491,14 +1243,6 @@
     "name": "Beldex.ai",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/C5F7JsxYvgfKjS11ScjgG3xjTViVFv11krq9Atk8CwGi.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "8Ak9JgLeTo6ubG5vfpuAR59ANpGjTB8HFDwYjpZbkPeB",
-    "symbol": "kUSDC-JSOL",
-    "name": "Kamino USDC-jSOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/8Ak9JgLeTo6ubG5vfpuAR59ANpGjTB8HFDwYjpZbkPeB.webp"
   },
   {
     "chainId": 101,
@@ -1526,46 +1270,6 @@
   },
   {
     "chainId": 101,
-    "address": "89NJmeb94QybQRmnKHC8rqht5Copyd7LVt6JZ8Ks5V81",
-    "symbol": "kMSOL-USDC",
-    "name": "Kamino mSOL-USDC (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/89NJmeb94QybQRmnKHC8rqht5Copyd7LVt6JZ8Ks5V81.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "F7N9n5FR9UBsqmM8rPosGScFUAuebgsALPsbGLwbWZg3",
-    "symbol": "kSOL-RNDR",
-    "name": "Kamino SOL-RNDR (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/F7N9n5FR9UBsqmM8rPosGScFUAuebgsALPsbGLwbWZg3.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "qfpFDEn5vBwDmzLkqsfQrJYyiao8dRFTExXGo4KnYYN",
-    "symbol": "kUSDH-EURE",
-    "name": "Kamino USDH-EURE (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/qfpFDEn5vBwDmzLkqsfQrJYyiao8dRFTExXGo4KnYYN.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "YuQA2srzPKt4dLVoWdiqGXkU5GgAErdNB2yMsecRYdW",
-    "symbol": "kMSOL-JITO",
-    "name": "Kamino mSOL-JITO (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/YuQA2srzPKt4dLVoWdiqGXkU5GgAErdNB2yMsecRYdW.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "3Fb5DMRWoBLWD36Lp4BtG41LaFjVeEJNCH9YLNPYdVqj",
-    "symbol": "kSOL-MSOL",
-    "name": "Kamino SOL-mSOL (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/3Fb5DMRWoBLWD36Lp4BtG41LaFjVeEJNCH9YLNPYdVqj.webp"
-  },
-  {
-    "chainId": 101,
     "address": "ETsA9km6SDf5dno7RqLwqg8bUYUb3MYNyrphhJiQbHQH",
     "symbol": "STBL",
     "name": "STABLE",
@@ -1590,14 +1294,6 @@
   },
   {
     "chainId": 101,
-    "address": "3sxKGYPc6Fj1HBcZu7WC55evadbhkpmKaht3qXiLExQg",
-    "symbol": "kUSDH-MSOL",
-    "name": "Kamino USDH-mSOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/3sxKGYPc6Fj1HBcZu7WC55evadbhkpmKaht3qXiLExQg.webp"
-  },
-  {
-    "chainId": 101,
     "address": "ButtzRVXEyHU8oxQmrUEpcTyE7qR9zGtyr43AVkYnuKK",
     "symbol": "BUTTZ",
     "name": "BUTTZ",
@@ -1611,22 +1307,6 @@
     "name": "J-SOL",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/jSoLTVaeWSStWnNiocXyeVsHMWVfLtFzrYG9wZBenGk.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "C7RpHABBJjfkmizgnR2MRbpfEF454Rb18XC6RmBC8cGg",
-    "symbol": "kSOL-STSOL",
-    "name": "Kamino SOL-stSOL (Orca)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/C7RpHABBJjfkmizgnR2MRbpfEF454Rb18XC6RmBC8cGg.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "DjWZe1L1MBjTQDd1F9n42Ct6tCjruJ2TyNtjMcGmQfYH",
-    "symbol": "kSOL-HNT",
-    "name": "Kamino SOL-HNT (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/DjWZe1L1MBjTQDd1F9n42Ct6tCjruJ2TyNtjMcGmQfYH.webp"
   },
   {
     "chainId": 101,
@@ -1662,59 +1342,11 @@
   },
   {
     "chainId": 101,
-    "address": "F5b9wFHDvKGjmpLdzJgfmYgBWS4m9GqYid2ctmR7mGHF",
-    "symbol": "kMSOL-MNDE",
-    "name": "Kamino mSOL-MNDE (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/F5b9wFHDvKGjmpLdzJgfmYgBWS4m9GqYid2ctmR7mGHF.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "H2r7rLV1cPHNf2nP4a4oy84VKrXh8zEshrhmnATENXYU",
-    "symbol": "ZAY",
-    "name": "ZAY",
-    "decimals": 5,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/H2r7rLV1cPHNf2nP4a4oy84VKrXh8zEshrhmnATENXYU.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "CHdEG9MWBVT1aveiFSMMUDWvo3D42EBdHxT9q9BNZWLu",
-    "symbol": "kUSDC-USDT",
-    "name": "Kamino USDC-USDT (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CHdEG9MWBVT1aveiFSMMUDWvo3D42EBdHxT9q9BNZWLu.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "DmmjXKUuEFYHzRTvSLUN9Lxgqco1aZrsHywVLpsNttSA",
-    "symbol": "w",
-    "name": ".",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/DmmjXKUuEFYHzRTvSLUN9Lxgqco1aZrsHywVLpsNttSA.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "7z8dae72w4x6ySpF5mTwcq5G1yRho8YtDd25Q9QdHFch",
-    "symbol": "PYTH",
-    "name": "Pyth Network",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/7z8dae72w4x6ySpF5mTwcq5G1yRho8YtDd25Q9QdHFch.webp"
-  },
-  {
-    "chainId": 101,
     "address": "HwkXMpuCsxkaRxmoq9sDhjPwZ4SurLt9jnGgt4jvjgTq",
     "symbol": "SLST",
     "name": "Solset Finance",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/HwkXMpuCsxkaRxmoq9sDhjPwZ4SurLt9jnGgt4jvjgTq.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "DX7LazwuD7tE5Ub38hkGBmevGQFYPJT4UbWMjjqrP7fP",
-    "symbol": "kMNDE-MSOL",
-    "name": "Kamino MNDE-mSOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/DX7LazwuD7tE5Ub38hkGBmevGQFYPJT4UbWMjjqrP7fP.webp"
   },
   {
     "chainId": 101,
@@ -1766,14 +1398,6 @@
   },
   {
     "chainId": 101,
-    "address": "5BmZgW7dk1kximGfn7MPvDigp3yRmgT64jS9Skdq4nPY",
-    "symbol": "kUSDH-USDC",
-    "name": "Kamino USDH-USDC (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/5BmZgW7dk1kximGfn7MPvDigp3yRmgT64jS9Skdq4nPY.webp"
-  },
-  {
-    "chainId": 101,
     "address": "FhhWcMv7NeG2xffDFex7xJLaYUzkeSkdcvXm3KpXGWm4",
     "symbol": "DSOLQ",
     "name": "Droid-Fi SOL Quarterly",
@@ -1787,22 +1411,6 @@
     "name": "Myst Protocol",
     "decimals": 4,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/8nx5mWfiBDLdX1DKXYDK4KXMfkgGVUbLMFppHt7Pummq.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "ErEvq3apphoGdMmorqGx6SuEE3tvRo7ozE9LzRfe5CoK",
-    "symbol": "kSTSOL-ETH",
-    "name": "Kamino stSOL-ETH (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/ErEvq3apphoGdMmorqGx6SuEE3tvRo7ozE9LzRfe5CoK.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "tq69Z2zQpJU2ZDhwEmwWsaxr3eDM5LgD6G6aKT9u8as",
-    "symbol": "kHDES-USDC",
-    "name": "Kamino HDES-USDC (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/tq69Z2zQpJU2ZDhwEmwWsaxr3eDM5LgD6G6aKT9u8as.webp"
   },
   {
     "chainId": 101,
@@ -1822,22 +1430,6 @@
   },
   {
     "chainId": 101,
-    "address": "FRbDmVQH86kMx7jh9JZioUALhyFfSAiHMp9SA729WBLa",
-    "symbol": "kHNT-IOT",
-    "name": "Kamino HNT-IOT (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FRbDmVQH86kMx7jh9JZioUALhyFfSAiHMp9SA729WBLa.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "G92vDZySxa4fcEmCw1p1SLAfpo2ArXvjaRxHJ4gbFkda",
-    "symbol": "kSOL-DUST",
-    "name": "Kamino SOL-DUST (Orca)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/G92vDZySxa4fcEmCw1p1SLAfpo2ArXvjaRxHJ4gbFkda.webp"
-  },
-  {
-    "chainId": 101,
     "address": "6zMn81k4JXdy1UKG6BAJ9P65nK1n3EN45HMghEJog2HP",
     "symbol": "88",
     "name": "88",
@@ -1854,27 +1446,11 @@
   },
   {
     "chainId": 101,
-    "address": "Ay9H7GYTF7HqJu2Tk2CQWd7vreC6ZKtxKv37YqXTGoRp",
-    "symbol": "kJITO-USDC",
-    "name": "Kamino JITO-USDC (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Ay9H7GYTF7HqJu2Tk2CQWd7vreC6ZKtxKv37YqXTGoRp.webp"
-  },
-  {
-    "chainId": 101,
     "address": "WKNDwkcUfcohsqmiS1vYNrSCNDSJFaHWMxRnCmxCxFz",
     "symbol": "WKND",
     "name": "Weekend Pump",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/WKNDwkcUfcohsqmiS1vYNrSCNDSJFaHWMxRnCmxCxFz.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "EJt8ppy2mcjfWfD7CLJ6oBK184nC5FUZaVZWXu4NfXcX",
-    "symbol": "kRNDR-SOL",
-    "name": "Kamino RNDR-SOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EJt8ppy2mcjfWfD7CLJ6oBK184nC5FUZaVZWXu4NfXcX.webp"
   },
   {
     "chainId": 101,
@@ -1886,27 +1462,11 @@
   },
   {
     "chainId": 101,
-    "address": "8MZ7LBA8FRPysCf2QmhoonXNc1XwsHgY1B9EpbKGLAS6",
-    "symbol": "kMSOL-SSOL",
-    "name": "Kamino mSOL-sSOL (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/8MZ7LBA8FRPysCf2QmhoonXNc1XwsHgY1B9EpbKGLAS6.webp"
-  },
-  {
-    "chainId": 101,
     "address": "LUSHqQZX8DxXjGUrEp9Nh3U6ym7U45srgqrQHrE4NX2",
     "symbol": "LUSH",
     "name": "Lushcoin",
     "decimals": 4,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/LUSHqQZX8DxXjGUrEp9Nh3U6ym7U45srgqrQHrE4NX2.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "HNYgk5uDjg9w9mRBuHYEA9xrPyndHLomC4RYb3aK9Aak",
-    "symbol": "kSTETH-ETH",
-    "name": "Kamino STETH-ETH (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/HNYgk5uDjg9w9mRBuHYEA9xrPyndHLomC4RYb3aK9Aak.webp"
   },
   {
     "chainId": 101,
@@ -1926,22 +1486,6 @@
   },
   {
     "chainId": 101,
-    "address": "6ah1G2HSxF2v8RCGiSyXKXJpHs4AoasUHiEGzGVhjYCs",
-    "symbol": "kBSOL-JITO",
-    "name": "Kamino bSOL-JITO (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/6ah1G2HSxF2v8RCGiSyXKXJpHs4AoasUHiEGzGVhjYCs.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "BoaojWh5f4XTWyXCFgQUvshjekwCdBRBhy42vJJxnycj",
-    "symbol": "kSOL-USDH",
-    "name": "Kamino SOL-USDH (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BoaojWh5f4XTWyXCFgQUvshjekwCdBRBhy42vJJxnycj.webp"
-  },
-  {
-    "chainId": 101,
     "address": "BAwHsF9Z4hmTvvWrzguVWhD8EiK35z1XRjYwFUhSJCyJ",
     "symbol": "UNO",
     "name": "Uno coin",
@@ -1950,51 +1494,11 @@
   },
   {
     "chainId": 101,
-    "address": "Bvzo7rZLptr1xQJbJ14424vk3hiZwZXJzkBYEjWHZAtE",
-    "symbol": "kHNT-MBL",
-    "name": "Kamino HNT-MBL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Bvzo7rZLptr1xQJbJ14424vk3hiZwZXJzkBYEjWHZAtE.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "2m26nV5ZTwDwbbic4gFQpJfAmnQbjgKceYXu9reU8Bsg",
-    "symbol": "kSOL-SAMO",
-    "name": "Kamino SOL-SAMO (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/2m26nV5ZTwDwbbic4gFQpJfAmnQbjgKceYXu9reU8Bsg.webp"
-  },
-  {
-    "chainId": 101,
     "address": "5QxLefb2Tnm9AkNapNJMi68jbjELvQbovmcUPL2PpZFM",
     "symbol": "BBB",
     "name": "BBB Token",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/5QxLefb2Tnm9AkNapNJMi68jbjELvQbovmcUPL2PpZFM.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "Eys84y9ZDDjZArS9NjJE22drCqG9nVg71MJ9NFquDzFV",
-    "symbol": "kHNT-USDC",
-    "name": "Kamino HNT-USDC (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Eys84y9ZDDjZArS9NjJE22drCqG9nVg71MJ9NFquDzFV.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "Dk2X1HCbwJae44P7FpqdFoeT6LEw4JVyyHvZMHUzHWbi",
-    "symbol": "kSOL-JSOL",
-    "name": "Kamino SOL-jSOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/Dk2X1HCbwJae44P7FpqdFoeT6LEw4JVyyHvZMHUzHWbi.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "9SchwAD7HQo7EBo4RcwVoEFifb3kkunmNSspUMZVzXWA",
-    "symbol": "kUSDC-USDT",
-    "name": "Kamino USDC-USDT (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9SchwAD7HQo7EBo4RcwVoEFifb3kkunmNSspUMZVzXWA.webp"
   },
   {
     "chainId": 101,
@@ -2022,22 +1526,6 @@
   },
   {
     "chainId": 101,
-    "address": "CWicxYStEWQ94CH1LeC63946piQkKy7G2TJNhdk1whHw",
-    "symbol": "kSETH-JSOL",
-    "name": "Kamino sETH-jSOL (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CWicxYStEWQ94CH1LeC63946piQkKy7G2TJNhdk1whHw.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "9nkxt5TFxU4Be2qS9CY7LMLDDwLF98pQuThLPLTYWXDd",
-    "symbol": "kSOL-BONK",
-    "name": "Kamino SOL-BONK (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9nkxt5TFxU4Be2qS9CY7LMLDDwLF98pQuThLPLTYWXDd.webp"
-  },
-  {
-    "chainId": 101,
     "address": "2DFQxNymUJgpdr5b8T9s8huXz4aCw1me8vqS41fZSEkc",
     "symbol": "TST",
     "name": "Testyy",
@@ -2051,14 +1539,6 @@
     "name": "bruh",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CAfU6e9kB2DBAL1zjDUY5koGSNJWYeVVyFXBcMXncCCz.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "6FgNYUs17D3wuyvCz9yB7JK8QCsKwryPPPXBteDWpes9",
-    "symbol": "kCHAI-USDC",
-    "name": "Kamino CHAI-USDC (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/6FgNYUs17D3wuyvCz9yB7JK8QCsKwryPPPXBteDWpes9.webp"
   },
   {
     "chainId": 101,
@@ -2078,35 +1558,11 @@
   },
   {
     "chainId": 101,
-    "address": "GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP",
-    "symbol": "kSOL-JITO",
-    "name": "Kamino SOL-JITO (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "GnsoaSc8oi53oC2Nq7F4w4ke8rSy2HgNeuhSSVxnVdXJ",
-    "symbol": "kUSH-USDC",
-    "name": "Kamino USH-USDC (Orca)",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GnsoaSc8oi53oC2Nq7F4w4ke8rSy2HgNeuhSSVxnVdXJ.webp"
-  },
-  {
-    "chainId": 101,
     "address": "AJX6i1cFVsBPnwFhZbqzzo3o2kuZmZ2kq4yFDJPAVeQF",
     "symbol": "FADE",
     "name": "Fade",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/AJX6i1cFVsBPnwFhZbqzzo3o2kuZmZ2kq4yFDJPAVeQF.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "8dG7nHJ2WmWjsV3sMu2CRk7tsVJ1CsYsDEm55rdT97u6",
-    "symbol": "kUSDH-SAMO",
-    "name": "Kamino USDH-SAMO (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/8dG7nHJ2WmWjsV3sMu2CRk7tsVJ1CsYsDEm55rdT97u6.webp"
   },
   {
     "chainId": 101,
@@ -2150,30 +1606,6 @@
   },
   {
     "chainId": 101,
-    "address": "46zxJvhQq4oSHPW9sGCwVnhcAooxW3XbWRLVTSdv9WBy",
-    "symbol": "$T1",
-    "name": "TOKEN 1",
-    "decimals": 5,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/46zxJvhQq4oSHPW9sGCwVnhcAooxW3XbWRLVTSdv9WBy.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "8YNipBSjppnHx9ELjPAy9W5zbwn92oqehbdHcFppSH5y",
-    "symbol": "kRLB-SOL",
-    "name": "Kamino RLB-SOL (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/8YNipBSjppnHx9ELjPAy9W5zbwn92oqehbdHcFppSH5y.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "DcLcLcZsdMRrHo87CJPP4eagiMiFSDuKehkPeiQYSnXn",
-    "symbol": "kUSDH-ETH",
-    "name": "Kamino USDH-ETH (Orca)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/DcLcLcZsdMRrHo87CJPP4eagiMiFSDuKehkPeiQYSnXn.webp"
-  },
-  {
-    "chainId": 101,
     "address": "FSJetkmrMkDyVx6iwsxYEcYBF8C9f3T4tgvkrbdtJRxD",
     "symbol": "RAINI",
     "name": "Rainicorn",
@@ -2187,14 +1619,6 @@
     "name": "Argoneum",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/AgGU8dwqBVWmTSJAC1BfJHtCJ8QRhvLLG8AoSuLfvpLq.webp"
-  },
-  {
-    "chainId": 101,
-    "address": "H8wNfbUU5E4gmkMdgvwH9AeDJhvxzrea3FdJes5sFNY",
-    "symbol": "kSOL-USDC",
-    "name": "Kamino SOL-USDC (Raydium)",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/H8wNfbUU5E4gmkMdgvwH9AeDJhvxzrea3FdJes5sFNY.webp"
   },
   {
     "chainId": 101,
