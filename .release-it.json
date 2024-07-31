@@ -6,7 +6,7 @@
   },
   "github": {
     "release": true,
-    "assets": ["build/*.json"]
+    "assets": ["build/sonarwatch.tokenlists.json", "build/*.tokenlist.json"]
   },
   "npm": {
     "publish": false
