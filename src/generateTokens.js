@@ -8,7 +8,7 @@ const getEvmTokens = require("./helpers/evm/getEvmTokens");
 const getSolanaTokens = require("./helpers/solana/getSolanaTokens");
 const getAptosTokens = require("./helpers/aptos/getAptosTokens");
 const formatToken = require("./helpers/formatToken");
-const getTokensFromCurrentList = require("./helpers/getTokensFromCurrentList");
+// const getTokensFromCurrentList = require("./helpers/getTokensFromCurrentList");
 
 const tokenGenerators = {
   aptos: () => getAptosTokens(),
@@ -31,30 +31,30 @@ const tokenGenerators = {
   sei: () => seiTokens,
 };
 
-const cTokenGenerators = {
-  aptos: () => getTokensFromCurrentList("aptos"),
-  avalanche: () => getTokensFromCurrentList("avalanche"),
-  bitcoin: () => bitcoinTokens,
-  bnb: () => getTokensFromCurrentList("bnb"),
-  arbitrum: () => getTokensFromCurrentList("arbitrum"),
-  base: () => getTokensFromCurrentList("base"),
-  cronos: () => getTokensFromCurrentList("cronos"),
-  gnosis: () => getTokensFromCurrentList("gnosis"),
-  linea: () => getTokensFromCurrentList("linea"),
-  scroll: () => getTokensFromCurrentList("scroll"),
-  zksync: () => zksyncTokens,
-  "polygon-zkevm": () => getTokensFromCurrentList("polygon-zkevm"),
-  ethereum: () => getTokensFromCurrentList("ethereum"),
-  optimism: () => getTokensFromCurrentList("optimism"),
-  polygon: () => getTokensFromCurrentList("polygon"),
-  solana: () => getTokensFromCurrentList("solana"),
-  sui: () => suiTokens,
-  sei: () => seiTokens,
-};
+// const currentTokenGenerators = {
+//   aptos: () => getTokensFromCurrentList("aptos"),
+//   avalanche: () => getTokensFromCurrentList("avalanche"),
+//   bitcoin: () => bitcoinTokens,
+//   bnb: () => getTokensFromCurrentList("bnb"),
+//   arbitrum: () => getTokensFromCurrentList("arbitrum"),
+//   base: () => getTokensFromCurrentList("base"),
+//   cronos: () => getTokensFromCurrentList("cronos"),
+//   gnosis: () => getTokensFromCurrentList("gnosis"),
+//   linea: () => getTokensFromCurrentList("linea"),
+//   scroll: () => getTokensFromCurrentList("scroll"),
+//   zksync: () => zksyncTokens,
+//   "polygon-zkevm": () => getTokensFromCurrentList("polygon-zkevm"),
+//   ethereum: () => getTokensFromCurrentList("ethereum"),
+//   optimism: () => getTokensFromCurrentList("optimism"),
+//   polygon: () => getTokensFromCurrentList("polygon"),
+//   solana: () => getTokensFromCurrentList("solana"),
+//   sui: () => suiTokens,
+//   sei: () => seiTokens,
+// };
 
 module.exports = async function generateTokens(networkId, args) {
   // Generate tokens
-  const tokenGenerator = cTokenGenerators[networkId];
+  const tokenGenerator = tokenGenerators[networkId];
   if (!tokenGenerator) throw new Error(`Generator is missing: ${networkId}`);
   let tokens = await tokenGenerator(...args);
   tokens = tokens.map((t) => formatToken(t));
