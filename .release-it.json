@@ -5,7 +5,8 @@
     "addUntrackedFiles": true
   },
   "github": {
-    "release": false
+    "release": true,
+    "assets": ["build/*.json"]
   },
   "npm": {
     "publish": false
