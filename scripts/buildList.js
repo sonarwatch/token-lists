@@ -3,7 +3,6 @@ const listStaticConfigs = require("../src/assets/listStaticConfigs.json");
 const generateTokens = require("../src/generateTokens");
 const generateList = require("../src/generateList");
 const getSchemaFromNetworkId = require("../src/helpers/getSchemaFromNetworkId");
-const formatToken = require("../src/helpers/formatToken");
 
 const networkId = process.argv[2];
 const args = [];
