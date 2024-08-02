@@ -27,7 +27,7 @@
     "build:list:solana": "mkdirp build && node scripts/buildList.js solana > build/sonarwatch.solana.tokenlist.json",
     "build:list:sui": "mkdirp build && node scripts/buildList.js sui > build/sonarwatch.sui.tokenlist.json",
     "build:list:sei": "mkdirp build && node scripts/buildList.js sei > build/sonarwatch.sei.tokenlist.json",
-    "release": "release-it --ci"
+    "release": "release-it"
   },
   "files": [
     "build/sonarwatch.tokenlists.json",
