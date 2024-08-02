@@ -12,5 +12,11 @@ module.exports = function formatToken(token) {
     .trim()
     .replaceAll(" ", "")
     .substring(0, 24);
+
+  // Verify indexedTo
+  if (nToken.extensions && nToken.extensions.indexedTo) {
+    nToken.extensions.indexedTo = [...new Set(nToken.extensions.indexedTo)];
+  }
+
   return nToken;
 };
