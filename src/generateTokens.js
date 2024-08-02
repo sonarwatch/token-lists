@@ -72,10 +72,13 @@ module.exports = async function generateTokens(networkId, args) {
         if (!token) return;
         if (!token.extensions) token.extensions = {};
         if (!token.extensions.indexedTo) token.extensions.indexedTo = [];
-        token.extensions.indexedTo.push(iAddress);
+
+        // If if not already there
+        if (!token.extensions.indexedTo.includes(iAddress)) {
+          token.extensions.indexedTo.push(iAddress);
+        }
       });
     }
-    token.extensions.indexedTo = [...new Set(token.extensions.indexedTo)];
     tokens = Array.from(tokensByAddress.values());
   }
 
