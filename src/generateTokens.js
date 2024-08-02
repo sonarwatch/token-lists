@@ -75,6 +75,7 @@ module.exports = async function generateTokens(networkId, args) {
         token.extensions.indexedTo.push(iAddress);
       });
     }
+    token.extensions.indexedTo = [...new Set(token.extensions.indexedTo)];
     tokens = Array.from(tokensByAddress.values());
   }
 
