@@ -27,7 +27,7 @@
     "build:list:solana": "mkdirp build && node scripts/buildList.js solana > build/sonarwatch.solana.tokenlist.json",
     "build:list:sui": "mkdirp build && node scripts/buildList.js sui > build/sonarwatch.sui.tokenlist.json",
     "build:list:sei": "mkdirp build && node scripts/buildList.js sei > build/sonarwatch.sei.tokenlist.json",
-    "release": "release-it",
+    "release": "release-it --ci",
     "postpublish": "npm run purge:cdn",
     "purge:cdn": "npm-run-all purge:cdn:*",
     "purge:cdn:lists": "npx req https://purge.jsdelivr.net/npm/@sonarwatch/token-lists/build/sonarwatch.tokenlists.json",
