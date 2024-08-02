@@ -8,7 +8,7 @@ const getEvmTokens = require("./helpers/evm/getEvmTokens");
 const getSolanaTokens = require("./helpers/solana/getSolanaTokens");
 const getAptosTokens = require("./helpers/aptos/getAptosTokens");
 const formatToken = require("./helpers/formatToken");
-// const getTokensFromCurrentList = require("./helpers/getTokensFromCurrentList");
+const getTokensFromCurrentList = require("./helpers/getTokensFromCurrentList");
 
 const tokenGenerators = {
   aptos: () => getAptosTokens(),
