@@ -2,7 +2,8 @@
   "git": {
     "push": true,
     "commit": true,
-    "addUntrackedFiles": true
+    "addUntrackedFiles": true,
+    "requireCommits": false
   },
   "github": {
     "release": true,
