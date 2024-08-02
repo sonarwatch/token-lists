@@ -7,7 +7,8 @@
   },
   "github": {
     "release": true,
-    "assets": ["build/*.tokenlist.json"]
+    "assets": ["build/*.tokenlist.json"],
+    "autoGenerate": true
   },
   "npm": {
     "publish": false
