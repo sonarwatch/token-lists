@@ -68,6 +68,7 @@ const tokenIndexes = {
       "RSoLp7kddnNwvvvaz4b1isQy8vcqdSwXjgm1wXaMhD8",
       "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj",
       "suPer8CPwxoJPQ7zksGMwFvjBQhjAHwUMmPV4FVatBw",
+      "sSo1wxKKr6zW2hqf5hZrp2CawLibcwi1pMBqk5bg2G4",
     ],
     // USDC
     EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v: [
