@@ -1,7 +1,7 @@
 const uniswapSchema = require("@uniswap/token-lists/src/tokenlist.schema.json");
 
 const evmSchema = JSON.parse(JSON.stringify(uniswapSchema));
-evmSchema.properties.tokens.maxItems = 250000;
+evmSchema.properties.tokens.maxItems = 300000;
 evmSchema.definitions.TokenInfo.properties.name.maxLength = 64;
 evmSchema.definitions.TokenInfo.properties.tags.maxItems = 20;
 evmSchema.definitions.TokenInfo.properties.symbol.maxLength = 25;
