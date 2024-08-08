@@ -5,6 +5,8 @@ module.exports = function formatToken(token) {
     .replaceAll("\\", "")
     .replaceAll("\t", "")
     .replaceAll("\n", "")
+    .replace(/[\uFE70-\uFEFF]/g, "")
+    .replace(/[\uFFF0-\uFFFF]/g, "")
     .trim()
     .substring(0, 64);
   nToken.symbol = token.symbol
