@@ -377,5 +377,31 @@
     "name": "DeepBook",
     "symbol": "DEEP",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/deep.webp"
+  },
+  {
+    "chainId": 1,
+    "address": "0x960b531667636f39e85867775f52f6b1f220a058c4de786905bdf761e06a56bb::usdy::USDY",
+    "decimals": 6,
+    "name": "Ondo US Dollar Yield",
+    "symbol": "USDY",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/usdy.webp",
+    "extensions": { "coingeckoId": "ondo-us-dollar-yield" }
+  },
+  {
+    "chainId": 1,
+    "address": "0xfe3afec26c59e874f3c1d60b8203cb3852d2bb2aa415df9548b8d688e6683f93::alpha::ALPHA",
+    "decimals": 9,
+    "name": "Alpha Fi",
+    "symbol": "ALPHA",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/alpha.webp",
+    "extensions": { "coingeckoId": "alpha-fi" }
+  },
+  {
+    "chainId": 1,
+    "address": "0x2921ca2fe6ee99698b095f046bc9759ce7a764d2e91ab0ad182c143649c3df79::jwlsui::JWLSUI",
+    "decimals": 9,
+    "name": "Jewel SUI",
+    "symbol": "JWLSUI",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/jwlsui.webp"
   }
 ]
