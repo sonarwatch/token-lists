@@ -1,6 +1,6 @@
 const { JsonRpcClient, JsonRpcProvider } = require("@mysten/sui.js");
 
-const rpcClient = new JsonRpcClient("https://explorer-rpc.mainnet.sui.io/");
+const rpcClient = new JsonRpcClient("https://fullnode.mainnet.sui.io/");
 const provider = new JsonRpcProvider(undefined, {
   rpcClient,
 });
