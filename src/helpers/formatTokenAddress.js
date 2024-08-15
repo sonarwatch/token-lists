@@ -27,11 +27,16 @@ function formatTokenAddressEvm(address) {
 function formatTokenAddressMove(address) {
   assertMoveTokenAddress(address);
   let tAddress = address;
-  if (!address.startsWith("0x")) tAddress = `0x${tAddress}`;
-  if (!isHexString(tAddress, 32)) {
-    tAddress = `${tAddress.slice(0, 2)}0${tAddress.slice(2)}`;
+
+  const splitted = address.split("::");
+  let mainAddress = splitted.at(0).toLowerCase();
+
+  if (!mainAddress.startsWith("0x")) mainAddress = `0x${tAddress}`;
+  if (!isHexString(mainAddress, 32)) {
+    mainAddress = `${mainAddress.slice(0, 2)}0${mainAddress.slice(2)}`;
   }
-  return tAddress;
+  splitted[0] = mainAddress;
+  return splitted.join("::");
 }
 
 function formatTokenAddressSei(address) {
