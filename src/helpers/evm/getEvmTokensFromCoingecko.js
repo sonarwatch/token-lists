@@ -41,7 +41,7 @@ module.exports = async function getEvmTokensFromCoingecko(
       continue;
     }
 
-    if (currentTokensMap.get(address) && Math.random() > 0.05) {
+    if (currentTokensMap.get(address) && Math.random() > 0.001) {
       tokensByAddress.set(address, currentTokensMap.get(address));
       continue;
     }
