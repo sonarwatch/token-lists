@@ -26,8 +26,10 @@ function formatTokenAddressEvm(address) {
 
 function formatTokenAddressMove(address) {
   assertMoveTokenAddress(address);
-  let tAddress = address;
+  if (address === "0x2::sui::SUI")
+    return "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI";
 
+  let tAddress = address;
   const splitted = address.split("::");
   let mainAddress = splitted.at(0).toLowerCase();
 
