@@ -34,10 +34,7 @@ function formatTokenAddressMove(address) {
   let mainAddress = splitted.at(0).toLowerCase();
 
   if (!mainAddress.startsWith("0x")) mainAddress = `0x${tAddress}`;
-  if (
-    !isHexString(mainAddress, 32) &&
-    mainAddress !== "0x1::aptos_coin::AptosCoin"
-  ) {
+  if (!isHexString(mainAddress, 32) && mainAddress !== "0x1") {
     mainAddress = `${mainAddress.slice(0, 2)}0${mainAddress.slice(2)}`;
   }
   splitted[0] = mainAddress;
