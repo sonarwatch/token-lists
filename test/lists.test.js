@@ -30,7 +30,7 @@ describe("lists", () => {
       const config = listConfigs[networkId];
       for (let token of list.tokens) {
         const fAddress = formatTokenAddress(token.address, networkId);
-        expect(fAddress).to.equal(token.address);
+        expect(token.address).to.equal(fAddress);
       }
     }).timeout(10000);
 
