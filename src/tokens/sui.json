@@ -384,7 +384,7 @@
   },
   {
     "chainId": 1,
-    "address": "0xbab14fcc8c7927c1b7fe16152ea445b13247075fa59c332c43697417359db589::jwlcetus::JWLCETUS",
+    "address": "0x0e25582daef54ee41052390c4db5e70a82ec1baed97942db0eb6094267624b5d::jwlcetus::JWLCETUS",
     "decimals": 9,
     "name": "Jewel CETUS",
     "symbol": "JWLCETUS",
@@ -392,7 +392,7 @@
   },
   {
     "chainId": 1,
-    "address": "0xd6a9f9a23ba4bcf9d2d6c37ba315fe6fa059949486b7247d2d25d5232629b0c8::jwlsca::JWLSCA",
+    "address": "0x0e25582daef54ee41052390c4db5e70a82ec1baed97942db0eb6094267624b5d::jwlsca::JWLSCA",
     "decimals": 9,
     "name": "Jewel SCA",
     "symbol": "JWLSCA",
