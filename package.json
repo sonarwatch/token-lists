@@ -1,6 +1,6 @@
 {
   "name": "@sonarwatch/token-lists",
-  "version": "1.22.36",
+  "version": "1.22.40",
   "private": false,
   "description": "Sonarwatch token lists",
   "main": "build/sonarwatch.tokenlists.json",
@@ -58,15 +58,17 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.26.0",
     "@chain-registry/client": "^1.14.2",
+    "@ethersproject/bytes": "^5.7.0",
     "@ethersproject/contracts": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
     "@metaplex-foundation/mpl-token-metadata": "^3.1.0",
     "@metaplex-foundation/umi": "^0.8.9",
-    "@mysten/sui.js": "^0.33.0",
+    "@mysten/sui.js": "^0.54.1",
     "@solana/spl-token": "^0.3.8",
     "@solana/web3.js": "^1.87.3",
-    "@sonarwatch/portfolio-core": "^0.11.30",
+    "@sonarwatch/portfolio-core": "^0.12.142",
     "@uniswap/token-lists": "^1.0.0-beta.34",
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",

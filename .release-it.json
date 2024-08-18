@@ -7,7 +7,7 @@
   },
   "github": {
     "release": true,
-    "assets": ["build/*.tokenlist.json"],
+    "assets": ["build/*.tokenlist.json", "build/sonarwatch.tokenlists.json"],
     "autoGenerate": true
   },
   "npm": {

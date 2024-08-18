@@ -2,11 +2,11 @@ const tokenIndexesByNetworkId = require("./tokenIndexes");
 const tokenExtensionsByNetworkId = require("./tokenExtensions.json");
 const bitcoinTokens = require("./tokens/bitcoin.json");
 const zksyncTokens = require("./tokens/zksync.json");
-const suiTokens = require("./tokens/sui.json");
 const seiTokens = require("./tokens/sei.json");
 const getEvmTokens = require("./helpers/evm/getEvmTokens");
 const getSolanaTokens = require("./helpers/solana/getSolanaTokens");
 const getAptosTokens = require("./helpers/aptos/getAptosTokens");
+const getSuiTokens = require("./helpers/sui/getSuiTokens");
 const formatToken = require("./helpers/formatToken");
 const getTokensFromCurrentList = require("./helpers/getTokensFromCurrentList");
 
@@ -27,7 +27,7 @@ const tokenGenerators = {
   optimism: () => getEvmTokens("optimism"),
   polygon: () => getEvmTokens("polygon"),
   solana: () => getSolanaTokens(),
-  sui: () => suiTokens,
+  sui: () => getSuiTokens(),
   sei: () => seiTokens,
 };
 

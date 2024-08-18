@@ -1,4 +1,5 @@
 const { getAddress } = require("@ethersproject/address");
+const { isHexString } = require("@ethersproject/bytes");
 const getAddressTypeByNetworkId = require("./getAddressTypeByNetworkId");
 const {
   assertSolanaTokenAddress,
@@ -20,14 +21,25 @@ function formatTokenAddressSolana(address) {
 
 function formatTokenAddressEvm(address) {
   assertEvmTokenAddress(address);
-  return getAddress(address.toLocaleLowerCase());
+  return getAddress(address.toLowerCase());
 }
 
 function formatTokenAddressMove(address) {
   assertMoveTokenAddress(address);
+  if (address === "0x2::sui::SUI")
+    return "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI";
+  if (address === "0x1::aptos_coin::AptosCoin") return address;
+
   let tAddress = address;
-  if (!address.startsWith("0x")) tAddress = `0x${tAddress}`;
-  return tAddress;
+  const splitted = address.split("::");
+  let mainAddress = splitted.at(0).toLowerCase();
+
+  if (!mainAddress.startsWith("0x")) mainAddress = `0x${tAddress}`;
+  if (!isHexString(mainAddress, 32)) {
+    mainAddress = `${mainAddress.slice(0, 2)}0${mainAddress.slice(2)}`;
+  }
+  splitted[0] = mainAddress;
+  return splitted.join("::");
 }
 
 function formatTokenAddressSei(address) {

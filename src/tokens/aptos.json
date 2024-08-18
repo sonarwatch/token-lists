@@ -218,7 +218,7 @@
   },
   {
     "chainId": 1,
-    "address": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
+    "address": "0x07fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
     "decimals": 8,
     "name": "Thala",
     "symbol": "THL",

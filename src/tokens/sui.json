@@ -76,28 +76,6 @@
   },
   {
     "chainId": 1,
-    "address": "0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
-    "decimals": 9,
-    "name": "Cetus Protocol",
-    "symbol": "CETUS",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b_cetus_CETUS.png",
-    "extensions": {
-      "coingeckoId": "cetus-protocol"
-    }
-  },
-  {
-    "chainId": 1,
-    "address": "0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
-    "decimals": 9,
-    "name": "Cetus Protocol",
-    "symbol": "CETUS",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b_cetus_CETUS.png",
-    "extensions": {
-      "coingeckoId": "cetus-protocol"
-    }
-  },
-  {
-    "chainId": 1,
     "address": "0xd9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f::smove::SMOVE",
     "decimals": 9,
     "name": "BlueMove",
