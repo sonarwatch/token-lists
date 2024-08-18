@@ -24,7 +24,12 @@ module.exports = async function getTokensFromCoingecko(
   for (let i = 0; i < coinsList.length; i++) {
     const coin = coinsList[i];
     if (!coin.id || !coin.platforms || !coin.platforms[platform]) continue;
-    const address = formatTokenAddress(coin.platforms[platform], networkId);
+    let address;
+    try {
+      address = formatTokenAddress(coin.platforms[platform], networkId);
+    } catch (error) {
+      continue;
+    }
 
     if (currentTokensMap.get(address) && Math.random() > 0.05) {
       tokensByAddress.set(address, currentTokensMap.get(address));
