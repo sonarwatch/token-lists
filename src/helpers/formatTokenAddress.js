@@ -7,6 +7,7 @@ const {
   assertMoveTokenAddress,
   assertSeiTokenAddress,
   assertBitcoinTokenAddress,
+  formatMoveAddress,
 } = require("@sonarwatch/portfolio-core");
 
 function formatTokenAddressBitcoin(address) {
@@ -30,15 +31,8 @@ function formatTokenAddressMove(address) {
     return "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI";
   if (address === "0x1::aptos_coin::AptosCoin") return address;
 
-  let tAddress = address;
   const splitted = address.split("::");
-  let mainAddress = splitted.at(0).toLowerCase();
-
-  if (!mainAddress.startsWith("0x")) mainAddress = `0x${tAddress}`;
-  if (!isHexString(mainAddress, 32)) {
-    mainAddress = `${mainAddress.slice(0, 2)}0${mainAddress.slice(2)}`;
-  }
-  splitted[0] = mainAddress;
+  splitted[0] = formatMoveAddress(splitted[0]);
   return splitted.join("::");
 }
 
