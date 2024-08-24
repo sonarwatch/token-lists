@@ -1667,5 +1667,13 @@
     "name": "Aurory",
     "symbol": "xAURY",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/xAURp5XmAG7772mfkSy6vRAjGK9JofYjc3dmQDWdVDP.webp"
+  },
+  {
+    "address": "vPtS4ywrbEuufwPkBXsCYkeTBfpzCd6hF52p8kJGt9b",
+    "chainId": 101,
+    "decimals": 6,
+    "name": "Vault Points",
+    "symbol": "VPTS",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/vPtS4ywrbEuufwPkBXsCYkeTBfpzCd6hF52p8kJGt9b.webp"
   }
 ]
