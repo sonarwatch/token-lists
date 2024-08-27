@@ -965,6 +965,14 @@
   },
   {
     "chainId": 101,
+    "address": "EsdayVbDQYQdy54TQh5iASMTkCzmhxsx6MpCvyrtYaUZ",
+    "symbol": "FLP.5",
+    "name": "Flash LP 5",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EsdayVbDQYQdy54TQh5iASMTkCzmhxsx6MpCvyrtYaUZ.webp"
+  },
+  {
+    "chainId": 101,
     "address": "EURPnveVbdoJkGs7qYqsEWBcCH4ZHChKEBbDGaQx4rUK",
     "symbol": "fEUR",
     "name": "FlashTrade Euro Spot",
