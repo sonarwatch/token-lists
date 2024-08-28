@@ -1683,5 +1683,13 @@
     "name": "Vault Points",
     "symbol": "VPTS",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/vPtS4ywrbEuufwPkBXsCYkeTBfpzCd6hF52p8kJGt9b.webp"
+  },
+  {
+    "address": "FAJA9Qgn1CqLKtYi77CoWSGH7dyRrat394q9mpRFQzGs",
+    "chainId": 101,
+    "decimals": 6,
+    "name": "PayPal USD wrapped by Save",
+    "symbol": "PYUSD",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FAJA9Qgn1CqLKtYi77CoWSGH7dyRrat394q9mpRFQzGs.webp"
   }
 ]
