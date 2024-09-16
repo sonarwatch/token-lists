@@ -1691,5 +1691,13 @@
     "name": "PayPal USD wrapped by Save",
     "symbol": "PYUSD",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/FAJA9Qgn1CqLKtYi77CoWSGH7dyRrat394q9mpRFQzGs.webp"
+  },
+  {
+    "address": "BAsnXPVYuvZDfEFR7tmu9sG9gPyHy58Jpjs2AuUw1FLx",
+    "chainId": 101,
+    "decimals": 9,
+    "name": "NX",
+    "symbol": "NX",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/BAsnXPVYuvZDfEFR7tmu9sG9gPyHy58Jpjs2AuUw1FLx.webp"
   }
 ]
