@@ -397,5 +397,13 @@
     "name": "Jewel SCA",
     "symbol": "JWLSCA",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/sca.png"
+  },
+  {
+    "chainId": 1,
+    "address": "0xe0644f3e46b2d9f319a2cc3491155c75d1b6132ba9b3601c6e7e102e17296645::goof::GOOF",
+    "decimals": 6,
+    "name": "Captain GOOFY",
+    "symbol": "GOOF",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0xe0644f3e46b2d9f319a2cc3491155c75d1b6132ba9b3601c6e7e102e17296645_goof_GOOF.webp"
   }
 ]
