@@ -405,5 +405,61 @@
     "name": "Captain GOOFY",
     "symbol": "GOOF",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0xe0644f3e46b2d9f319a2cc3491155c75d1b6132ba9b3601c6e7e102e17296645_goof_GOOF.webp"
+  },
+  {
+    "chainId": 1,
+    "address": "0x30a644c3485ee9b604f52165668895092191fcaf5489a846afa7fc11cdb9b24a::spam::SPAM",
+    "decimals": 4,
+    "name": "SPAM",
+    "symbol": "SPAM",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x30a644c3485ee9b604f52165668895092191fcaf5489a846afa7fc11cdb9b24a_spam_SPAM.webp"
+  },
+  {
+    "chainId": 1,
+    "address": "0xa8b69040684d576828475115b30cc4ce7c7743eab9c7d669535ee31caccef4f5::suiman::SUIMAN",
+    "decimals": 6,
+    "name": "Suiman",
+    "symbol": "suiman",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0xa8b69040684d576828475115b30cc4ce7c7743eab9c7d669535ee31caccef4f5_suiman_SUIMAN.webp"
+  },
+  {
+    "chainId": 1,
+    "address": "0x8993129d72e733985f7f1a00396cbd055bad6f817fee36576ce483c8bbb8b87b::sudeng::SUDENG",
+    "decimals": 6,
+    "name": "sudeng",
+    "symbol": "HIPPO",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x8993129d72e733985f7f1a00396cbd055bad6f817fee36576ce483c8bbb8b87b_sudeng_SUDENG.webp"
+  },
+  {
+    "chainId": 1,
+    "address": "0xd976fda9a9786cda1a36dee360013d775a5e5f206f8e20f84fad3385e99eeb2d::aaa::AAA",
+    "decimals": 6,
+    "name": "aaa cat",
+    "symbol": "AAA",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0xd976fda9a9786cda1a36dee360013d775a5e5f206f8e20f84fad3385e99eeb2d_aaa_AAA.webp"
+  },
+  {
+    "chainId": 1,
+    "address": "0x01d430425a8a681ef26315e78a082fe744f8d0bbdbd1ab76b9fd78ada09bedca::Koi::KOI",
+    "decimals": 6,
+    "name": "KOI",
+    "symbol": "KOI",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x01d430425a8a681ef26315e78a082fe744f8d0bbdbd1ab76b9fd78ada09bedca_Koi_KOI.webp"
+  },
+  {
+    "chainId": 1,
+    "address": "0x2cd6f14a4b64c3a0fa9c644e8ed88d9c91d789a071886d67d24e6b435147063d::pugwif::PUGWIF",
+    "decimals": 9,
+    "name": "Pugwifhat",
+    "symbol": "PUGWIF",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x2cd6f14a4b64c3a0fa9c644e8ed88d9c91d789a071886d67d24e6b435147063d_pugwif_PUGWIF.webp"
+  },
+  {
+    "chainId": 1,
+    "address": "0x2cddfc6d4fc855917e990e71cd122b1ee8098aa890186ee15a84524ed17cd8c9::suitard::SUITARD",
+    "decimals": 9,
+    "name": "suitard",
+    "symbol": "STD",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x2cddfc6d4fc855917e990e71cd122b1ee8098aa890186ee15a84524ed17cd8c9_suitard_SUITARD.webp"
   }
 ]
