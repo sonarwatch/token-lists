@@ -128,6 +128,14 @@
   },
   {
     "chainId": 1,
+    "address": "0x1798f84ee72176114ddbf5525a6d964c5f8ea1b3738d08d50d0d3de4cf584884::sbuck::SBUCK",
+    "decimals": 9,
+    "name": "Savings BUCK",
+    "symbol": "sBUCK",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/sui/0x1798f84ee72176114ddbf5525a6d964c5f8ea1b3738d08d50d0d3de4cf584884_sbuck_SBUCK.webp"
+  },
+  {
+    "chainId": 1,
     "address": "0x9a5502414b5d51d01c8b5641db7436d789fa15a245694b24aa37c25c2a6ce001::scb::SCB",
     "decimals": 5,
     "name": "Sacabam",
