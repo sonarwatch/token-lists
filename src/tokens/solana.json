@@ -1707,5 +1707,13 @@
     "name": "Solayer SOL",
     "symbol": "sSOL",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/sSo14endRuUbvQaJS3dq36Q829a3A6BEfoeeRGJywEh.webp"
+  },
+  {
+    "address": "GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP",
+    "chainId": 101,
+    "decimals": 6,
+    "name": "SOL-JITO (Raydium)",
+    "symbol": "kJITOSOL-SOL",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
   }
 ]
