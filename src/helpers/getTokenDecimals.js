@@ -11,11 +11,13 @@ async function getTokenDecimalsAptos(address) {
   const client = new Aptos(config);
 
   const accountAddress = address.split("::").at(0);
-  const res = await client.getAccountResource({
-    accountAddress: accountAddress,
-    resourceType: `0x1::coin::CoinInfo<${address}>`,
-  });
-  return res.decimals || null;
+  const res = await client
+    .getAccountResource({
+      accountAddress: accountAddress,
+      resourceType: `0x1::coin::CoinInfo<${address}>`,
+    })
+    .catch(() => undefined);
+  return res?.decimals || null;
 }
 
 async function getTokenDecimalsSui(address) {
