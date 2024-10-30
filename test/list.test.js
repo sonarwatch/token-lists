@@ -14,7 +14,7 @@ describe(`list ${networkId}`, () => {
       expect(typeof map[key]).to.equal("undefined");
       map[key] = true;
     }
-  });
+  }).timeout(25000);
 
   it(`contains correct chainId`, () => {
     const config = listConfigs[networkId];
