@@ -60,9 +60,10 @@ module.exports = async function getSolanaTokensFromJup(currentTokensSet) {
 
     // logoURI
     const f = await checkFileExists(`images/solana/${jupToken.address}.webp`);
-    const logoURI = f
-      ? `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${jupToken.address}.webp`
-      : jupToken.logoURI;
+    const logoURI =
+      f || !jupToken.logoURI
+        ? `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${jupToken.address}.webp`
+        : jupToken.logoURI;
 
     tokens.set(jupToken.address, {
       address: jupToken.address,
