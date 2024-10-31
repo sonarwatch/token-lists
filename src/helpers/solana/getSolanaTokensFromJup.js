@@ -5,6 +5,7 @@ const runInBatch = require("../runInBatch");
 const getCoingeckoCoinsList = require("../getCoingeckoCoinsList");
 const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkId");
 const sleep = require("../sleep");
+const checkFileExists = require("../checkFileExists");
 
 // export type JupToken = {
 //   address:          string;
@@ -56,18 +57,27 @@ module.exports = async function getSolanaTokensFromJup(currentTokensSet) {
     const jupToken = jupTokens[i];
     const geckoId = geckoIds.get(jupToken.address);
     const extensions = geckoId ? { coingeckoId: geckoId } : undefined;
+
+    // logoURI
+    const f = await checkFileExists(`images/solana/${jupToken.address}.webp`);
+    const logoURI = f
+      ? `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${jupToken.address}.webp`
+      : jupToken.logoURI;
+
     tokens.set(jupToken.address, {
       address: jupToken.address,
       chainId: listStaticConfigs.solana.chainId,
       decimals: jupToken.decimals,
       name: jupToken.name,
       symbol: jupToken.symbol,
-      logoURI: `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${jupToken.address}.webp`,
+      logoURI: logoURI,
       extensions,
     });
-    if (!currentTokensSet.has(jupToken.address) || Math.random() < 0.01) {
-      tokenImagesToFetch.push(jupToken);
-    }
+
+    // TEMPORARILY DISABLED
+    // if (!currentTokensSet.has(jupToken.address) || Math.random() < 0.01) {
+    //   tokenImagesToFetch.push(jupToken);
+    // }
   }
 
   runInBatch(
