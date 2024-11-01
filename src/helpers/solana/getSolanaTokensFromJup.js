@@ -1,11 +1,16 @@
+const Ajv = require("ajv");
+const addFormats = require("ajv-formats");
 const { default: axios } = require("axios");
 const saveImage = require("../saveImage");
 const listStaticConfigs = require("../../../src/assets/listStaticConfigs.json");
 const runInBatch = require("../runInBatch");
+const uriSchema = require("../../schemas/uriSchema");
 const getCoingeckoCoinsList = require("../getCoingeckoCoinsList");
 const coingeckoPlatformFromNetworkId = require("../coingeckoPlatformFromNetworkId");
 const sleep = require("../sleep");
 const checkFileExists = require("../checkFileExists");
+
+const uriValidate = addFormats(new Ajv()).compile(uriSchema);
 
 // export type JupToken = {
 //   address:          string;
@@ -60,8 +65,9 @@ module.exports = async function getSolanaTokensFromJup(currentTokensSet) {
 
     // logoURI
     const f = await checkFileExists(`images/solana/${jupToken.address}.webp`);
+    const isUriValid = uriValidate(jupToken.logoURI);
     const logoURI =
-      f || !jupToken.logoURI
+      f || !jupToken.logoURI || !isUriValid
         ? `https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/${jupToken.address}.webp`
         : jupToken.logoURI;
 
