@@ -1,6 +1,6 @@
 {
   "name": "@sonarwatch/token-lists",
-  "version": "1.24.35",
+  "version": "1.24.36",
   "private": false,
   "description": "Sonarwatch token lists",
   "main": "build/sonarwatch.tokenlists.json",
