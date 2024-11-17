@@ -5,6 +5,7 @@ module.exports = function formatToken(token) {
     .replaceAll("\\", "")
     .replaceAll("\t", "")
     .replaceAll("\n", "")
+    .replaceAll("\r", "")
     .replace(/[\uFE70-\uFEFF]/g, "")
     .replace(/[\uFFF0-\uFFFF]/g, "")
     .trim()
