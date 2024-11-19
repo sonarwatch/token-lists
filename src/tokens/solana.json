@@ -1013,6 +1013,46 @@
   },
   {
     "chainId": 101,
+    "address": "NUZ3FDWTtN5SP72BsefbsqpnbAY5oe21LE8bCSkqsEK",
+    "symbol": "FLP.1",
+    "name": "Flash LP 1",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "AbVzeRUss8QJYzv2WDizDJ2RtsD1jkVyRjNdAzX94JhG",
+    "symbol": "FLP.2",
+    "name": "Flash LP 2",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "4PZTRNrHnxWBqLRvX5nuE6m1cNR8RqB4kWvVYjDkMd2H",
+    "symbol": "FLP.3",
+    "name": "Flash LP 3",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "EngqvevoQ8yaNdtxY7sSh5J7NF74k3cDKi9v9pHi5H3B",
+    "symbol": "FLP.4",
+    "name": "Flash LP 4",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GnxdTsSQNQ3FF72nTyWo4SUt59Tt1MqDkRRfoPtKjMvJ.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "Ab6K8anKSwAz8VXJPVvAVjPQMJNoVhwzfF7FtAB5PNW9",
+    "symbol": "FLP.5",
+    "name": "Flash LP 5",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EsdayVbDQYQdy54TQh5iASMTkCzmhxsx6MpCvyrtYaUZ.webp"
+  },
+  {
+    "chainId": 101,
     "address": "EURPnveVbdoJkGs7qYqsEWBcCH4ZHChKEBbDGaQx4rUK",
     "symbol": "fEUR",
     "name": "FlashTrade Euro Spot",
