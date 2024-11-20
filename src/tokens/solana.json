@@ -1795,5 +1795,13 @@
     "name": "SOL-JITO (Raydium)",
     "symbol": "kJITOSOL-SOL",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
+  },
+  {
+    "address": "USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA",
+    "chainId": 101,
+    "decimals": 6,
+    "name": "USDS",
+    "symbol": "USDS",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA.webp"
   }
 ]
