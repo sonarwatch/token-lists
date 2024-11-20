@@ -1802,6 +1802,9 @@
     "decimals": 6,
     "name": "USDS",
     "symbol": "USDS",
-    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA.webp"
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA.webp",
+    "extensions": {
+      "coingeckoId": "usds"
+    }
   }
 ]
