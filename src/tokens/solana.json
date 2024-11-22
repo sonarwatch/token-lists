@@ -934,7 +934,7 @@
   {
     "chainId": 101,
     "address": "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
-    "symbol": "FLP.1",
+    "symbol": "sFLP.1",
     "name": "Flash LP 1",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX.webp"
@@ -942,7 +942,7 @@
   {
     "chainId": 101,
     "address": "CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz",
-    "symbol": "FLP.2",
+    "symbol": "sFLP.2",
     "name": "Flash LP 2",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz.webp"
@@ -950,7 +950,7 @@
   {
     "chainId": 101,
     "address": "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
-    "symbol": "FLP.3",
+    "symbol": "sFLP.3",
     "name": "Flash LP 3",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb.webp"
@@ -958,7 +958,7 @@
   {
     "chainId": 101,
     "address": "GnxdTsSQNQ3FF72nTyWo4SUt59Tt1MqDkRRfoPtKjMvJ",
-    "symbol": "FLP.4",
+    "symbol": "sFLP.4",
     "name": "Flash LP 4",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GnxdTsSQNQ3FF72nTyWo4SUt59Tt1MqDkRRfoPtKjMvJ.webp"
@@ -966,6 +966,86 @@
   {
     "chainId": 101,
     "address": "EsdayVbDQYQdy54TQh5iASMTkCzmhxsx6MpCvyrtYaUZ",
+    "symbol": "sFLP.5",
+    "name": "Flash LP 5",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EsdayVbDQYQdy54TQh5iASMTkCzmhxsx6MpCvyrtYaUZ.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX",
+    "symbol": "sFLP.1",
+    "name": "Flash LP 1",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz",
+    "symbol": "sFLP.2",
+    "name": "Flash LP 2",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb",
+    "symbol": "sFLP.3",
+    "name": "Flash LP 3",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "GnxdTsSQNQ3FF72nTyWo4SUt59Tt1MqDkRRfoPtKjMvJ",
+    "symbol": "sFLP.4",
+    "name": "Flash LP 4",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GnxdTsSQNQ3FF72nTyWo4SUt59Tt1MqDkRRfoPtKjMvJ.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "EsdayVbDQYQdy54TQh5iASMTkCzmhxsx6MpCvyrtYaUZ",
+    "symbol": "sFLP.5",
+    "name": "Flash LP 5",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/EsdayVbDQYQdy54TQh5iASMTkCzmhxsx6MpCvyrtYaUZ.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "NUZ3FDWTtN5SP72BsefbsqpnbAY5oe21LE8bCSkqsEK",
+    "symbol": "FLP.1",
+    "name": "Flash LP 1",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/9Fzv4s5t2bNwwJoeeywMwypop3JegsuDb1eDbMnPr4TX.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "AbVzeRUss8QJYzv2WDizDJ2RtsD1jkVyRjNdAzX94JhG",
+    "symbol": "FLP.2",
+    "name": "Flash LP 2",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/CrdMPbjooMmz6RoVgUnczWoeZka2QF14pikcCTpzRMxz.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "4PZTRNrHnxWBqLRvX5nuE6m1cNR8RqB4kWvVYjDkMd2H",
+    "symbol": "FLP.3",
+    "name": "Flash LP 3",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/6afu2XRPMg8JAhzBsJ9DXsQRCFhkzbC4UaFMZepm6AHb.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "EngqvevoQ8yaNdtxY7sSh5J7NF74k3cDKi9v9pHi5H3B",
+    "symbol": "FLP.4",
+    "name": "Flash LP 4",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GnxdTsSQNQ3FF72nTyWo4SUt59Tt1MqDkRRfoPtKjMvJ.webp"
+  },
+  {
+    "chainId": 101,
+    "address": "Ab6K8anKSwAz8VXJPVvAVjPQMJNoVhwzfF7FtAB5PNW9",
     "symbol": "FLP.5",
     "name": "Flash LP 5",
     "decimals": 6,
@@ -1715,5 +1795,16 @@
     "name": "SOL-JITO (Raydium)",
     "symbol": "kJITOSOL-SOL",
     "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/GYiUmJ8reqYAdTQtx6CRFawHqPXx9yzkUFvaUVE8PskP.webp"
+  },
+  {
+    "address": "USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA",
+    "chainId": 101,
+    "decimals": 6,
+    "name": "USDS",
+    "symbol": "USDS",
+    "logoURI": "https://raw.githubusercontent.com/sonarwatch/token-lists/main/images/solana/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA.webp",
+    "extensions": {
+      "coingeckoId": "usds"
+    }
   }
 ]
