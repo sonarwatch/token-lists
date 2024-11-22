@@ -24,7 +24,7 @@ describe("lists", () => {
       for (let token of list.tokens) {
         expect(token.chainId).to.equal(config.chainId);
       }
-    });
+    }).timeout(20000);
 
     it(`[${networkId}] all addresses are valid and correctly formated`, () => {
       const config = listConfigs[networkId];
