@@ -1,3 +1,5 @@
+# `DEPRECATED`
+
 # @sonarwatch/token-list
 
 [![npm](https://img.shields.io/npm/v/@sonarwatch/token-lists)](https://unpkg.com/@sonarwatch/token-lists@latest/)
